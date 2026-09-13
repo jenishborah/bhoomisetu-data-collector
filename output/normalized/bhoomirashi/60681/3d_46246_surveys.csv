@@ -1,0 +1,4 @@
+﻿project_id,notification_id,notification_number,tentative_publish_date,serial_number,district,sub_district,village,survey_number,survey_number_raw,area_hectares,area_raw,land_type,land_nature,land_category,description_raw,party_count,owner_count,affected_party_count,total_party_area_hectares
+60681,46246,1592,10/11/2005,1,MORIGAON,Mayong,Jagiroad (CT),860,860 860,0.016056,0.016056 Hectares,Wet,Private,Urban,"Land Type: ""Wet"" Land Nature: ""Private"" Land Category: ""Urban""",1,1,0,0.016056
+60681,46246,1592,10/11/2005,2,MORIGAON,Mayong,Jagiroad (CT),829,829 829,0.040136,0.040136 Hectares,Wet,Private,Urban,"Land Type: ""Wet"" Land Nature: ""Private"" Land Category: ""Urban""",1,1,0,0.040136
+60681,46246,1592,10/11/2005,3,MORIGAON,Mayong,Jagiroad (CT),828,828 828,0.301006,0.301006 Hectares,Wet,Private,Urban,"Land Type: ""Wet"" Land Nature: ""Private"" Land Category: ""Urban""",1,1,0,0.301006

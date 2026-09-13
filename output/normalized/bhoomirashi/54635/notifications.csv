@@ -1,0 +1,10 @@
+﻿project_id,notification_id,notification_type,serial_number,publish_date,notification_number,status,details_url,objections_url
+54635,50840,3a,1,2017-05-17,1405,3a Notified,calavil.cshtml?project_id=54635&EncHid=&notification_id=50840&nid=9,
+54635,52358,3a,3,2018-05-17,1405,3a Notified,calavil.cshtml?project_id=54635&EncHid=&notification_id=52358&nid=9,
+54635,58267,3a,5,2021-09-15,3761(E),3a Notified,calavil.cshtml?project_id=54635&EncHid=&notification_id=58267&nid=9,
+54635,44531,3A,1,2017-09-18,2685,3A Notified,sdet.cshtml?project_id=54635&EncHid=&notification_id=44531&nid=9,three_a_obj_rep.cshtml?notification_id=44531&notification_type_id=1
+54635,45887,3A,3,2017-11-17,3173,3A Notified,sdet.cshtml?project_id=54635&EncHid=&notification_id=45887&nid=9,three_a_obj_rep.cshtml?notification_id=45887&notification_type_id=1
+54635,56691,3A,5,2021-11-15,4732(E),3A Notified,sdet.cshtml?project_id=54635&EncHid=&notification_id=56691&nid=9,three_a_obj_rep.cshtml?notification_id=56691&notification_type_id=1
+54635,34193,3D,1,2018-09-28,S.O. 5048 (E),3D Notified,sdet1.cshtml?project_id=54635&EncHid=&notification_id=34193&nid=9,
+54635,35100,3D,3,2018-11-15,S.O. 5781 (E),3D Notified,sdet1.cshtml?project_id=54635&EncHid=&notification_id=35100&nid=9,
+54635,44312,3D,5,2022-03-24,1306(E),3D Notified,sdet1.cshtml?project_id=54635&EncHid=&notification_id=44312&nid=9,

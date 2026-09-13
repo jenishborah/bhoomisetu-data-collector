@@ -1,0 +1,117 @@
+# ============================================================
+# Python
+# ============================================================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+
+# ============================================================
+# IDE / Editor
+# ============================================================
+
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+
+# ============================================================
+# Environment / Secrets
+# ============================================================
+
+.env
+.env.*
+!.env.example
+
+*.pem
+*.key
+*.crt
+
+# Local configuration containing credentials
+config/local/
+config/secrets/
+
+
+# ============================================================
+# Logs
+# ============================================================
+
+*.log
+logs/
+
+
+# ============================================================
+# Temporary / Downloaded files
+# ============================================================
+
+tmp/
+temp/
+downloads/
+*.tmp
+*.bak
+
+# Extracted HTML / debugging dumps
+*.html
+*.htm
+
+
+# ============================================================
+# Python generated files
+# ============================================================
+
+*.pickle
+*.pkl
+
+
+# ============================================================
+# Data collector local artifacts
+# ============================================================
+
+# Raw downloaded source files
+output/raw/
+
+# Temporary collector artifacts
+output/tmp/
+
+# Browser/session artifacts
+cookies/
+sessions/
+
+
+# ============================================================
+# Keep normalized prototype datasets
+# ============================================================
+
+# NOTE:
+# output/normalized/ is intentionally NOT ignored.
+# These normalized CSVs are part of the reproducible
+# BhoomiSetu prototype data pipeline.
+
+# Intermediate / legacy aggregate outputs
+output/normalized/bhoomirashi/project_3d_features.csv
+output/normalized/notification_surveys.csv
+
+# Potentially identifying land-party records
+# Keep locally for authorized processing; do not publish publicly.
+output/normalized/bhoomirashi/*/*_land_parties.csv
+
+# Intermediate / legacy aggregate outputs
+output/normalized/bhoomirashi/project_3d_features.csv
+output/normalized/notification_surveys.csv

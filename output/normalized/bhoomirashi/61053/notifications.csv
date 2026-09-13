@@ -1,0 +1,4 @@
+﻿project_id,notification_id,notification_type,serial_number,publish_date,notification_number,status,details_url,objections_url
+61053,60885,3a,1,2023-10-11,4434,3a Notified,calavil.cshtml?project_id=61053&EncHid=&notification_id=60885&nid=9,
+61053,67707,3A,1,2024-03-06,1079,3A Notified,sdet.cshtml?project_id=61053&EncHid=&notification_id=67707&nid=9,three_a_obj_rep.cshtml?notification_id=67707&notification_type_id=1
+61053,54973,3D,1,2024-06-14,2331,3D Notified,sdet1.cshtml?project_id=61053&EncHid=&notification_id=54973&nid=9,
