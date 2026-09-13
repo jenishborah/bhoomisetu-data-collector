@@ -1,0 +1,73 @@
+BhoomiSetu ML-Readiness Statistical Audit
+==============================================================================
+
+Snapshots : 11672
+Projects  : 1000
+Outcomes  : 1000
+
+STATUS: PASS_WITH_WARNINGS
+
+FAILURES
+----------------------------------------
+None
+
+WARNINGS
+----------------------------------------
+- forest_involved: very low cardinality (2 unique values)
+- High correlation: days_since_project_start ↔ event_count_so_far (1.000)
+- High correlation: land_required_ha ↔ land_to_acquire_ha (0.982)
+- High correlation: total_parcels ↔ affected_families (0.906)
+- High correlation: court_cases_count ↔ case_age_months (0.921)
+- High correlation: compensation_disbursed_cr ↔ disbursal_pct (0.911)
+- Repeated snapshots exist. Random row-level train/test splitting would create project leakage.
+
+PASS CHECKS
+----------------------------------------
+- All required snapshot columns present.
+- All required outcome columns present.
+- days_in_current_stage: missingness acceptable
+- days_since_project_start: missingness acceptable
+- event_count_so_far: missingness acceptable
+- land_required_ha: missingness acceptable
+- land_to_acquire_ha: missingness acceptable
+- total_parcels: missingness acceptable
+- affected_families: missingness acceptable
+- vulnerable_families: missingness acceptable
+- pending_approvals_count: missingness acceptable
+- file_pending_days: missingness acceptable
+- docs_complete_pct: missingness acceptable
+- court_cases_count: missingness acceptable
+- case_age_months: missingness acceptable
+- title_disputes_parcels: missingness acceptable
+- grievances_30d: missingness acceptable
+- compensation_awarded_cr: missingness acceptable
+- compensation_disbursed_cr: missingness acceptable
+- disbursal_pct: missingness acceptable
+- rnr_progress_pct: missingness acceptable
+- rnr_consent_pct: missingness acceptable
+- grievance_redressal_days: missingness acceptable
+- forest_involved: missingness acceptable
+- proximity_km_to_urban: missingness acceptable
+- current_stage: missingness acceptable
+- approval_dept: missingness acceptable
+- terrain_type: missingness acceptable
+- urban_rural: missingness acceptable
+- delay_next_30d: both classes present
+- delay_next_60d: both classes present
+- delay_next_90d: both classes present
+- Correlation matrix generated.
+- Project-disjoint chronological split is feasible.
+- Scenario separability summary generated without using scenario as a model feature.
+- Raw snapshot table contains expected identifier/date/target fields that must be excluded during model training.
+- Candidate model matrix contains no explicit future-target fields.
+
+OUTPUT FILES
+----------------------------------------
+- F:\BhoomiSetu_Data\bhoomisetu-data-collector\output\synthetic\audit\ml_readiness_audit_report.txt
+- F:\BhoomiSetu_Data\bhoomisetu-data-collector\output\synthetic\audit\feature_signal_report.csv
+- F:\BhoomiSetu_Data\bhoomisetu-data-collector\output\synthetic\audit\feature_correlation_matrix.csv
+- F:\BhoomiSetu_Data\bhoomisetu-data-collector\output\synthetic\audit\target_summary.csv
+- F:\BhoomiSetu_Data\bhoomisetu-data-collector\output\synthetic\audit\scenario_signal_summary.csv
+
+IMPORTANT
+Synthetic data is for prototype development only. It must not be presented as evidence of real-world Indian land-acquisition delay rates or model accuracy.

@@ -1,0 +1,3 @@
+rule_id,process_area,from_event,to_event,deadline_days,deadline_type,source,source_reference,confidence,notes
+RFCTLARR_S15,Objections,Preliminary Notification,Objection Submission,60,statutory,RFCTLARR Act 2013,Section 15,HIGH,Statutory objection period; applicability depends on the relevant acquisition process and notice
+RFCTLARR_S19,Declaration,Section 11 Preliminary Notification,Section 19 Declaration,365,statutory,RFCTLARR Act 2013,Section 19,HIGH,One-year statutory requirement subject to the Act and applicable extensions/conditions

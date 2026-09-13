@@ -115,3 +115,9 @@ output/normalized/bhoomirashi/*/*_land_parties.csv
 # Intermediate / legacy aggregate outputs
 output/normalized/bhoomirashi/project_3d_features.csv
 output/normalized/notification_surveys.csv
+# ============================================================
+# Synthetic prototype dataset
+# ============================================================
+# Synthetic data is intentionally versioned for reproducible ML experiments.
+# It contains no real landowner/party identity data.
+

@@ -1,0 +1,9 @@
+check,value,status,description
+project_count,5,INFO,Unique projects in project master
+duplicate_project_ids,0,PASS,Project IDs should be unique in project master
+projects_with_3d_detail,3,INFO,Projects with extracted 3D survey records
+projects_without_3d_detail,2,INFO,Projects without extracted 3D survey records
+negative_acquisition_completion,0,PASS,Acquisition completion below 0%
+acquisition_completion_above_100,0,PASS,Acquisition completion above 100%
+3A_before_3a,0,PASS,3A notification occurring before 3a notification
+possible_test_projects,1,WARNING,Projects whose name/number contains 'test'; review before ML training

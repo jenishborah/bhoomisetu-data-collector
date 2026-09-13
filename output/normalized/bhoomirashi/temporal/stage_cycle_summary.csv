@@ -1,0 +1,7 @@
+project_id,cycle_number,cycle_id,cycle_start_date,cycle_last_event_date,cycle_duration_days,cycle_event_count,latest_cycle_stage,cycle_status,cycle_completed,has_3a,has_3A,has_3D
+54635,1,54635_C01,2017-05-17,2018-11-15,547,6,3D,COMPLETED,1,1,1,1
+54635,2,54635_C02,2021-09-15,2022-03-24,190,3,3D,COMPLETED,1,1,1,1
+59362,1,59362_C01,2020-02-11,2020-02-11,0,1,3a,OPEN,0,1,0,0
+60432,1,60432_C01,2023-10-12,2023-10-12,0,1,3a,OPEN,0,1,0,0
+60681,1,60681_C01,2004-05-19,2005-11-10,540,4,3D,COMPLETED,1,1,1,1
+61053,1,61053_C01,2023-10-11,2024-06-14,247,3,3D,COMPLETED,1,1,1,1

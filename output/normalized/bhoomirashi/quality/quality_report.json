@@ -1,0 +1,37 @@
+{
+  "dataset": "BhoomiSetu BhoomiRashi prototype",
+  "overall_status": "NOT_READY_FOR_PRODUCTION_ML",
+  "project_count": 5,
+  "feature_rows": 5,
+  "feature_columns": 32,
+  "timeline_rows": 5,
+  "notification_timeline_rows": 18,
+  "warnings": [
+    {
+      "check": "possible_test_projects",
+      "value": 1,
+      "status": "WARNING",
+      "description": "Projects whose name/number contains 'test'; review before ML training"
+    },
+    {
+      "check": "small_project_count",
+      "value": 5,
+      "status": "WARNING",
+      "description": "Current project count is too small for meaningful production ML training."
+    },
+    {
+      "check": "small_feature_dataset",
+      "value": 5,
+      "status": "WARNING",
+      "description": "Current feature dataset contains too few project observations."
+    }
+  ],
+  "outputs": {
+    "dataset_summary": "F:\\BhoomiSetu_Data\\bhoomisetu-data-collector\\output\\normalized\\bhoomirashi\\quality\\dataset_summary.csv",
+    "column_quality": "F:\\BhoomiSetu_Data\\bhoomisetu-data-collector\\output\\normalized\\bhoomirashi\\quality\\column_quality.csv",
+    "project_checks": "F:\\BhoomiSetu_Data\\bhoomisetu-data-collector\\output\\normalized\\bhoomirashi\\quality\\project_checks.csv",
+    "low_variation_features": "F:\\BhoomiSetu_Data\\bhoomisetu-data-collector\\output\\normalized\\bhoomirashi\\quality\\low_variation_features.csv",
+    "potential_leakage_features": "F:\\BhoomiSetu_Data\\bhoomisetu-data-collector\\output\\normalized\\bhoomirashi\\quality\\potential_leakage_features.csv",
+    "detected_test_projects": "F:\\BhoomiSetu_Data\\bhoomisetu-data-collector\\output\\normalized\\bhoomirashi\\quality\\detected_test_projects.csv"
+  }
+}

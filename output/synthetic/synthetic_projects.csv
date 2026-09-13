@@ -1,0 +1,1001 @@
+project_id,project_name,project_type,implementing_agency,state,district,scenario,land_required_ha,land_to_acquire_ha,total_parcels,affected_families,vulnerable_families,date_initiation,terrain_type,urban_rural,forest_involved,proximity_km_to_urban
+SYN-00001,Synthetic Urban Infrastructure Project 00001,Urban Infrastructure,State PWD,Assam,ASS-30,NORMAL,9.7569,7.7186,146,58,6,2025-06-12,Hilly,Rural,0,59.044
+SYN-00002,Synthetic Industrial Corridor Project 00002,Industrial Corridor,NHAI,Odisha,ODI-20,COMPENSATION_DELAY,40.3058,32.6436,573,392,110,2020-10-17,Hilly,Semi-Urban,0,41.887
+SYN-00003,Synthetic National Highway Project 00003,National Highway,NHAI,Uttar Pradesh,UTT-11,NORMAL,27.9797,20.3025,550,123,13,2023-08-04,Hilly,Rural,1,0.916
+SYN-00004,Synthetic Transmission Project 00004,Transmission,State PWD,Bihar,BIH-31,NORMAL,16.0294,11.0755,125,54,11,2021-07-28,Riverine,Rural,0,43.95
+SYN-00005,Synthetic Irrigation Project 00005,Irrigation,NHAI,Bihar,BIH-09,NORMAL,35.0656,33.0638,345,261,21,2025-01-04,Coastal,Semi-Urban,0,46.983
+SYN-00006,Synthetic Industrial Corridor Project 00006,Industrial Corridor,Power Utility,Madhya Pradesh,MAD-38,NORMAL,14.3791,9.6142,260,140,17,2022-06-15,Riverine,Urban,0,50.142
+SYN-00007,Synthetic Irrigation Project 00007,Irrigation,Railway,Uttar Pradesh,UTT-22,RECOVERY,33.9247,31.6028,549,178,49,2019-06-07,Coastal,Rural,0,47.19
+SYN-00008,Synthetic Industrial Corridor Project 00008,Industrial Corridor,NHAI,Jharkhand,JHA-01,NORMAL,5.0,4.3546,50,21,1,2025-06-21,Riverine,Semi-Urban,0,53.115
+SYN-00009,Synthetic Irrigation Project 00009,Irrigation,Railway,Maharashtra,MAH-12,COMPENSATION_DELAY,14.1969,9.0611,193,114,17,2021-02-05,Hilly,Semi-Urban,1,14.331
+SYN-00010,Synthetic Urban Infrastructure Project 00010,Urban Infrastructure,Railway,Bihar,BIH-25,NORMAL,106.9317,65.1923,1691,1337,326,2022-01-19,Coastal,Semi-Urban,0,52.055
+SYN-00011,Synthetic Industrial Corridor Project 00011,Industrial Corridor,Irrigation Department,Madhya Pradesh,MAD-18,DOCUMENTATION_DELAY,17.9287,17.8554,203,128,26,2025-12-28,Hilly,Semi-Urban,0,30.829
+SYN-00012,Synthetic Industrial Corridor Project 00012,Industrial Corridor,NHIDCL,Uttar Pradesh,UTT-17,NORMAL,14.177,9.6038,170,132,28,2020-08-29,Plain,Urban,0,52.778
+SYN-00013,Synthetic Irrigation Project 00013,Irrigation,Power Utility,West Bengal,WES-23,DOCUMENTATION_DELAY,6.2907,5.5005,104,74,20,2022-02-16,Riverine,Semi-Urban,0,12.888
+SYN-00014,Synthetic National Highway Project 00014,National Highway,NHAI,Madhya Pradesh,MAD-23,COMPENSATION_DELAY,39.1725,36.6437,232,124,23,2022-09-07,Coastal,Rural,0,45.7
+SYN-00015,Synthetic Industrial Corridor Project 00015,Industrial Corridor,Irrigation Department,West Bengal,WES-20,NORMAL,12.8507,7.9868,145,100,9,2019-08-19,Coastal,Rural,0,16.861
+SYN-00016,Synthetic Industrial Corridor Project 00016,Industrial Corridor,NHAI,Madhya Pradesh,MAD-07,ADMINISTRATIVE_BOTTLENECK,10.4322,9.3803,189,59,11,2020-07-16,Rolling,Semi-Urban,0,29.482
+SYN-00017,Synthetic Industrial Corridor Project 00017,Industrial Corridor,State PWD,Bihar,BIH-34,LEGAL_DELAY,11.9025,10.0962,108,44,8,2022-09-13,Coastal,Urban,0,17.161
+SYN-00018,Synthetic Transmission Project 00018,Transmission,State PWD,West Bengal,WES-10,LEGAL_DELAY,11.4087,10.9536,132,67,14,2023-07-11,Rolling,Urban,0,41.638
+SYN-00019,Synthetic Industrial Corridor Project 00019,Industrial Corridor,Irrigation Department,Assam,ASS-28,MULTI_FACTOR_DELAY,8.8889,5.9472,173,53,15,2019-05-29,Hilly,Urban,0,43.093
+SYN-00020,Synthetic Irrigation Project 00020,Irrigation,Power Utility,Madhya Pradesh,MAD-09,ADMINISTRATIVE_BOTTLENECK,18.7321,12.4337,301,101,17,2020-11-02,Rolling,Rural,1,25.012
+SYN-00021,Synthetic Railway Project 00021,Railway,Irrigation Department,Assam,ASS-33,LEGAL_DELAY,32.6885,22.1473,283,174,27,2025-02-18,Coastal,Semi-Urban,1,69.694
+SYN-00022,Synthetic Industrial Corridor Project 00022,Industrial Corridor,NHIDCL,Assam,ASS-37,LEGAL_DELAY,53.0203,46.609,767,370,74,2025-01-24,Plain,Rural,0,73.416
+SYN-00023,Synthetic Irrigation Project 00023,Irrigation,NHAI,Assam,ASS-16,NORMAL,22.6883,15.6243,362,154,12,2021-12-16,Riverine,Semi-Urban,0,77.036
+SYN-00024,Synthetic Transmission Project 00024,Transmission,Power Utility,Bihar,BIH-14,LEGAL_DELAY,7.7695,6.1408,53,16,3,2025-07-19,Hilly,Rural,0,72.955
+SYN-00025,Synthetic Industrial Corridor Project 00025,Industrial Corridor,NHIDCL,Odisha,ODI-24,DOCUMENTATION_DELAY,21.6838,19.0833,148,75,20,2021-01-28,Hilly,Semi-Urban,0,17.297
+SYN-00026,Synthetic Industrial Corridor Project 00026,Industrial Corridor,Irrigation Department,Maharashtra,MAH-16,MULTI_FACTOR_DELAY,44.1756,37.6545,585,142,17,2021-08-07,Riverine,Semi-Urban,0,75.137
+SYN-00027,Synthetic Railway Project 00027,Railway,Irrigation Department,West Bengal,WES-07,RNR_DELAY,56.7732,42.9715,759,315,58,2023-05-22,Hilly,Rural,0,73.514
+SYN-00028,Synthetic Transmission Project 00028,Transmission,State PWD,Bihar,BIH-06,NORMAL,24.2288,14.9251,265,179,26,2025-07-10,Plain,Urban,0,35.543
+SYN-00029,Synthetic Transmission Project 00029,Transmission,NHIDCL,West Bengal,WES-26,MULTI_FACTOR_DELAY,21.0856,14.5667,266,106,8,2020-04-29,Plain,Rural,0,40.092
+SYN-00030,Synthetic Urban Infrastructure Project 00030,Urban Infrastructure,NHIDCL,Assam,ASS-33,NORMAL,9.8847,7.3454,150,98,21,2023-08-09,Coastal,Rural,1,64.041
+SYN-00031,Synthetic Urban Infrastructure Project 00031,Urban Infrastructure,NHAI,Bihar,BIH-24,NORMAL,10.6595,7.8566,188,63,13,2019-04-07,Coastal,Rural,0,60.78
+SYN-00032,Synthetic Railway Project 00032,Railway,Irrigation Department,West Bengal,WES-32,NORMAL,30.3525,21.5418,223,121,13,2020-04-19,Riverine,Semi-Urban,0,9.518
+SYN-00033,Synthetic Transmission Project 00033,Transmission,NHAI,Maharashtra,MAH-22,RNR_DELAY,27.3438,17.4478,392,92,8,2025-04-10,Plain,Urban,0,44.82
+SYN-00034,Synthetic Urban Infrastructure Project 00034,Urban Infrastructure,Railway,West Bengal,WES-37,DOCUMENTATION_DELAY,14.0445,10.2884,98,44,7,2023-09-17,Riverine,Semi-Urban,0,65.016
+SYN-00035,Synthetic Railway Project 00035,Railway,Power Utility,Jharkhand,JHA-38,NORMAL,19.9901,13.5212,117,25,2,2024-07-25,Plain,Rural,0,48.635
+SYN-00036,Synthetic Urban Infrastructure Project 00036,Urban Infrastructure,State PWD,Jharkhand,JHA-02,COMPENSATION_DELAY,67.3955,55.4858,888,438,123,2022-01-23,Hilly,Semi-Urban,0,33.259
+SYN-00037,Synthetic Industrial Corridor Project 00037,Industrial Corridor,Irrigation Department,Maharashtra,MAH-37,NORMAL,5.4654,4.9356,57,22,2,2022-07-16,Riverine,Rural,0,48.43
+SYN-00038,Synthetic National Highway Project 00038,National Highway,NHIDCL,Uttar Pradesh,UTT-36,RECOVERY,8.337,7.0347,153,45,11,2021-03-08,Coastal,Semi-Urban,0,14.644
+SYN-00039,Synthetic Transmission Project 00039,Transmission,NHIDCL,Uttar Pradesh,UTT-03,NORMAL,11.7918,10.0842,191,91,26,2024-11-13,Rolling,Urban,1,41.942
+SYN-00040,Synthetic Urban Infrastructure Project 00040,Urban Infrastructure,Railway,Uttar Pradesh,UTT-25,MULTI_FACTOR_DELAY,13.2685,9.2658,199,141,33,2025-03-22,Riverine,Semi-Urban,0,24.492
+SYN-00041,Synthetic National Highway Project 00041,National Highway,Irrigation Department,Bihar,BIH-19,NORMAL,20.8314,13.8707,347,177,42,2019-05-11,Rolling,Rural,0,42.385
+SYN-00042,Synthetic Transmission Project 00042,Transmission,Irrigation Department,Assam,ASS-34,RECOVERY,46.6115,44.044,587,464,69,2022-06-22,Hilly,Rural,0,57.313
+SYN-00043,Synthetic Industrial Corridor Project 00043,Industrial Corridor,Railway,Odisha,ODI-02,ADMINISTRATIVE_BOTTLENECK,16.4812,10.1629,329,105,25,2022-05-13,Coastal,Semi-Urban,0,5.723
+SYN-00044,Synthetic Industrial Corridor Project 00044,Industrial Corridor,Irrigation Department,Jharkhand,JHA-17,COMPENSATION_DELAY,43.881,28.2058,449,340,85,2023-03-06,Plain,Semi-Urban,0,41.276
+SYN-00045,Synthetic Industrial Corridor Project 00045,Industrial Corridor,Railway,Bihar,BIH-32,NORMAL,13.8344,8.9917,237,144,8,2024-12-16,Coastal,Rural,0,39.332
+SYN-00046,Synthetic Transmission Project 00046,Transmission,Irrigation Department,Bihar,BIH-17,NORMAL,24.9286,17.9311,453,165,17,2019-10-01,Plain,Rural,0,36.1
+SYN-00047,Synthetic Industrial Corridor Project 00047,Industrial Corridor,Power Utility,Odisha,ODI-34,NORMAL,18.2326,16.2069,213,164,40,2025-11-22,Coastal,Rural,0,44.776
+SYN-00048,Synthetic Industrial Corridor Project 00048,Industrial Corridor,State PWD,Odisha,ODI-08,RNR_DELAY,11.1779,7.9524,157,99,26,2020-12-02,Hilly,Rural,0,49.455
+SYN-00049,Synthetic National Highway Project 00049,National Highway,State PWD,West Bengal,WES-24,COMPENSATION_DELAY,112.8094,76.5661,2239,535,92,2022-02-20,Plain,Urban,0,67.767
+SYN-00050,Synthetic National Highway Project 00050,National Highway,Railway,Uttar Pradesh,UTT-31,MULTI_FACTOR_DELAY,16.4898,13.5259,153,116,14,2019-10-07,Coastal,Rural,0,21.905
+SYN-00051,Synthetic Irrigation Project 00051,Irrigation,NHAI,Assam,ASS-17,NORMAL,9.4429,7.1081,165,95,8,2023-05-26,Coastal,Urban,0,74.044
+SYN-00052,Synthetic Transmission Project 00052,Transmission,Irrigation Department,Odisha,ODI-24,MULTI_FACTOR_DELAY,21.9089,21.82,417,199,15,2022-07-01,Hilly,Rural,1,60.188
+SYN-00053,Synthetic Urban Infrastructure Project 00053,Urban Infrastructure,NHAI,Maharashtra,MAH-02,NORMAL,24.3745,18.2134,296,197,11,2022-02-06,Plain,Semi-Urban,0,16.382
+SYN-00054,Synthetic Urban Infrastructure Project 00054,Urban Infrastructure,State PWD,Bihar,BIH-11,ADMINISTRATIVE_BOTTLENECK,16.9844,14.4606,149,43,12,2025-01-05,Plain,Urban,0,65.113
+SYN-00055,Synthetic Urban Infrastructure Project 00055,Urban Infrastructure,State PWD,Madhya Pradesh,MAD-33,NORMAL,57.8579,42.6892,652,220,52,2019-03-29,Plain,Urban,0,47.492
+SYN-00056,Synthetic Transmission Project 00056,Transmission,NHAI,Madhya Pradesh,MAD-29,NORMAL,86.2038,71.3323,456,329,24,2023-11-15,Hilly,Rural,0,67.458
+SYN-00057,Synthetic Irrigation Project 00057,Irrigation,State PWD,Assam,ASS-16,LEGAL_DELAY,19.1106,13.7137,225,101,28,2019-07-05,Plain,Rural,0,25.29
+SYN-00058,Synthetic Railway Project 00058,Railway,Railway,West Bengal,WES-26,NORMAL,10.3139,8.9305,107,54,5,2020-12-07,Coastal,Rural,0,46.545
+SYN-00059,Synthetic Industrial Corridor Project 00059,Industrial Corridor,Irrigation Department,Uttar Pradesh,UTT-15,NORMAL,37.0529,34.0745,253,169,22,2021-04-03,Rolling,Rural,0,59.206
+SYN-00060,Synthetic Industrial Corridor Project 00060,Industrial Corridor,NHIDCL,Assam,ASS-28,NORMAL,5.5001,4.9045,63,23,7,2023-01-05,Riverine,Semi-Urban,0,53.783
+SYN-00061,Synthetic Industrial Corridor Project 00061,Industrial Corridor,NHIDCL,Bihar,BIH-35,RNR_DELAY,7.3274,5.4837,143,58,17,2025-02-13,Rolling,Rural,0,60.839
+SYN-00062,Synthetic Transmission Project 00062,Transmission,State PWD,Maharashtra,MAH-08,NORMAL,33.3536,24.1186,575,194,13,2024-09-17,Coastal,Semi-Urban,1,23.779
+SYN-00063,Synthetic Transmission Project 00063,Transmission,Railway,Maharashtra,MAH-19,NORMAL,15.5833,12.0057,199,88,9,2023-07-07,Riverine,Urban,1,26.679
+SYN-00064,Synthetic Transmission Project 00064,Transmission,NHIDCL,Uttar Pradesh,UTT-22,NORMAL,51.693,40.3263,865,294,86,2024-07-22,Riverine,Urban,0,24.404
+SYN-00065,Synthetic Irrigation Project 00065,Irrigation,NHAI,Assam,ASS-16,NORMAL,9.9388,7.5742,145,92,18,2021-04-07,Coastal,Urban,1,28.943
+SYN-00066,Synthetic Railway Project 00066,Railway,Irrigation Department,Assam,ASS-02,MULTI_FACTOR_DELAY,31.4383,26.0337,176,104,11,2019-08-25,Coastal,Semi-Urban,0,78.614
+SYN-00067,Synthetic Industrial Corridor Project 00067,Industrial Corridor,Railway,Jharkhand,JHA-21,MULTI_FACTOR_DELAY,13.4892,12.2477,133,43,6,2025-05-23,Rolling,Rural,1,66.994
+SYN-00068,Synthetic Transmission Project 00068,Transmission,Power Utility,Bihar,BIH-32,NORMAL,22.1652,21.2007,187,38,11,2025-10-20,Coastal,Rural,0,38.648
+SYN-00069,Synthetic Irrigation Project 00069,Irrigation,NHAI,Assam,ASS-07,NORMAL,14.0904,8.74,224,137,21,2022-10-06,Coastal,Rural,0,62.67
+SYN-00070,Synthetic Industrial Corridor Project 00070,Industrial Corridor,Irrigation Department,West Bengal,WES-36,NORMAL,45.9844,42.1934,583,156,42,2019-12-21,Hilly,Semi-Urban,1,25.976
+SYN-00071,Synthetic Irrigation Project 00071,Irrigation,Irrigation Department,Madhya Pradesh,MAD-16,MULTI_FACTOR_DELAY,6.8174,5.2181,72,36,6,2022-10-19,Rolling,Rural,0,41.359
+SYN-00072,Synthetic Transmission Project 00072,Transmission,NHAI,Jharkhand,JHA-11,MULTI_FACTOR_DELAY,15.6707,13.0843,159,80,19,2024-11-17,Rolling,Rural,0,41.925
+SYN-00073,Synthetic Industrial Corridor Project 00073,Industrial Corridor,NHAI,Madhya Pradesh,MAD-24,NORMAL,6.8953,5.0767,104,52,5,2023-11-17,Coastal,Semi-Urban,0,70.996
+SYN-00074,Synthetic Irrigation Project 00074,Irrigation,Irrigation Department,Madhya Pradesh,MAD-28,COMPENSATION_DELAY,16.937,15.3249,237,70,18,2020-04-06,Plain,Urban,0,2.796
+SYN-00075,Synthetic Irrigation Project 00075,Irrigation,Railway,Bihar,BIH-21,NORMAL,6.5859,6.5212,118,86,25,2025-08-12,Coastal,Rural,1,9.807
+SYN-00076,Synthetic Irrigation Project 00076,Irrigation,NHAI,Maharashtra,MAH-34,DOCUMENTATION_DELAY,37.6419,22.6888,485,174,20,2021-01-02,Coastal,Urban,1,34.053
+SYN-00077,Synthetic Irrigation Project 00077,Irrigation,Irrigation Department,Madhya Pradesh,MAD-13,MULTI_FACTOR_DELAY,9.0633,5.6544,136,74,14,2019-05-09,Hilly,Semi-Urban,0,70.879
+SYN-00078,Synthetic Industrial Corridor Project 00078,Industrial Corridor,State PWD,Madhya Pradesh,MAD-16,NORMAL,75.3297,60.4956,867,271,56,2020-07-10,Hilly,Semi-Urban,0,78.957
+SYN-00079,Synthetic Railway Project 00079,Railway,Irrigation Department,Bihar,BIH-12,ADMINISTRATIVE_BOTTLENECK,5.1108,4.084,35,22,3,2021-07-05,Plain,Rural,1,65.484
+SYN-00080,Synthetic National Highway Project 00080,National Highway,Power Utility,Jharkhand,JHA-33,NORMAL,52.0243,39.5951,1031,348,92,2022-05-25,Plain,Urban,0,32.261
+SYN-00081,Synthetic Urban Infrastructure Project 00081,Urban Infrastructure,NHIDCL,Bihar,BIH-21,NORMAL,23.9352,17.3961,385,220,49,2025-07-18,Hilly,Rural,0,4.218
+SYN-00082,Synthetic Railway Project 00082,Railway,Power Utility,Bihar,BIH-05,NORMAL,15.4993,14.998,185,43,4,2024-05-30,Coastal,Semi-Urban,0,47.22
+SYN-00083,Synthetic Irrigation Project 00083,Irrigation,NHAI,Bihar,BIH-23,LEGAL_DELAY,15.1758,13.5322,161,62,13,2024-06-28,Coastal,Rural,0,59.488
+SYN-00084,Synthetic Urban Infrastructure Project 00084,Urban Infrastructure,NHIDCL,Madhya Pradesh,MAD-07,NORMAL,20.2561,20.0086,241,55,14,2020-12-24,Riverine,Semi-Urban,0,49.382
+SYN-00085,Synthetic Urban Infrastructure Project 00085,Urban Infrastructure,NHAI,Odisha,ODI-09,LEGAL_DELAY,77.8585,69.0723,619,155,25,2025-09-23,Coastal,Urban,0,44.482
+SYN-00086,Synthetic Industrial Corridor Project 00086,Industrial Corridor,Irrigation Department,Odisha,ODI-01,NORMAL,48.386,31.6567,349,251,18,2020-09-02,Rolling,Rural,0,20.652
+SYN-00087,Synthetic Industrial Corridor Project 00087,Industrial Corridor,NHIDCL,Madhya Pradesh,MAD-07,COMPENSATION_DELAY,17.27,15.8123,331,205,39,2020-10-09,Coastal,Rural,0,64.167
+SYN-00088,Synthetic Irrigation Project 00088,Irrigation,Power Utility,West Bengal,WES-15,MULTI_FACTOR_DELAY,38.3667,28.5405,642,292,71,2023-03-04,Hilly,Semi-Urban,0,46.902
+SYN-00089,Synthetic Railway Project 00089,Railway,State PWD,Assam,ASS-27,NORMAL,69.1056,48.1852,1170,878,124,2025-09-24,Hilly,Semi-Urban,0,19.313
+SYN-00090,Synthetic Railway Project 00090,Railway,NHIDCL,Madhya Pradesh,MAD-09,COMPENSATION_DELAY,7.6328,7.4754,146,54,11,2023-05-10,Plain,Rural,0,61.781
+SYN-00091,Synthetic Irrigation Project 00091,Irrigation,State PWD,Maharashtra,MAH-34,RECOVERY,14.8947,9.823,126,78,21,2021-07-23,Riverine,Rural,0,14.347
+SYN-00092,Synthetic Urban Infrastructure Project 00092,Urban Infrastructure,NHIDCL,Maharashtra,MAH-35,ADMINISTRATIVE_BOTTLENECK,5.0,3.0272,89,26,4,2024-11-29,Riverine,Semi-Urban,0,2.391
+SYN-00093,Synthetic Railway Project 00093,Railway,Power Utility,Assam,ASS-03,DOCUMENTATION_DELAY,21.6873,19.4342,265,117,31,2024-11-12,Hilly,Semi-Urban,0,62.075
+SYN-00094,Synthetic Urban Infrastructure Project 00094,Urban Infrastructure,NHAI,Odisha,ODI-16,MULTI_FACTOR_DELAY,9.2123,6.7562,83,63,4,2021-04-25,Rolling,Rural,0,28.629
+SYN-00095,Synthetic Industrial Corridor Project 00095,Industrial Corridor,State PWD,Odisha,ODI-28,ADMINISTRATIVE_BOTTLENECK,28.2729,23.5357,292,126,30,2022-06-28,Rolling,Urban,1,77.306
+SYN-00096,Synthetic Urban Infrastructure Project 00096,Urban Infrastructure,Irrigation Department,Assam,ASS-15,NORMAL,20.2517,17.8562,255,99,17,2023-06-30,Coastal,Rural,0,43.497
+SYN-00097,Synthetic Irrigation Project 00097,Irrigation,Irrigation Department,West Bengal,WES-13,RNR_DELAY,35.3167,28.0138,375,237,71,2021-07-02,Hilly,Rural,1,37.41
+SYN-00098,Synthetic Transmission Project 00098,Transmission,NHAI,West Bengal,WES-34,COMPENSATION_DELAY,22.3177,16.9974,167,99,25,2025-03-09,Coastal,Rural,0,34.695
+SYN-00099,Synthetic Irrigation Project 00099,Irrigation,State PWD,Bihar,BIH-04,COMPENSATION_DELAY,16.8745,14.9147,202,73,12,2023-03-07,Hilly,Urban,0,29.833
+SYN-00100,Synthetic Industrial Corridor Project 00100,Industrial Corridor,Power Utility,Bihar,BIH-02,MULTI_FACTOR_DELAY,33.0064,21.1763,482,245,32,2025-03-07,Plain,Urban,0,8.576
+SYN-00101,Synthetic Industrial Corridor Project 00101,Industrial Corridor,Railway,Jharkhand,JHA-02,MULTI_FACTOR_DELAY,10.9613,10.6089,193,118,32,2020-09-28,Rolling,Urban,0,38.835
+SYN-00102,Synthetic Transmission Project 00102,Transmission,State PWD,Uttar Pradesh,UTT-01,LEGAL_DELAY,12.6141,10.5058,68,17,2,2020-07-27,Coastal,Rural,1,67.087
+SYN-00103,Synthetic Railway Project 00103,Railway,Railway,Bihar,BIH-30,NORMAL,9.2818,7.5459,93,46,6,2024-10-08,Riverine,Rural,0,13.266
+SYN-00104,Synthetic Railway Project 00104,Railway,Irrigation Department,Uttar Pradesh,UTT-15,RECOVERY,9.549,8.1614,135,74,5,2020-07-01,Coastal,Rural,0,43.479
+SYN-00105,Synthetic Transmission Project 00105,Transmission,Power Utility,Uttar Pradesh,UTT-25,LEGAL_DELAY,26.4575,21.9536,258,138,29,2025-12-30,Plain,Rural,1,62.259
+SYN-00106,Synthetic Transmission Project 00106,Transmission,Railway,Odisha,ODI-22,NORMAL,20.8036,17.0943,297,65,6,2025-04-16,Coastal,Rural,0,78.104
+SYN-00107,Synthetic National Highway Project 00107,National Highway,Power Utility,Odisha,ODI-30,DOCUMENTATION_DELAY,22.3975,19.8452,125,64,10,2024-05-02,Coastal,Urban,0,33.095
+SYN-00108,Synthetic Industrial Corridor Project 00108,Industrial Corridor,Railway,Jharkhand,JHA-29,LEGAL_DELAY,50.6954,42.4014,768,185,55,2020-09-23,Coastal,Urban,0,47.252
+SYN-00109,Synthetic Transmission Project 00109,Transmission,State PWD,Odisha,ODI-01,DOCUMENTATION_DELAY,39.3362,27.4942,519,135,21,2025-09-06,Rolling,Rural,0,44.863
+SYN-00110,Synthetic Urban Infrastructure Project 00110,Urban Infrastructure,NHAI,Uttar Pradesh,UTT-32,NORMAL,15.8294,12.6012,265,185,14,2021-07-05,Riverine,Semi-Urban,0,64.256
+SYN-00111,Synthetic Irrigation Project 00111,Irrigation,Irrigation Department,Odisha,ODI-09,NORMAL,20.9841,19.6005,386,112,13,2023-07-12,Coastal,Semi-Urban,0,47.105
+SYN-00112,Synthetic Irrigation Project 00112,Irrigation,State PWD,Uttar Pradesh,UTT-06,MULTI_FACTOR_DELAY,47.7912,44.9165,289,198,16,2022-01-12,Rolling,Semi-Urban,0,52.496
+SYN-00113,Synthetic Railway Project 00113,Railway,Railway,West Bengal,WES-15,NORMAL,24.4214,21.071,283,192,11,2025-03-27,Riverine,Semi-Urban,0,19.613
+SYN-00114,Synthetic National Highway Project 00114,National Highway,NHAI,Madhya Pradesh,MAD-39,COMPENSATION_DELAY,15.4214,9.6492,158,58,11,2025-11-21,Rolling,Semi-Urban,0,17.822
+SYN-00115,Synthetic Industrial Corridor Project 00115,Industrial Corridor,Power Utility,West Bengal,WES-31,NORMAL,25.9024,24.1652,151,97,26,2023-03-27,Plain,Semi-Urban,0,31.783
+SYN-00116,Synthetic Industrial Corridor Project 00116,Industrial Corridor,Irrigation Department,Madhya Pradesh,MAD-22,MULTI_FACTOR_DELAY,12.8238,10.5433,220,125,20,2019-08-04,Riverine,Urban,0,74.859
+SYN-00117,Synthetic National Highway Project 00117,National Highway,State PWD,Uttar Pradesh,UTT-22,RECOVERY,11.0218,7.3004,192,43,6,2023-01-16,Rolling,Urban,0,3.201
+SYN-00118,Synthetic Transmission Project 00118,Transmission,Power Utility,Jharkhand,JHA-34,RECOVERY,9.0302,8.8771,63,48,12,2020-01-10,Riverine,Urban,0,60.231
+SYN-00119,Synthetic National Highway Project 00119,National Highway,Railway,Madhya Pradesh,MAD-26,NORMAL,50.3793,48.9254,436,245,54,2020-11-30,Hilly,Semi-Urban,0,25.351
+SYN-00120,Synthetic Irrigation Project 00120,Irrigation,Irrigation Department,Bihar,BIH-07,NORMAL,22.653,18.0554,237,59,13,2024-06-05,Hilly,Rural,0,61.135
+SYN-00121,Synthetic Urban Infrastructure Project 00121,Urban Infrastructure,Irrigation Department,Maharashtra,MAH-10,NORMAL,44.9718,29.589,469,158,19,2024-03-08,Riverine,Rural,0,49.339
+SYN-00122,Synthetic Transmission Project 00122,Transmission,State PWD,Maharashtra,MAH-12,DOCUMENTATION_DELAY,5.0,3.9247,98,35,6,2020-08-21,Plain,Semi-Urban,1,64.604
+SYN-00123,Synthetic Irrigation Project 00123,Irrigation,Power Utility,Assam,ASS-05,RNR_DELAY,6.8783,6.3392,77,42,9,2019-10-20,Riverine,Rural,0,42.436
+SYN-00124,Synthetic Urban Infrastructure Project 00124,Urban Infrastructure,NHIDCL,Uttar Pradesh,UTT-37,MULTI_FACTOR_DELAY,13.44,12.1098,258,148,31,2023-03-02,Rolling,Semi-Urban,0,20.723
+SYN-00125,Synthetic Industrial Corridor Project 00125,Industrial Corridor,Irrigation Department,West Bengal,WES-28,ADMINISTRATIVE_BOTTLENECK,36.5603,31.3213,296,110,26,2024-02-02,Riverine,Rural,0,40.83
+SYN-00126,Synthetic Irrigation Project 00126,Irrigation,Irrigation Department,Madhya Pradesh,MAD-34,RNR_DELAY,28.03,17.0635,264,56,8,2025-05-22,Coastal,Semi-Urban,0,43.834
+SYN-00127,Synthetic National Highway Project 00127,National Highway,NHIDCL,Uttar Pradesh,UTT-15,ADMINISTRATIVE_BOTTLENECK,18.7981,12.226,143,82,10,2019-11-17,Hilly,Semi-Urban,0,69.407
+SYN-00128,Synthetic Urban Infrastructure Project 00128,Urban Infrastructure,NHAI,West Bengal,WES-13,RNR_DELAY,14.3319,13.0664,151,40,6,2023-05-11,Rolling,Rural,0,9.826
+SYN-00129,Synthetic Industrial Corridor Project 00129,Industrial Corridor,Railway,Bihar,BIH-24,ADMINISTRATIVE_BOTTLENECK,7.9878,7.0186,66,30,2,2020-02-02,Hilly,Rural,0,24.155
+SYN-00130,Synthetic Industrial Corridor Project 00130,Industrial Corridor,Irrigation Department,Uttar Pradesh,UTT-15,NORMAL,15.0461,11.6952,86,66,19,2025-02-02,Rolling,Semi-Urban,1,73.343
+SYN-00131,Synthetic National Highway Project 00131,National Highway,NHIDCL,Assam,ASS-12,COMPENSATION_DELAY,56.584,45.5096,728,565,122,2019-07-31,Coastal,Urban,0,55.123
+SYN-00132,Synthetic National Highway Project 00132,National Highway,Railway,Uttar Pradesh,UTT-18,RECOVERY,11.6194,9.44,87,21,3,2022-02-19,Rolling,Semi-Urban,0,70.377
+SYN-00133,Synthetic Urban Infrastructure Project 00133,Urban Infrastructure,Power Utility,Maharashtra,MAH-31,NORMAL,6.2705,5.5235,78,43,9,2019-03-10,Coastal,Urban,0,76.297
+SYN-00134,Synthetic National Highway Project 00134,National Highway,Power Utility,Assam,ASS-10,MULTI_FACTOR_DELAY,14.6304,12.3637,264,180,16,2019-08-20,Hilly,Semi-Urban,0,24.134
+SYN-00135,Synthetic Irrigation Project 00135,Irrigation,NHIDCL,Maharashtra,MAH-26,ADMINISTRATIVE_BOTTLENECK,14.6783,10.6943,196,93,13,2025-07-23,Plain,Rural,0,59.67
+SYN-00136,Synthetic National Highway Project 00136,National Highway,NHAI,Madhya Pradesh,MAD-31,NORMAL,13.2397,10.8545,254,202,33,2023-07-03,Hilly,Urban,0,24.209
+SYN-00137,Synthetic Transmission Project 00137,Transmission,Power Utility,West Bengal,WES-09,MULTI_FACTOR_DELAY,35.7851,23.3457,226,156,24,2022-09-21,Riverine,Rural,0,9.983
+SYN-00138,Synthetic Transmission Project 00138,Transmission,Power Utility,Bihar,BIH-23,NORMAL,18.8387,16.4694,173,78,16,2020-07-22,Coastal,Rural,1,0.656
+SYN-00139,Synthetic Irrigation Project 00139,Irrigation,Irrigation Department,Jharkhand,JHA-10,MULTI_FACTOR_DELAY,25.89,21.5286,295,194,30,2024-03-27,Rolling,Semi-Urban,0,30.556
+SYN-00140,Synthetic Urban Infrastructure Project 00140,Urban Infrastructure,Railway,Jharkhand,JHA-08,COMPENSATION_DELAY,23.289,19.3121,183,98,13,2021-12-15,Rolling,Rural,1,40.868
+SYN-00141,Synthetic Urban Infrastructure Project 00141,Urban Infrastructure,NHIDCL,Assam,ASS-17,NORMAL,24.21,18.6814,146,54,5,2024-03-25,Plain,Rural,0,2.283
+SYN-00142,Synthetic Irrigation Project 00142,Irrigation,State PWD,West Bengal,WES-04,RNR_DELAY,26.9215,21.2606,347,117,22,2019-02-03,Rolling,Urban,0,77.878
+SYN-00143,Synthetic Irrigation Project 00143,Irrigation,State PWD,Madhya Pradesh,MAD-33,ADMINISTRATIVE_BOTTLENECK,5.6767,3.7312,69,25,4,2020-06-08,Plain,Semi-Urban,0,73.32
+SYN-00144,Synthetic Urban Infrastructure Project 00144,Urban Infrastructure,State PWD,Madhya Pradesh,MAD-05,NORMAL,17.8878,12.1896,299,89,16,2022-03-22,Riverine,Rural,0,47.234
+SYN-00145,Synthetic Industrial Corridor Project 00145,Industrial Corridor,State PWD,Assam,ASS-02,NORMAL,35.1538,26.2054,209,51,11,2019-03-02,Plain,Semi-Urban,0,27.219
+SYN-00146,Synthetic Railway Project 00146,Railway,NHIDCL,Maharashtra,MAH-29,NORMAL,25.1653,21.5574,298,230,17,2019-04-27,Coastal,Rural,0,53.822
+SYN-00147,Synthetic Irrigation Project 00147,Irrigation,NHIDCL,Jharkhand,JHA-17,MULTI_FACTOR_DELAY,21.2405,17.904,197,157,18,2019-01-28,Coastal,Urban,0,52.156
+SYN-00148,Synthetic Railway Project 00148,Railway,NHIDCL,West Bengal,WES-16,NORMAL,20.121,15.6614,349,186,37,2021-05-26,Riverine,Semi-Urban,0,23.825
+SYN-00149,Synthetic Urban Infrastructure Project 00149,Urban Infrastructure,NHIDCL,Bihar,BIH-09,RECOVERY,65.5349,57.5256,447,266,21,2022-01-18,Hilly,Semi-Urban,0,64.726
+SYN-00150,Synthetic Urban Infrastructure Project 00150,Urban Infrastructure,Power Utility,Maharashtra,MAH-13,NORMAL,10.8006,8.2641,120,31,2,2020-02-06,Plain,Urban,0,31.193
+SYN-00151,Synthetic Transmission Project 00151,Transmission,State PWD,Assam,ASS-05,MULTI_FACTOR_DELAY,5.0,4.4528,89,20,6,2021-02-25,Rolling,Semi-Urban,0,35.343
+SYN-00152,Synthetic Urban Infrastructure Project 00152,Urban Infrastructure,State PWD,Uttar Pradesh,UTT-27,NORMAL,31.4423,24.4354,564,381,62,2019-07-31,Coastal,Rural,0,5.443
+SYN-00153,Synthetic Irrigation Project 00153,Irrigation,Irrigation Department,Uttar Pradesh,UTT-11,NORMAL,34.6675,24.8667,332,251,30,2019-06-01,Hilly,Rural,0,57.954
+SYN-00154,Synthetic Railway Project 00154,Railway,State PWD,Assam,ASS-27,DOCUMENTATION_DELAY,17.5944,11.5012,259,170,22,2024-01-23,Hilly,Rural,0,29.014
+SYN-00155,Synthetic Transmission Project 00155,Transmission,NHIDCL,Bihar,BIH-39,NORMAL,14.3851,10.0673,237,162,19,2024-04-21,Rolling,Urban,0,0.713
+SYN-00156,Synthetic Railway Project 00156,Railway,Railway,Odisha,ODI-32,NORMAL,27.5277,22.1018,298,141,15,2019-02-03,Hilly,Rural,0,1.205
+SYN-00157,Synthetic Irrigation Project 00157,Irrigation,Power Utility,Madhya Pradesh,MAD-30,NORMAL,10.3032,6.762,156,124,28,2024-09-02,Rolling,Semi-Urban,0,78.417
+SYN-00158,Synthetic Railway Project 00158,Railway,NHAI,West Bengal,WES-30,DOCUMENTATION_DELAY,22.2511,19.4289,237,91,8,2022-11-18,Rolling,Semi-Urban,0,32.277
+SYN-00159,Synthetic Urban Infrastructure Project 00159,Urban Infrastructure,NHIDCL,Bihar,BIH-21,DOCUMENTATION_DELAY,61.3334,38.2969,1178,269,55,2024-03-26,Rolling,Semi-Urban,0,63.444
+SYN-00160,Synthetic National Highway Project 00160,National Highway,Irrigation Department,Assam,ASS-31,RNR_DELAY,28.7903,26.5215,226,54,13,2022-09-28,Rolling,Rural,0,71.653
+SYN-00161,Synthetic National Highway Project 00161,National Highway,Railway,Uttar Pradesh,UTT-11,NORMAL,6.9349,6.2173,65,50,6,2019-11-16,Plain,Rural,1,57.985
+SYN-00162,Synthetic Transmission Project 00162,Transmission,NHIDCL,Odisha,ODI-18,COMPENSATION_DELAY,6.9994,5.2367,82,40,6,2021-01-08,Riverine,Semi-Urban,0,15.51
+SYN-00163,Synthetic Railway Project 00163,Railway,Railway,Odisha,ODI-31,LEGAL_DELAY,70.4203,64.9544,1142,286,82,2020-11-27,Riverine,Rural,1,14.959
+SYN-00164,Synthetic Urban Infrastructure Project 00164,Urban Infrastructure,Power Utility,Bihar,BIH-27,LEGAL_DELAY,18.0019,11.3356,271,194,37,2021-04-12,Rolling,Rural,0,23.742
+SYN-00165,Synthetic National Highway Project 00165,National Highway,NHAI,Assam,ASS-06,COMPENSATION_DELAY,30.5463,27.4117,526,277,25,2022-01-15,Plain,Rural,0,40.118
+SYN-00166,Synthetic Transmission Project 00166,Transmission,Irrigation Department,Assam,ASS-39,NORMAL,19.5432,12.1221,144,94,16,2020-05-31,Coastal,Rural,1,29.266
+SYN-00167,Synthetic Irrigation Project 00167,Irrigation,NHAI,Uttar Pradesh,UTT-07,ADMINISTRATIVE_BOTTLENECK,52.0256,47.8545,384,211,50,2021-06-05,Plain,Rural,0,7.089
+SYN-00168,Synthetic Industrial Corridor Project 00168,Industrial Corridor,NHIDCL,Jharkhand,JHA-25,NORMAL,60.8171,55.2782,436,161,37,2022-05-09,Hilly,Semi-Urban,1,16.992
+SYN-00169,Synthetic Irrigation Project 00169,Irrigation,NHAI,West Bengal,WES-26,NORMAL,16.6723,10.5067,90,43,3,2025-01-02,Hilly,Rural,0,43.268
+SYN-00170,Synthetic National Highway Project 00170,National Highway,Power Utility,Assam,ASS-01,DOCUMENTATION_DELAY,12.8174,9.1017,180,65,19,2019-07-25,Coastal,Rural,0,8.423
+SYN-00171,Synthetic Transmission Project 00171,Transmission,Irrigation Department,Madhya Pradesh,MAD-39,MULTI_FACTOR_DELAY,20.0393,18.6262,385,148,34,2022-05-04,Hilly,Semi-Urban,0,55.736
+SYN-00172,Synthetic Urban Infrastructure Project 00172,Urban Infrastructure,Irrigation Department,Maharashtra,MAH-18,DOCUMENTATION_DELAY,10.4568,8.9524,163,34,4,2025-03-30,Coastal,Rural,1,53.351
+SYN-00173,Synthetic Transmission Project 00173,Transmission,NHAI,Maharashtra,MAH-37,RECOVERY,44.0491,38.6952,797,418,108,2020-01-23,Riverine,Urban,0,13.964
+SYN-00174,Synthetic Irrigation Project 00174,Irrigation,NHAI,Odisha,ODI-05,RECOVERY,28.6089,24.631,536,194,30,2022-02-20,Riverine,Urban,0,72.892
+SYN-00175,Synthetic Industrial Corridor Project 00175,Industrial Corridor,Power Utility,Jharkhand,JHA-32,NORMAL,13.3368,12.7014,190,99,14,2021-08-13,Hilly,Urban,0,78.742
+SYN-00176,Synthetic National Highway Project 00176,National Highway,Irrigation Department,Jharkhand,JHA-36,NORMAL,13.7811,12.023,162,54,5,2025-03-24,Plain,Semi-Urban,0,41.077
+SYN-00177,Synthetic Railway Project 00177,Railway,NHIDCL,Odisha,ODI-28,NORMAL,6.0313,4.5008,87,34,7,2025-07-30,Rolling,Rural,0,32.647
+SYN-00178,Synthetic Transmission Project 00178,Transmission,NHAI,Assam,ASS-11,MULTI_FACTOR_DELAY,27.0806,21.4964,453,352,71,2024-10-06,Coastal,Rural,1,78.776
+SYN-00179,Synthetic National Highway Project 00179,National Highway,NHAI,Uttar Pradesh,UTT-04,NORMAL,11.2188,7.4585,193,51,12,2019-06-20,Hilly,Rural,0,45.253
+SYN-00180,Synthetic Transmission Project 00180,Transmission,Irrigation Department,Bihar,BIH-05,DOCUMENTATION_DELAY,12.8538,12.6895,194,107,16,2025-11-19,Plain,Rural,0,26.674
+SYN-00181,Synthetic Irrigation Project 00181,Irrigation,State PWD,West Bengal,WES-01,RECOVERY,8.8225,6.8926,113,42,4,2020-09-13,Rolling,Rural,0,40.787
+SYN-00182,Synthetic Transmission Project 00182,Transmission,Railway,Jharkhand,JHA-06,NORMAL,51.0778,40.0041,696,428,96,2023-07-18,Plain,Rural,0,56.761
+SYN-00183,Synthetic Industrial Corridor Project 00183,Industrial Corridor,Railway,West Bengal,WES-30,NORMAL,31.4262,30.4305,360,154,32,2020-08-20,Hilly,Urban,0,37.969
+SYN-00184,Synthetic National Highway Project 00184,National Highway,NHAI,West Bengal,WES-37,NORMAL,35.872,32.1046,215,70,12,2025-08-27,Riverine,Semi-Urban,0,28.45
+SYN-00185,Synthetic Transmission Project 00185,Transmission,NHIDCL,Maharashtra,MAH-26,NORMAL,22.6593,13.8681,127,68,17,2024-12-30,Hilly,Urban,0,15.405
+SYN-00186,Synthetic Transmission Project 00186,Transmission,State PWD,Odisha,ODI-23,DOCUMENTATION_DELAY,87.5888,77.8942,1640,834,81,2019-08-19,Riverine,Rural,0,50.674
+SYN-00187,Synthetic Irrigation Project 00187,Irrigation,Power Utility,Odisha,ODI-28,DOCUMENTATION_DELAY,6.6242,5.3364,87,60,9,2024-11-05,Plain,Semi-Urban,0,27.8
+SYN-00188,Synthetic Irrigation Project 00188,Irrigation,NHAI,Odisha,ODI-18,MULTI_FACTOR_DELAY,28.2585,17.1816,144,91,6,2025-01-19,Riverine,Rural,0,77.374
+SYN-00189,Synthetic Urban Infrastructure Project 00189,Urban Infrastructure,NHIDCL,Maharashtra,MAH-24,NORMAL,37.5689,30.5201,238,133,25,2020-01-28,Coastal,Rural,0,51.534
+SYN-00190,Synthetic Urban Infrastructure Project 00190,Urban Infrastructure,NHIDCL,Uttar Pradesh,UTT-17,LEGAL_DELAY,18.5368,12.0548,263,114,11,2021-10-17,Rolling,Rural,0,34.144
+SYN-00191,Synthetic Railway Project 00191,Railway,NHAI,Maharashtra,MAH-09,DOCUMENTATION_DELAY,45.8219,41.8112,264,117,14,2021-12-25,Hilly,Semi-Urban,0,59.565
+SYN-00192,Synthetic Urban Infrastructure Project 00192,Urban Infrastructure,NHAI,West Bengal,WES-18,COMPENSATION_DELAY,5.0,4.2547,50,13,1,2024-04-30,Coastal,Urban,0,38.733
+SYN-00193,Synthetic Urban Infrastructure Project 00193,Urban Infrastructure,Power Utility,Jharkhand,JHA-28,DOCUMENTATION_DELAY,17.8321,14.218,238,59,5,2020-11-16,Riverine,Urban,0,46.896
+SYN-00194,Synthetic Irrigation Project 00194,Irrigation,NHIDCL,Bihar,BIH-12,NORMAL,15.0326,12.2235,283,63,4,2021-10-04,Coastal,Rural,0,76.118
+SYN-00195,Synthetic Urban Infrastructure Project 00195,Urban Infrastructure,Railway,Uttar Pradesh,UTT-38,RNR_DELAY,52.1146,47.0109,496,259,23,2020-02-21,Plain,Urban,0,47.621
+SYN-00196,Synthetic Urban Infrastructure Project 00196,Urban Infrastructure,Power Utility,Bihar,BIH-03,NORMAL,14.0638,8.6113,241,175,30,2022-04-30,Coastal,Rural,0,15.42
+SYN-00197,Synthetic Industrial Corridor Project 00197,Industrial Corridor,Railway,West Bengal,WES-20,DOCUMENTATION_DELAY,46.003,37.9604,870,468,109,2025-04-22,Hilly,Semi-Urban,0,38.896
+SYN-00198,Synthetic Industrial Corridor Project 00198,Industrial Corridor,NHAI,Jharkhand,JHA-17,RECOVERY,165.4582,127.8964,2596,587,77,2023-08-07,Hilly,Rural,0,50.405
+SYN-00199,Synthetic Industrial Corridor Project 00199,Industrial Corridor,NHAI,Jharkhand,JHA-17,ADMINISTRATIVE_BOTTLENECK,15.0409,12.6104,263,81,4,2024-04-07,Riverine,Semi-Urban,0,6.571
+SYN-00200,Synthetic Railway Project 00200,Railway,NHIDCL,Odisha,ODI-35,NORMAL,19.1868,12.8039,303,196,19,2019-06-16,Hilly,Semi-Urban,0,7.838
+SYN-00201,Synthetic Industrial Corridor Project 00201,Industrial Corridor,Irrigation Department,Assam,ASS-23,RNR_DELAY,12.0879,8.2923,183,47,7,2022-02-14,Coastal,Semi-Urban,1,64.149
+SYN-00202,Synthetic Transmission Project 00202,Transmission,NHIDCL,Assam,ASS-29,DOCUMENTATION_DELAY,7.5037,6.1187,40,18,5,2024-10-21,Riverine,Rural,0,14.91
+SYN-00203,Synthetic Transmission Project 00203,Transmission,State PWD,Assam,ASS-30,NORMAL,24.2613,19.2187,451,178,52,2020-08-26,Coastal,Rural,0,31.94
+SYN-00204,Synthetic Urban Infrastructure Project 00204,Urban Infrastructure,NHIDCL,Maharashtra,MAH-36,MULTI_FACTOR_DELAY,26.5491,21.3994,145,31,5,2021-08-07,Hilly,Urban,0,59.989
+SYN-00205,Synthetic Irrigation Project 00205,Irrigation,NHAI,Madhya Pradesh,MAD-26,NORMAL,10.7406,8.6571,139,37,8,2020-12-17,Riverine,Semi-Urban,0,2.841
+SYN-00206,Synthetic Urban Infrastructure Project 00206,Urban Infrastructure,NHIDCL,Uttar Pradesh,UTT-05,NORMAL,9.5666,8.3499,68,32,4,2024-12-02,Coastal,Urban,0,9.587
+SYN-00207,Synthetic Railway Project 00207,Railway,Railway,Jharkhand,JHA-11,COMPENSATION_DELAY,82.4978,54.8457,1165,622,152,2021-04-13,Plain,Rural,0,24.938
+SYN-00208,Synthetic Industrial Corridor Project 00208,Industrial Corridor,Railway,Bihar,BIH-38,NORMAL,67.0042,42.1492,718,370,71,2021-06-02,Coastal,Rural,0,5.544
+SYN-00209,Synthetic Industrial Corridor Project 00209,Industrial Corridor,Railway,Uttar Pradesh,UTT-09,NORMAL,5.0,3.4546,95,44,2,2023-03-11,Riverine,Rural,0,39.469
+SYN-00210,Synthetic National Highway Project 00210,National Highway,NHAI,Bihar,BIH-23,NORMAL,44.1865,33.83,855,443,58,2020-11-25,Coastal,Semi-Urban,1,22.253
+SYN-00211,Synthetic Railway Project 00211,Railway,NHAI,West Bengal,WES-13,NORMAL,33.7026,23.7993,620,463,48,2019-10-13,Riverine,Rural,0,18.424
+SYN-00212,Synthetic Industrial Corridor Project 00212,Industrial Corridor,Railway,Madhya Pradesh,MAD-29,RNR_DELAY,19.5782,18.223,129,63,6,2022-06-04,Riverine,Semi-Urban,0,41.512
+SYN-00213,Synthetic Industrial Corridor Project 00213,Industrial Corridor,NHIDCL,West Bengal,WES-39,LEGAL_DELAY,5.0,4.4009,53,37,4,2024-05-12,Hilly,Urban,0,19.93
+SYN-00214,Synthetic Transmission Project 00214,Transmission,NHAI,Madhya Pradesh,MAD-02,MULTI_FACTOR_DELAY,26.4347,25.1807,451,298,53,2021-04-25,Rolling,Rural,0,14.791
+SYN-00215,Synthetic Railway Project 00215,Railway,Irrigation Department,Assam,ASS-33,MULTI_FACTOR_DELAY,58.8944,52.4956,346,80,11,2024-03-31,Coastal,Rural,0,60.231
+SYN-00216,Synthetic Urban Infrastructure Project 00216,Urban Infrastructure,Irrigation Department,Madhya Pradesh,MAD-36,NORMAL,7.9139,7.604,50,22,3,2020-12-22,Riverine,Urban,0,61.553
+SYN-00217,Synthetic Urban Infrastructure Project 00217,Urban Infrastructure,NHAI,Maharashtra,MAH-29,NORMAL,36.1487,25.328,372,163,35,2019-02-17,Rolling,Semi-Urban,1,62.452
+SYN-00218,Synthetic Transmission Project 00218,Transmission,NHIDCL,Maharashtra,MAH-33,NORMAL,17.7672,12.0418,134,104,7,2023-10-25,Coastal,Rural,0,20.76
+SYN-00219,Synthetic Irrigation Project 00219,Irrigation,NHIDCL,Assam,ASS-02,NORMAL,12.9489,10.4763,203,75,11,2024-03-23,Plain,Rural,0,68.484
+SYN-00220,Synthetic Railway Project 00220,Railway,NHIDCL,Bihar,BIH-20,COMPENSATION_DELAY,9.7766,8.1219,75,41,12,2022-01-06,Plain,Semi-Urban,0,16.521
+SYN-00221,Synthetic Industrial Corridor Project 00221,Industrial Corridor,State PWD,Jharkhand,JHA-18,NORMAL,73.3149,68.5967,627,367,86,2021-03-28,Hilly,Rural,0,68.604
+SYN-00222,Synthetic Railway Project 00222,Railway,Railway,Assam,ASS-06,NORMAL,42.0926,31.0132,652,277,72,2024-03-14,Hilly,Rural,1,73.077
+SYN-00223,Synthetic Irrigation Project 00223,Irrigation,Railway,Assam,ASS-38,NORMAL,10.6642,6.7925,67,21,3,2025-05-06,Rolling,Urban,0,71.395
+SYN-00224,Synthetic Railway Project 00224,Railway,NHIDCL,Bihar,BIH-15,NORMAL,37.0663,27.7751,481,329,91,2020-07-13,Plain,Urban,0,51.958
+SYN-00225,Synthetic National Highway Project 00225,National Highway,Railway,Odisha,ODI-03,NORMAL,29.5906,29.4816,215,79,9,2024-05-02,Riverine,Semi-Urban,1,51.748
+SYN-00226,Synthetic National Highway Project 00226,National Highway,NHAI,Jharkhand,JHA-23,ADMINISTRATIVE_BOTTLENECK,8.0196,7.7912,94,36,7,2022-12-13,Riverine,Rural,0,45.851
+SYN-00227,Synthetic National Highway Project 00227,National Highway,Power Utility,Bihar,BIH-31,RNR_DELAY,31.0471,19.3223,204,106,11,2023-07-23,Coastal,Rural,0,38.273
+SYN-00228,Synthetic Irrigation Project 00228,Irrigation,Railway,Maharashtra,MAH-11,NORMAL,15.2943,12.8168,285,152,44,2023-01-23,Hilly,Rural,1,4.296
+SYN-00229,Synthetic National Highway Project 00229,National Highway,State PWD,Uttar Pradesh,UTT-09,RECOVERY,8.6109,6.7367,151,116,15,2021-08-18,Coastal,Rural,0,49.493
+SYN-00230,Synthetic Urban Infrastructure Project 00230,Urban Infrastructure,Power Utility,Maharashtra,MAH-15,RNR_DELAY,125.2732,112.4377,676,376,53,2020-03-11,Riverine,Rural,0,42.179
+SYN-00231,Synthetic Transmission Project 00231,Transmission,Railway,Bihar,BIH-02,DOCUMENTATION_DELAY,38.1131,30.2804,251,64,11,2020-04-02,Plain,Semi-Urban,0,55.994
+SYN-00232,Synthetic Industrial Corridor Project 00232,Industrial Corridor,Power Utility,Jharkhand,JHA-32,NORMAL,41.4296,25.1128,491,273,33,2025-08-05,Coastal,Semi-Urban,0,40.587
+SYN-00233,Synthetic Irrigation Project 00233,Irrigation,State PWD,Uttar Pradesh,UTT-15,ADMINISTRATIVE_BOTTLENECK,17.4184,11.5248,88,48,6,2023-03-28,Coastal,Rural,0,52.075
+SYN-00234,Synthetic Transmission Project 00234,Transmission,NHIDCL,Bihar,BIH-14,NORMAL,50.2134,32.2309,347,92,6,2024-02-26,Coastal,Urban,0,49.88
+SYN-00235,Synthetic Industrial Corridor Project 00235,Industrial Corridor,Railway,Maharashtra,MAH-39,NORMAL,11.6656,10.7865,65,20,5,2025-05-05,Rolling,Rural,0,67.941
+SYN-00236,Synthetic Railway Project 00236,Railway,NHAI,Madhya Pradesh,MAD-33,LEGAL_DELAY,11.6751,8.4387,163,96,6,2024-08-24,Plain,Semi-Urban,0,11.943
+SYN-00237,Synthetic Transmission Project 00237,Transmission,NHIDCL,Madhya Pradesh,MAD-03,NORMAL,19.4459,13.7399,343,129,10,2025-11-20,Coastal,Rural,0,5.558
+SYN-00238,Synthetic Industrial Corridor Project 00238,Industrial Corridor,Power Utility,Bihar,BIH-28,RNR_DELAY,62.6389,51.7263,982,199,22,2020-10-18,Rolling,Rural,0,73.1
+SYN-00239,Synthetic Irrigation Project 00239,Irrigation,Irrigation Department,West Bengal,WES-27,NORMAL,9.4482,6.5185,162,79,14,2025-05-23,Plain,Semi-Urban,0,48.813
+SYN-00240,Synthetic Industrial Corridor Project 00240,Industrial Corridor,Railway,West Bengal,WES-14,MULTI_FACTOR_DELAY,32.998,32.6905,625,408,89,2021-07-23,Rolling,Rural,0,42.301
+SYN-00241,Synthetic Urban Infrastructure Project 00241,Urban Infrastructure,Irrigation Department,Bihar,BIH-12,COMPENSATION_DELAY,17.7796,14.2873,101,66,13,2024-02-06,Plain,Semi-Urban,0,9.69
+SYN-00242,Synthetic Railway Project 00242,Railway,Power Utility,Jharkhand,JHA-27,NORMAL,5.0,3.2613,73,51,13,2024-12-01,Plain,Rural,0,53.314
+SYN-00243,Synthetic National Highway Project 00243,National Highway,NHIDCL,Bihar,BIH-22,LEGAL_DELAY,11.0887,8.7574,115,54,5,2021-07-21,Plain,Rural,0,7.042
+SYN-00244,Synthetic National Highway Project 00244,National Highway,NHAI,Maharashtra,MAH-09,COMPENSATION_DELAY,68.3636,62.4074,966,219,21,2020-10-30,Coastal,Urban,1,43.674
+SYN-00245,Synthetic Irrigation Project 00245,Irrigation,Power Utility,West Bengal,WES-37,NORMAL,42.5431,39.3628,303,175,36,2021-12-25,Rolling,Urban,0,29.475
+SYN-00246,Synthetic Transmission Project 00246,Transmission,NHAI,Odisha,ODI-15,NORMAL,12.3575,8.726,149,109,24,2023-04-29,Plain,Semi-Urban,0,0.759
+SYN-00247,Synthetic Irrigation Project 00247,Irrigation,NHAI,Odisha,ODI-07,LEGAL_DELAY,21.5575,15.6909,223,158,22,2024-08-20,Riverine,Rural,0,52.722
+SYN-00248,Synthetic Urban Infrastructure Project 00248,Urban Infrastructure,NHAI,Maharashtra,MAH-39,MULTI_FACTOR_DELAY,13.0991,9.9631,201,107,28,2024-02-04,Riverine,Semi-Urban,0,46.975
+SYN-00249,Synthetic Industrial Corridor Project 00249,Industrial Corridor,Power Utility,Bihar,BIH-21,NORMAL,12.5448,10.8419,106,79,18,2020-04-08,Coastal,Semi-Urban,0,49.65
+SYN-00250,Synthetic Transmission Project 00250,Transmission,Irrigation Department,Madhya Pradesh,MAD-14,LEGAL_DELAY,7.0233,4.3397,101,48,6,2024-05-02,Plain,Rural,0,69.296
+SYN-00251,Synthetic National Highway Project 00251,National Highway,NHIDCL,Bihar,BIH-38,NORMAL,23.4676,19.1649,305,114,31,2024-12-09,Hilly,Semi-Urban,0,34.515
+SYN-00252,Synthetic Irrigation Project 00252,Irrigation,Irrigation Department,Madhya Pradesh,MAD-20,RECOVERY,19.7099,11.8711,255,123,31,2023-01-11,Plain,Urban,0,6.093
+SYN-00253,Synthetic Industrial Corridor Project 00253,Industrial Corridor,NHIDCL,Jharkhand,JHA-20,NORMAL,20.9082,12.7708,232,97,15,2019-01-16,Hilly,Semi-Urban,0,56.625
+SYN-00254,Synthetic Railway Project 00254,Railway,Power Utility,Jharkhand,JHA-15,NORMAL,81.2128,55.2125,537,254,61,2019-02-10,Plain,Rural,0,60.984
+SYN-00255,Synthetic National Highway Project 00255,National Highway,State PWD,Jharkhand,JHA-19,MULTI_FACTOR_DELAY,42.9913,39.9159,254,121,8,2021-04-03,Riverine,Semi-Urban,0,6.336
+SYN-00256,Synthetic Urban Infrastructure Project 00256,Urban Infrastructure,NHIDCL,Bihar,BIH-23,NORMAL,24.8947,23.8192,472,335,72,2025-10-20,Plain,Rural,1,42.261
+SYN-00257,Synthetic Transmission Project 00257,Transmission,NHIDCL,Assam,ASS-02,NORMAL,5.0,4.1147,72,25,2,2022-11-28,Rolling,Rural,0,38.57
+SYN-00258,Synthetic Railway Project 00258,Railway,NHIDCL,Maharashtra,MAH-27,DOCUMENTATION_DELAY,71.8757,43.9339,1043,456,126,2020-05-19,Rolling,Rural,0,35.565
+SYN-00259,Synthetic Industrial Corridor Project 00259,Industrial Corridor,State PWD,Maharashtra,MAH-26,NORMAL,79.8712,52.6316,684,160,24,2021-07-29,Hilly,Rural,0,50.691
+SYN-00260,Synthetic Railway Project 00260,Railway,State PWD,Maharashtra,MAH-03,DOCUMENTATION_DELAY,21.7925,20.2638,154,117,8,2025-04-01,Hilly,Semi-Urban,0,17.385
+SYN-00261,Synthetic Urban Infrastructure Project 00261,Urban Infrastructure,Irrigation Department,Maharashtra,MAH-33,ADMINISTRATIVE_BOTTLENECK,50.5587,31.3766,383,300,31,2023-10-28,Coastal,Rural,0,59.987
+SYN-00262,Synthetic Railway Project 00262,Railway,NHIDCL,Madhya Pradesh,MAD-21,NORMAL,18.6116,12.4858,211,153,43,2021-12-11,Riverine,Rural,0,34.313
+SYN-00263,Synthetic National Highway Project 00263,National Highway,NHIDCL,Odisha,ODI-32,NORMAL,5.0,3.0219,32,19,1,2019-08-20,Coastal,Rural,0,56.966
+SYN-00264,Synthetic National Highway Project 00264,National Highway,NHAI,Assam,ASS-04,DOCUMENTATION_DELAY,11.9004,8.4858,220,106,14,2023-05-14,Plain,Urban,0,78.71
+SYN-00265,Synthetic Railway Project 00265,Railway,NHAI,Assam,ASS-37,DOCUMENTATION_DELAY,30.5789,29.9365,484,317,93,2025-12-15,Plain,Semi-Urban,0,45.325
+SYN-00266,Synthetic Transmission Project 00266,Transmission,Irrigation Department,Odisha,ODI-25,NORMAL,20.4414,14.1429,115,84,9,2021-05-26,Coastal,Rural,0,19.879
+SYN-00267,Synthetic Transmission Project 00267,Transmission,State PWD,West Bengal,WES-37,ADMINISTRATIVE_BOTTLENECK,98.6974,96.6808,1300,1039,154,2023-05-17,Hilly,Rural,0,67.305
+SYN-00268,Synthetic National Highway Project 00268,National Highway,Power Utility,Madhya Pradesh,MAD-14,MULTI_FACTOR_DELAY,65.951,52.7202,1023,652,96,2019-06-24,Riverine,Urban,0,53.528
+SYN-00269,Synthetic Irrigation Project 00269,Irrigation,NHIDCL,Assam,ASS-13,NORMAL,12.1457,7.3231,119,28,2,2019-04-07,Riverine,Rural,0,28.741
+SYN-00270,Synthetic Industrial Corridor Project 00270,Industrial Corridor,NHIDCL,West Bengal,WES-30,NORMAL,5.9105,5.5926,61,21,3,2019-08-18,Coastal,Urban,0,47.329
+SYN-00271,Synthetic Railway Project 00271,Railway,Irrigation Department,West Bengal,WES-23,NORMAL,117.7077,86.5159,1239,870,90,2023-10-03,Hilly,Rural,1,41.816
+SYN-00272,Synthetic Irrigation Project 00272,Irrigation,NHAI,Madhya Pradesh,MAD-37,NORMAL,13.8087,8.6627,158,115,28,2022-03-26,Coastal,Urban,0,44.33
+SYN-00273,Synthetic Irrigation Project 00273,Irrigation,Irrigation Department,Jharkhand,JHA-22,ADMINISTRATIVE_BOTTLENECK,5.0,4.1779,36,27,6,2023-07-30,Coastal,Semi-Urban,0,27.761
+SYN-00274,Synthetic Urban Infrastructure Project 00274,Urban Infrastructure,NHAI,Assam,ASS-33,ADMINISTRATIVE_BOTTLENECK,16.6338,15.8853,306,137,37,2021-07-23,Rolling,Rural,0,62.255
+SYN-00275,Synthetic Irrigation Project 00275,Irrigation,Irrigation Department,Madhya Pradesh,MAD-21,NORMAL,13.5841,12.2661,251,82,17,2023-09-24,Plain,Semi-Urban,1,31.069
+SYN-00276,Synthetic Industrial Corridor Project 00276,Industrial Corridor,Irrigation Department,Assam,ASS-09,MULTI_FACTOR_DELAY,11.3409,8.2412,120,63,7,2023-09-13,Coastal,Semi-Urban,0,8.395
+SYN-00277,Synthetic Railway Project 00277,Railway,NHAI,West Bengal,WES-17,NORMAL,33.0862,25.692,546,374,56,2021-05-28,Plain,Urban,0,25.348
+SYN-00278,Synthetic Industrial Corridor Project 00278,Industrial Corridor,NHAI,Jharkhand,JHA-38,MULTI_FACTOR_DELAY,23.1303,20.82,348,145,35,2023-12-02,Plain,Rural,1,26.442
+SYN-00279,Synthetic Urban Infrastructure Project 00279,Urban Infrastructure,Irrigation Department,Odisha,ODI-09,NORMAL,76.4997,53.7065,1131,689,95,2023-01-12,Riverine,Urban,0,39.38
+SYN-00280,Synthetic Industrial Corridor Project 00280,Industrial Corridor,NHIDCL,Jharkhand,JHA-15,ADMINISTRATIVE_BOTTLENECK,19.1662,12.4483,377,273,15,2020-11-10,Riverine,Semi-Urban,0,7.5
+SYN-00281,Synthetic Railway Project 00281,Railway,NHIDCL,West Bengal,WES-15,RECOVERY,11.7924,9.0666,75,17,5,2025-12-31,Plain,Urban,0,12.151
+SYN-00282,Synthetic Urban Infrastructure Project 00282,Urban Infrastructure,Irrigation Department,Maharashtra,MAH-19,COMPENSATION_DELAY,17.0974,10.6962,268,167,23,2019-06-21,Hilly,Rural,0,57.786
+SYN-00283,Synthetic Irrigation Project 00283,Irrigation,NHIDCL,Odisha,ODI-33,LEGAL_DELAY,16.525,11.2273,250,130,38,2023-12-20,Hilly,Semi-Urban,0,41.801
+SYN-00284,Synthetic Railway Project 00284,Railway,NHAI,West Bengal,WES-07,NORMAL,23.0824,13.8743,348,105,27,2021-05-25,Riverine,Rural,0,70.467
+SYN-00285,Synthetic Railway Project 00285,Railway,Railway,Bihar,BIH-22,MULTI_FACTOR_DELAY,19.7311,12.3921,189,120,24,2025-08-25,Hilly,Semi-Urban,0,26.229
+SYN-00286,Synthetic Irrigation Project 00286,Irrigation,State PWD,Maharashtra,MAH-22,COMPENSATION_DELAY,50.7106,41.3732,826,517,126,2023-09-21,Hilly,Rural,0,45.679
+SYN-00287,Synthetic Railway Project 00287,Railway,State PWD,Assam,ASS-30,NORMAL,24.1966,23.6833,429,199,48,2024-11-17,Riverine,Rural,0,63.587
+SYN-00288,Synthetic National Highway Project 00288,National Highway,State PWD,Jharkhand,JHA-12,COMPENSATION_DELAY,61.5414,55.7562,1222,610,55,2023-04-24,Riverine,Urban,0,26.303
+SYN-00289,Synthetic Industrial Corridor Project 00289,Industrial Corridor,Irrigation Department,Bihar,BIH-07,NORMAL,5.0,4.1323,33,26,6,2019-09-23,Plain,Semi-Urban,0,59.808
+SYN-00290,Synthetic Irrigation Project 00290,Irrigation,Railway,Assam,ASS-18,MULTI_FACTOR_DELAY,23.0871,21.3212,358,253,40,2025-05-31,Riverine,Urban,0,9.068
+SYN-00291,Synthetic Industrial Corridor Project 00291,Industrial Corridor,Irrigation Department,Bihar,BIH-19,ADMINISTRATIVE_BOTTLENECK,27.2988,18.6124,229,180,27,2025-03-15,Riverine,Urban,0,51.747
+SYN-00292,Synthetic Transmission Project 00292,Transmission,NHIDCL,Madhya Pradesh,MAD-17,DOCUMENTATION_DELAY,74.5632,45.2405,819,622,72,2024-12-22,Riverine,Urban,0,37.805
+SYN-00293,Synthetic Irrigation Project 00293,Irrigation,Power Utility,Madhya Pradesh,MAD-20,DOCUMENTATION_DELAY,26.6355,16.3851,410,128,8,2025-05-22,Riverine,Rural,0,29.072
+SYN-00294,Synthetic Transmission Project 00294,Transmission,Power Utility,Assam,ASS-25,NORMAL,18.5029,18.172,290,180,43,2022-04-21,Hilly,Rural,0,44.042
+SYN-00295,Synthetic Urban Infrastructure Project 00295,Urban Infrastructure,Power Utility,Uttar Pradesh,UTT-04,NORMAL,19.619,15.0626,157,51,3,2019-11-22,Coastal,Rural,0,27.968
+SYN-00296,Synthetic National Highway Project 00296,National Highway,NHIDCL,Maharashtra,MAH-21,MULTI_FACTOR_DELAY,5.0,3.0932,29,8,0,2019-05-07,Hilly,Rural,0,64.787
+SYN-00297,Synthetic Transmission Project 00297,Transmission,State PWD,West Bengal,WES-28,MULTI_FACTOR_DELAY,30.51,25.5368,446,106,23,2019-12-30,Riverine,Urban,1,60.592
+SYN-00298,Synthetic Irrigation Project 00298,Irrigation,Railway,Madhya Pradesh,MAD-06,NORMAL,37.6582,28.5206,673,214,61,2020-02-25,Hilly,Urban,0,57.234
+SYN-00299,Synthetic Irrigation Project 00299,Irrigation,Power Utility,Madhya Pradesh,MAD-36,RECOVERY,45.7214,39.9188,671,161,47,2019-02-16,Coastal,Semi-Urban,0,50.951
+SYN-00300,Synthetic Irrigation Project 00300,Irrigation,State PWD,Maharashtra,MAH-04,ADMINISTRATIVE_BOTTLENECK,13.2944,9.1169,170,118,27,2019-09-18,Coastal,Urban,0,65.588
+SYN-00301,Synthetic Urban Infrastructure Project 00301,Urban Infrastructure,NHAI,Uttar Pradesh,UTT-39,NORMAL,29.1017,26.7863,498,376,26,2020-04-14,Coastal,Urban,1,68.314
+SYN-00302,Synthetic Industrial Corridor Project 00302,Industrial Corridor,NHAI,Uttar Pradesh,UTT-33,NORMAL,67.219,65.5388,957,682,114,2021-02-09,Plain,Urban,0,77.476
+SYN-00303,Synthetic Industrial Corridor Project 00303,Industrial Corridor,Irrigation Department,Madhya Pradesh,MAD-34,NORMAL,18.2412,15.9733,330,146,31,2022-12-13,Coastal,Rural,0,70.75
+SYN-00304,Synthetic National Highway Project 00304,National Highway,NHAI,Bihar,BIH-24,COMPENSATION_DELAY,174.2037,112.7156,3340,1190,300,2019-02-27,Plain,Urban,1,68.176
+SYN-00305,Synthetic Urban Infrastructure Project 00305,Urban Infrastructure,State PWD,Jharkhand,JHA-36,LEGAL_DELAY,29.7909,25.135,247,95,22,2020-04-18,Riverine,Rural,0,49.219
+SYN-00306,Synthetic National Highway Project 00306,National Highway,State PWD,Assam,ASS-26,DOCUMENTATION_DELAY,10.4426,8.3055,165,98,18,2023-11-25,Plain,Rural,0,33.711
+SYN-00307,Synthetic Railway Project 00307,Railway,NHAI,Maharashtra,MAH-22,NORMAL,61.3732,54.5281,890,680,61,2025-01-17,Coastal,Semi-Urban,0,60.014
+SYN-00308,Synthetic Industrial Corridor Project 00308,Industrial Corridor,State PWD,Odisha,ODI-11,NORMAL,17.1244,10.5562,114,67,9,2023-02-20,Coastal,Urban,0,64.056
+SYN-00309,Synthetic Irrigation Project 00309,Irrigation,Railway,West Bengal,WES-10,NORMAL,35.2495,32.1119,514,276,20,2021-02-24,Coastal,Urban,0,49.495
+SYN-00310,Synthetic Railway Project 00310,Railway,Railway,Uttar Pradesh,UTT-03,NORMAL,6.1923,5.624,108,47,6,2019-11-12,Coastal,Rural,0,44.519
+SYN-00311,Synthetic Irrigation Project 00311,Irrigation,NHIDCL,Madhya Pradesh,MAD-25,RECOVERY,38.7226,38.4153,528,213,22,2020-11-30,Coastal,Rural,0,52.717
+SYN-00312,Synthetic Urban Infrastructure Project 00312,Urban Infrastructure,NHIDCL,Bihar,BIH-27,NORMAL,25.0231,16.1568,216,168,40,2021-09-30,Rolling,Rural,1,25.236
+SYN-00313,Synthetic Irrigation Project 00313,Irrigation,NHIDCL,Odisha,ODI-22,DOCUMENTATION_DELAY,7.3742,4.4575,131,100,29,2019-01-02,Rolling,Rural,0,36.473
+SYN-00314,Synthetic National Highway Project 00314,National Highway,Power Utility,Bihar,BIH-27,NORMAL,6.9646,5.2354,100,68,10,2021-08-29,Plain,Urban,0,67.793
+SYN-00315,Synthetic Urban Infrastructure Project 00315,Urban Infrastructure,Railway,Uttar Pradesh,UTT-37,NORMAL,40.1769,31.059,303,148,14,2022-10-27,Riverine,Rural,1,44.92
+SYN-00316,Synthetic Railway Project 00316,Railway,NHAI,Assam,ASS-06,ADMINISTRATIVE_BOTTLENECK,15.3907,15.1773,173,58,13,2024-01-26,Rolling,Semi-Urban,0,59.024
+SYN-00317,Synthetic Railway Project 00317,Railway,Irrigation Department,West Bengal,WES-26,NORMAL,7.576,6.6166,62,35,6,2024-03-16,Rolling,Semi-Urban,0,4.799
+SYN-00318,Synthetic Industrial Corridor Project 00318,Industrial Corridor,Irrigation Department,West Bengal,WES-26,RNR_DELAY,10.6637,9.5974,179,69,8,2019-04-05,Plain,Semi-Urban,0,14.118
+SYN-00319,Synthetic Industrial Corridor Project 00319,Industrial Corridor,NHAI,Odisha,ODI-11,RECOVERY,108.3934,91.1378,990,461,117,2023-03-23,Rolling,Rural,0,53.918
+SYN-00320,Synthetic Irrigation Project 00320,Irrigation,Railway,Madhya Pradesh,MAD-11,RNR_DELAY,23.296,21.1287,211,106,22,2022-07-21,Riverine,Rural,0,72.56
+SYN-00321,Synthetic Railway Project 00321,Railway,Railway,Jharkhand,JHA-29,NORMAL,88.8564,79.9995,1764,1077,213,2019-01-31,Rolling,Urban,0,18.321
+SYN-00322,Synthetic Railway Project 00322,Railway,State PWD,Jharkhand,JHA-07,NORMAL,27.85,17.2026,182,101,17,2019-05-11,Rolling,Rural,0,79.814
+SYN-00323,Synthetic Irrigation Project 00323,Irrigation,NHIDCL,Madhya Pradesh,MAD-07,NORMAL,51.727,34.474,612,362,72,2025-10-19,Riverine,Semi-Urban,1,3.015
+SYN-00324,Synthetic Railway Project 00324,Railway,Power Utility,Maharashtra,MAH-13,ADMINISTRATIVE_BOTTLENECK,69.0905,52.6472,1042,586,120,2025-11-12,Hilly,Rural,0,67.636
+SYN-00325,Synthetic National Highway Project 00325,National Highway,NHAI,Bihar,BIH-35,LEGAL_DELAY,5.0,4.8023,68,53,6,2022-10-05,Rolling,Rural,0,9.645
+SYN-00326,Synthetic Urban Infrastructure Project 00326,Urban Infrastructure,NHIDCL,West Bengal,WES-19,DOCUMENTATION_DELAY,23.2901,18.8812,159,64,16,2021-01-11,Plain,Rural,1,12.474
+SYN-00327,Synthetic Railway Project 00327,Railway,Power Utility,Madhya Pradesh,MAD-17,NORMAL,27.6171,23.5237,329,102,6,2020-11-28,Rolling,Rural,1,14.505
+SYN-00328,Synthetic Urban Infrastructure Project 00328,Urban Infrastructure,Irrigation Department,Maharashtra,MAH-04,DOCUMENTATION_DELAY,11.0135,7.1282,93,23,3,2022-02-27,Hilly,Rural,1,79.982
+SYN-00329,Synthetic Urban Infrastructure Project 00329,Urban Infrastructure,State PWD,Uttar Pradesh,UTT-30,NORMAL,9.5288,8.0399,70,49,3,2021-08-29,Hilly,Urban,0,16.955
+SYN-00330,Synthetic National Highway Project 00330,National Highway,Power Utility,Assam,ASS-07,NORMAL,23.4155,15.8982,227,82,11,2021-06-12,Riverine,Semi-Urban,0,4.436
+SYN-00331,Synthetic Railway Project 00331,Railway,Railway,Madhya Pradesh,MAD-18,COMPENSATION_DELAY,29.8665,18.8578,437,337,47,2025-10-13,Plain,Semi-Urban,0,20.888
+SYN-00332,Synthetic Railway Project 00332,Railway,Irrigation Department,Assam,ASS-22,NORMAL,14.818,9.9835,96,47,3,2020-06-05,Plain,Rural,0,27.324
+SYN-00333,Synthetic Transmission Project 00333,Transmission,State PWD,Maharashtra,MAH-37,NORMAL,17.8657,16.3903,100,31,7,2020-11-22,Riverine,Semi-Urban,1,73.375
+SYN-00334,Synthetic Transmission Project 00334,Transmission,State PWD,Maharashtra,MAH-35,COMPENSATION_DELAY,26.4664,18.4381,364,236,27,2019-12-25,Rolling,Rural,0,5.949
+SYN-00335,Synthetic Irrigation Project 00335,Irrigation,State PWD,Madhya Pradesh,MAD-12,RECOVERY,13.412,11.0692,222,104,18,2020-11-06,Riverine,Rural,1,57.614
+SYN-00336,Synthetic Industrial Corridor Project 00336,Industrial Corridor,Power Utility,Assam,ASS-22,DOCUMENTATION_DELAY,24.2049,21.4231,303,145,12,2023-01-04,Rolling,Rural,0,56.297
+SYN-00337,Synthetic National Highway Project 00337,National Highway,Railway,Maharashtra,MAH-13,ADMINISTRATIVE_BOTTLENECK,48.676,34.8553,756,401,102,2022-10-28,Plain,Rural,1,57.524
+SYN-00338,Synthetic National Highway Project 00338,National Highway,State PWD,West Bengal,WES-29,ADMINISTRATIVE_BOTTLENECK,25.3365,20.6077,344,185,37,2019-09-03,Plain,Urban,0,19.897
+SYN-00339,Synthetic Industrial Corridor Project 00339,Industrial Corridor,NHAI,Jharkhand,JHA-29,NORMAL,52.8829,46.2347,485,221,44,2022-01-09,Coastal,Urban,0,2.038
+SYN-00340,Synthetic Railway Project 00340,Railway,NHAI,Assam,ASS-28,NORMAL,5.8037,3.9459,103,50,15,2023-01-14,Hilly,Semi-Urban,0,24.105
+SYN-00341,Synthetic Irrigation Project 00341,Irrigation,NHAI,Maharashtra,MAH-04,LEGAL_DELAY,89.7529,75.3062,1606,1155,105,2021-12-24,Riverine,Rural,0,41.823
+SYN-00342,Synthetic Railway Project 00342,Railway,NHIDCL,Bihar,BIH-31,NORMAL,53.719,37.7374,651,474,30,2023-11-08,Rolling,Rural,1,6.542
+SYN-00343,Synthetic Transmission Project 00343,Transmission,Railway,Odisha,ODI-31,NORMAL,32.3466,32.2188,643,137,18,2025-11-27,Hilly,Semi-Urban,1,32.357
+SYN-00344,Synthetic Transmission Project 00344,Transmission,State PWD,Assam,ASS-14,NORMAL,21.6386,18.0488,182,41,3,2022-02-22,Rolling,Rural,0,44.847
+SYN-00345,Synthetic Irrigation Project 00345,Irrigation,NHAI,Madhya Pradesh,MAD-17,NORMAL,17.1361,14.9849,271,80,8,2025-01-14,Hilly,Urban,0,72.87
+SYN-00346,Synthetic Transmission Project 00346,Transmission,Power Utility,Bihar,BIH-37,DOCUMENTATION_DELAY,9.692,8.5294,77,44,8,2020-06-18,Rolling,Rural,0,5.24
+SYN-00347,Synthetic National Highway Project 00347,National Highway,NHAI,Maharashtra,MAH-10,NORMAL,13.0792,9.7041,101,64,5,2023-08-21,Riverine,Rural,0,22.197
+SYN-00348,Synthetic Industrial Corridor Project 00348,Industrial Corridor,Irrigation Department,Odisha,ODI-39,RNR_DELAY,59.8841,51.1737,302,62,9,2024-06-26,Rolling,Urban,1,42.656
+SYN-00349,Synthetic Transmission Project 00349,Transmission,NHAI,Assam,ASS-02,NORMAL,15.4689,11.2529,180,57,6,2022-12-07,Rolling,Rural,0,52.122
+SYN-00350,Synthetic National Highway Project 00350,National Highway,Power Utility,Maharashtra,MAH-20,ADMINISTRATIVE_BOTTLENECK,95.8956,75.2619,947,202,44,2024-04-03,Hilly,Urban,0,74.88
+SYN-00351,Synthetic Urban Infrastructure Project 00351,Urban Infrastructure,NHIDCL,Bihar,BIH-31,NORMAL,13.312,8.4091,77,55,4,2022-11-23,Hilly,Semi-Urban,0,21.314
+SYN-00352,Synthetic National Highway Project 00352,National Highway,State PWD,Maharashtra,MAH-39,NORMAL,18.3508,16.6901,139,61,14,2021-01-15,Riverine,Rural,1,64.839
+SYN-00353,Synthetic National Highway Project 00353,National Highway,State PWD,Bihar,BIH-26,MULTI_FACTOR_DELAY,50.3227,44.5403,970,264,37,2022-07-17,Plain,Rural,0,40.921
+SYN-00354,Synthetic Urban Infrastructure Project 00354,Urban Infrastructure,Power Utility,Madhya Pradesh,MAD-35,NORMAL,19.4966,12.2338,265,85,12,2020-10-03,Hilly,Rural,0,55.175
+SYN-00355,Synthetic Transmission Project 00355,Transmission,NHIDCL,Maharashtra,MAH-35,ADMINISTRATIVE_BOTTLENECK,12.1504,10.0094,220,135,11,2020-08-01,Rolling,Rural,0,6.298
+SYN-00356,Synthetic National Highway Project 00356,National Highway,NHAI,Odisha,ODI-31,NORMAL,42.1582,32.7099,264,156,15,2020-07-07,Coastal,Semi-Urban,0,75.358
+SYN-00357,Synthetic Irrigation Project 00357,Irrigation,NHIDCL,Bihar,BIH-36,NORMAL,5.0,4.301,41,22,3,2021-01-12,Rolling,Urban,0,25.708
+SYN-00358,Synthetic Railway Project 00358,Railway,NHAI,Jharkhand,JHA-23,DOCUMENTATION_DELAY,28.3891,19.36,217,57,11,2024-05-15,Rolling,Rural,1,21.327
+SYN-00359,Synthetic Railway Project 00359,Railway,State PWD,West Bengal,WES-28,COMPENSATION_DELAY,11.753,7.7012,145,71,10,2023-03-29,Hilly,Semi-Urban,0,11.443
+SYN-00360,Synthetic Transmission Project 00360,Transmission,NHAI,Odisha,ODI-07,LEGAL_DELAY,24.7076,22.2324,248,68,18,2025-01-16,Riverine,Semi-Urban,1,9.453
+SYN-00361,Synthetic Railway Project 00361,Railway,NHIDCL,Uttar Pradesh,UTT-30,NORMAL,32.9246,29.7061,541,198,21,2024-04-07,Hilly,Rural,0,19.87
+SYN-00362,Synthetic Transmission Project 00362,Transmission,State PWD,West Bengal,WES-25,COMPENSATION_DELAY,10.8788,7.9066,75,33,7,2019-08-05,Riverine,Urban,0,22.114
+SYN-00363,Synthetic Urban Infrastructure Project 00363,Urban Infrastructure,Power Utility,Bihar,BIH-14,LEGAL_DELAY,129.6543,121.8443,836,335,64,2019-09-09,Hilly,Semi-Urban,0,23.606
+SYN-00364,Synthetic Transmission Project 00364,Transmission,NHAI,Bihar,BIH-35,DOCUMENTATION_DELAY,18.5191,11.4165,163,37,9,2024-03-05,Plain,Urban,0,62.59
+SYN-00365,Synthetic Urban Infrastructure Project 00365,Urban Infrastructure,State PWD,Uttar Pradesh,UTT-24,ADMINISTRATIVE_BOTTLENECK,22.3313,18.2896,367,159,37,2022-07-12,Riverine,Rural,0,78.177
+SYN-00366,Synthetic Industrial Corridor Project 00366,Industrial Corridor,NHAI,Jharkhand,JHA-09,NORMAL,19.3502,16.0306,194,129,34,2021-10-28,Hilly,Semi-Urban,0,65.081
+SYN-00367,Synthetic Industrial Corridor Project 00367,Industrial Corridor,Irrigation Department,Assam,ASS-03,ADMINISTRATIVE_BOTTLENECK,35.311,25.7435,295,199,55,2025-04-22,Coastal,Rural,0,9.415
+SYN-00368,Synthetic Railway Project 00368,Railway,Power Utility,Odisha,ODI-18,LEGAL_DELAY,18.247,15.8351,183,92,27,2022-12-14,Hilly,Semi-Urban,1,45.875
+SYN-00369,Synthetic Transmission Project 00369,Transmission,Power Utility,Odisha,ODI-12,LEGAL_DELAY,52.7769,46.0426,676,192,50,2019-08-25,Coastal,Rural,0,49.157
+SYN-00370,Synthetic Urban Infrastructure Project 00370,Urban Infrastructure,NHAI,West Bengal,WES-34,DOCUMENTATION_DELAY,22.9853,14.564,443,105,20,2023-05-13,Plain,Semi-Urban,0,68.098
+SYN-00371,Synthetic Transmission Project 00371,Transmission,Railway,Uttar Pradesh,UTT-38,NORMAL,75.3161,45.459,761,495,93,2019-06-09,Rolling,Semi-Urban,0,30.799
+SYN-00372,Synthetic Transmission Project 00372,Transmission,Railway,West Bengal,WES-07,ADMINISTRATIVE_BOTTLENECK,35.0545,32.2971,360,227,13,2021-11-27,Rolling,Urban,0,32.297
+SYN-00373,Synthetic Industrial Corridor Project 00373,Industrial Corridor,Power Utility,West Bengal,WES-32,LEGAL_DELAY,5.0,4.8482,72,35,8,2023-03-22,Hilly,Semi-Urban,1,20.236
+SYN-00374,Synthetic Urban Infrastructure Project 00374,Urban Infrastructure,State PWD,Assam,ASS-32,NORMAL,27.8275,23.2588,486,305,73,2025-08-29,Plain,Rural,0,72.479
+SYN-00375,Synthetic Railway Project 00375,Railway,NHAI,Madhya Pradesh,MAD-01,NORMAL,29.1084,24.4391,182,132,29,2024-04-02,Plain,Urban,0,12.613
+SYN-00376,Synthetic National Highway Project 00376,National Highway,NHAI,Jharkhand,JHA-29,LEGAL_DELAY,8.6613,7.4517,86,57,13,2024-07-05,Riverine,Semi-Urban,0,36.76
+SYN-00377,Synthetic National Highway Project 00377,National Highway,NHIDCL,Odisha,ODI-28,RECOVERY,32.9293,23.5454,463,202,19,2025-12-17,Riverine,Rural,0,70.907
+SYN-00378,Synthetic Transmission Project 00378,Transmission,Railway,Madhya Pradesh,MAD-02,MULTI_FACTOR_DELAY,33.1322,21.6753,171,41,3,2020-08-15,Hilly,Rural,0,42.882
+SYN-00379,Synthetic Urban Infrastructure Project 00379,Urban Infrastructure,NHIDCL,Madhya Pradesh,MAD-27,NORMAL,25.3298,22.2887,169,48,11,2024-12-26,Coastal,Rural,0,29.214
+SYN-00380,Synthetic National Highway Project 00380,National Highway,State PWD,Maharashtra,MAH-37,NORMAL,27.6005,27.0474,451,188,26,2024-11-08,Riverine,Semi-Urban,1,70.443
+SYN-00381,Synthetic Railway Project 00381,Railway,Irrigation Department,West Bengal,WES-18,NORMAL,93.0445,74.8831,1210,285,67,2022-08-19,Hilly,Rural,1,14.83
+SYN-00382,Synthetic Industrial Corridor Project 00382,Industrial Corridor,State PWD,Odisha,ODI-03,NORMAL,9.4782,7.0289,183,118,17,2021-01-10,Hilly,Rural,1,20.557
+SYN-00383,Synthetic National Highway Project 00383,National Highway,NHIDCL,Maharashtra,MAH-23,RNR_DELAY,127.6435,86.3651,2096,754,52,2022-10-28,Rolling,Urban,0,68.937
+SYN-00384,Synthetic National Highway Project 00384,National Highway,State PWD,Odisha,ODI-20,NORMAL,10.518,9.5822,59,33,9,2022-05-04,Hilly,Urban,0,60.377
+SYN-00385,Synthetic Industrial Corridor Project 00385,Industrial Corridor,Irrigation Department,West Bengal,WES-20,COMPENSATION_DELAY,214.4241,156.6821,2834,2053,231,2022-12-10,Hilly,Rural,1,14.572
+SYN-00386,Synthetic Industrial Corridor Project 00386,Industrial Corridor,State PWD,Uttar Pradesh,UTT-07,RECOVERY,5.0,4.0802,49,18,5,2025-12-03,Coastal,Rural,0,8.756
+SYN-00387,Synthetic Transmission Project 00387,Transmission,NHAI,Madhya Pradesh,MAD-20,NORMAL,56.9608,36.9025,792,569,132,2024-06-18,Coastal,Rural,0,50.055
+SYN-00388,Synthetic Urban Infrastructure Project 00388,Urban Infrastructure,NHIDCL,Madhya Pradesh,MAD-29,DOCUMENTATION_DELAY,44.4358,36.4456,307,134,30,2021-12-28,Riverine,Urban,0,50.555
+SYN-00389,Synthetic Railway Project 00389,Railway,Power Utility,Jharkhand,JHA-36,LEGAL_DELAY,19.4657,15.9792,328,238,54,2020-02-24,Rolling,Rural,0,32.542
+SYN-00390,Synthetic Transmission Project 00390,Transmission,Power Utility,Madhya Pradesh,MAD-36,NORMAL,39.7724,30.5852,250,157,46,2019-10-26,Plain,Semi-Urban,0,51.528
+SYN-00391,Synthetic Railway Project 00391,Railway,NHAI,Uttar Pradesh,UTT-22,NORMAL,60.5991,44.6594,362,179,45,2021-02-12,Coastal,Rural,0,10.798
+SYN-00392,Synthetic Railway Project 00392,Railway,Power Utility,Assam,ASS-39,NORMAL,11.3951,10.8486,114,31,8,2022-05-23,Plain,Urban,0,3.73
+SYN-00393,Synthetic Transmission Project 00393,Transmission,State PWD,West Bengal,WES-25,DOCUMENTATION_DELAY,32.6516,26.193,537,356,92,2020-02-04,Rolling,Semi-Urban,0,26.481
+SYN-00394,Synthetic Urban Infrastructure Project 00394,Urban Infrastructure,State PWD,Uttar Pradesh,UTT-19,NORMAL,25.6222,17.0531,454,135,7,2020-12-14,Plain,Rural,0,61.25
+SYN-00395,Synthetic National Highway Project 00395,National Highway,Power Utility,West Bengal,WES-35,MULTI_FACTOR_DELAY,14.987,13.0129,281,81,7,2022-11-18,Plain,Urban,0,11.594
+SYN-00396,Synthetic National Highway Project 00396,National Highway,Railway,Uttar Pradesh,UTT-15,RECOVERY,13.7597,11.9244,143,99,8,2025-07-30,Rolling,Semi-Urban,0,60.667
+SYN-00397,Synthetic Transmission Project 00397,Transmission,NHIDCL,Odisha,ODI-34,MULTI_FACTOR_DELAY,17.5533,12.9077,270,114,19,2022-06-29,Rolling,Urban,0,21.622
+SYN-00398,Synthetic Industrial Corridor Project 00398,Industrial Corridor,NHIDCL,Uttar Pradesh,UTT-25,NORMAL,9.3523,6.3165,99,68,17,2022-05-20,Plain,Rural,0,48.152
+SYN-00399,Synthetic Industrial Corridor Project 00399,Industrial Corridor,Power Utility,Maharashtra,MAH-09,NORMAL,24.9154,21.5103,435,144,24,2025-09-08,Hilly,Rural,0,46.54
+SYN-00400,Synthetic National Highway Project 00400,National Highway,NHIDCL,West Bengal,WES-14,NORMAL,34.4406,20.9093,343,86,11,2022-01-21,Rolling,Urban,0,66.171
+SYN-00401,Synthetic Transmission Project 00401,Transmission,NHIDCL,Madhya Pradesh,MAD-23,ADMINISTRATIVE_BOTTLENECK,22.5173,20.7428,221,102,23,2023-04-12,Riverine,Urban,0,57.314
+SYN-00402,Synthetic Urban Infrastructure Project 00402,Urban Infrastructure,NHIDCL,Maharashtra,MAH-06,NORMAL,6.0265,5.09,35,13,4,2024-04-14,Rolling,Semi-Urban,0,12.954
+SYN-00403,Synthetic National Highway Project 00403,National Highway,NHAI,Assam,ASS-32,COMPENSATION_DELAY,25.9162,17.6079,181,77,19,2023-07-01,Coastal,Rural,0,62.469
+SYN-00404,Synthetic Urban Infrastructure Project 00404,Urban Infrastructure,NHIDCL,Jharkhand,JHA-36,NORMAL,23.0925,14.65,274,138,26,2022-04-27,Rolling,Semi-Urban,0,41.61
+SYN-00405,Synthetic Urban Infrastructure Project 00405,Urban Infrastructure,State PWD,Uttar Pradesh,UTT-03,RNR_DELAY,53.9105,43.4108,777,325,23,2022-10-20,Hilly,Rural,0,44.335
+SYN-00406,Synthetic Railway Project 00406,Railway,State PWD,Odisha,ODI-38,DOCUMENTATION_DELAY,42.0025,37.0034,371,261,68,2024-05-24,Riverine,Semi-Urban,0,42.909
+SYN-00407,Synthetic Transmission Project 00407,Transmission,NHIDCL,Assam,ASS-19,ADMINISTRATIVE_BOTTLENECK,6.236,3.8722,38,19,2,2019-05-11,Rolling,Semi-Urban,0,15.174
+SYN-00408,Synthetic Urban Infrastructure Project 00408,Urban Infrastructure,Railway,Madhya Pradesh,MAD-20,NORMAL,73.9764,61.3289,558,258,44,2022-05-03,Rolling,Urban,0,39.081
+SYN-00409,Synthetic Irrigation Project 00409,Irrigation,NHIDCL,Jharkhand,JHA-03,DOCUMENTATION_DELAY,17.6164,12.5477,314,204,54,2019-09-14,Plain,Rural,0,4.193
+SYN-00410,Synthetic Irrigation Project 00410,Irrigation,Power Utility,Maharashtra,MAH-22,RNR_DELAY,7.549,4.7942,39,18,2,2019-02-15,Rolling,Semi-Urban,0,58.571
+SYN-00411,Synthetic Railway Project 00411,Railway,NHAI,Jharkhand,JHA-22,NORMAL,9.4117,6.3862,143,91,9,2024-01-10,Rolling,Semi-Urban,0,4.776
+SYN-00412,Synthetic Railway Project 00412,Railway,Railway,Maharashtra,MAH-19,COMPENSATION_DELAY,14.9153,10.2338,203,83,8,2025-07-29,Riverine,Rural,0,59.597
+SYN-00413,Synthetic Industrial Corridor Project 00413,Industrial Corridor,Power Utility,Jharkhand,JHA-24,LEGAL_DELAY,65.8315,43.3378,816,250,35,2021-11-14,Riverine,Rural,0,47.627
+SYN-00414,Synthetic National Highway Project 00414,National Highway,NHAI,West Bengal,WES-08,NORMAL,40.8181,30.2513,734,179,25,2021-12-13,Hilly,Rural,0,22.093
+SYN-00415,Synthetic Transmission Project 00415,Transmission,Irrigation Department,Assam,ASS-17,RNR_DELAY,15.0583,11.4967,182,89,5,2022-03-21,Rolling,Urban,0,26.527
+SYN-00416,Synthetic Industrial Corridor Project 00416,Industrial Corridor,NHIDCL,Bihar,BIH-25,RNR_DELAY,13.5672,10.3511,163,33,7,2019-06-22,Hilly,Urban,0,25.872
+SYN-00417,Synthetic National Highway Project 00417,National Highway,Power Utility,Odisha,ODI-10,COMPENSATION_DELAY,58.9612,38.4312,1173,539,60,2019-12-20,Rolling,Rural,1,11.276
+SYN-00418,Synthetic Transmission Project 00418,Transmission,NHAI,Odisha,ODI-30,NORMAL,5.6944,5.4075,106,50,11,2020-11-13,Plain,Rural,0,36.312
+SYN-00419,Synthetic Railway Project 00419,Railway,State PWD,Jharkhand,JHA-15,MULTI_FACTOR_DELAY,74.4361,58.2997,479,296,64,2024-12-16,Rolling,Rural,0,71.338
+SYN-00420,Synthetic Railway Project 00420,Railway,NHIDCL,Madhya Pradesh,MAD-17,NORMAL,9.3899,8.2877,85,66,17,2023-06-20,Riverine,Rural,0,58.11
+SYN-00421,Synthetic Transmission Project 00421,Transmission,Railway,Jharkhand,JHA-25,ADMINISTRATIVE_BOTTLENECK,32.5512,22.2528,329,168,21,2025-04-16,Coastal,Semi-Urban,0,65.634
+SYN-00422,Synthetic Urban Infrastructure Project 00422,Urban Infrastructure,Railway,Uttar Pradesh,UTT-20,NORMAL,120.059,90.8628,1598,886,123,2019-06-23,Hilly,Semi-Urban,0,62.784
+SYN-00423,Synthetic National Highway Project 00423,National Highway,NHAI,West Bengal,WES-15,MULTI_FACTOR_DELAY,49.8746,34.8432,317,101,24,2023-08-01,Coastal,Semi-Urban,0,34.229
+SYN-00424,Synthetic Irrigation Project 00424,Irrigation,Railway,West Bengal,WES-15,NORMAL,10.5834,6.3836,106,41,8,2022-07-21,Coastal,Rural,1,1.808
+SYN-00425,Synthetic Railway Project 00425,Railway,Irrigation Department,Uttar Pradesh,UTT-33,NORMAL,25.7205,23.0934,428,118,11,2023-04-18,Rolling,Urban,0,51.432
+SYN-00426,Synthetic Railway Project 00426,Railway,NHAI,West Bengal,WES-18,NORMAL,12.3096,7.5772,127,85,18,2025-03-10,Rolling,Urban,0,18.787
+SYN-00427,Synthetic Irrigation Project 00427,Irrigation,Railway,Jharkhand,JHA-21,COMPENSATION_DELAY,29.018,22.8969,371,149,44,2025-02-03,Hilly,Urban,0,17.419
+SYN-00428,Synthetic Urban Infrastructure Project 00428,Urban Infrastructure,State PWD,Bihar,BIH-37,NORMAL,29.8383,26.5083,367,163,24,2022-11-18,Coastal,Urban,0,79.189
+SYN-00429,Synthetic Industrial Corridor Project 00429,Industrial Corridor,Irrigation Department,Maharashtra,MAH-07,ADMINISTRATIVE_BOTTLENECK,16.6889,10.3558,100,68,5,2023-11-14,Plain,Rural,1,21.956
+SYN-00430,Synthetic Transmission Project 00430,Transmission,Railway,Bihar,BIH-29,RECOVERY,16.2192,15.4839,193,95,18,2024-10-12,Rolling,Rural,0,48.67
+SYN-00431,Synthetic National Highway Project 00431,National Highway,NHAI,Maharashtra,MAH-07,NORMAL,111.8118,104.9324,779,253,72,2022-08-18,Hilly,Rural,0,3.828
+SYN-00432,Synthetic National Highway Project 00432,National Highway,NHAI,Assam,ASS-22,LEGAL_DELAY,5.0,3.7497,92,55,5,2025-08-01,Coastal,Urban,0,42.024
+SYN-00433,Synthetic Irrigation Project 00433,Irrigation,State PWD,Bihar,BIH-39,ADMINISTRATIVE_BOTTLENECK,8.6998,8.4151,139,104,9,2022-05-26,Hilly,Rural,1,34.623
+SYN-00434,Synthetic Industrial Corridor Project 00434,Industrial Corridor,NHAI,West Bengal,WES-38,COMPENSATION_DELAY,31.8551,26.7364,169,74,19,2025-11-29,Plain,Rural,0,37.882
+SYN-00435,Synthetic Urban Infrastructure Project 00435,Urban Infrastructure,NHAI,Madhya Pradesh,MAD-14,ADMINISTRATIVE_BOTTLENECK,20.4503,13.99,199,145,26,2022-07-15,Hilly,Rural,0,11.535
+SYN-00436,Synthetic National Highway Project 00436,National Highway,Railway,Maharashtra,MAH-29,NORMAL,13.7897,12.4787,241,56,5,2021-12-05,Rolling,Rural,0,78.398
+SYN-00437,Synthetic Railway Project 00437,Railway,Power Utility,Uttar Pradesh,UTT-09,NORMAL,45.5898,30.7846,695,365,19,2024-03-05,Plain,Rural,0,20.138
+SYN-00438,Synthetic Industrial Corridor Project 00438,Industrial Corridor,Railway,Madhya Pradesh,MAD-12,ADMINISTRATIVE_BOTTLENECK,25.1522,15.8834,367,239,31,2024-07-25,Plain,Semi-Urban,0,32.358
+SYN-00439,Synthetic Industrial Corridor Project 00439,Industrial Corridor,State PWD,Bihar,BIH-17,LEGAL_DELAY,13.6587,11.8213,119,26,4,2022-07-21,Riverine,Urban,0,76.617
+SYN-00440,Synthetic Urban Infrastructure Project 00440,Urban Infrastructure,Power Utility,Assam,ASS-18,NORMAL,11.7779,9.9555,137,98,5,2023-08-29,Riverine,Urban,0,29.678
+SYN-00441,Synthetic Transmission Project 00441,Transmission,Power Utility,Maharashtra,MAH-24,NORMAL,16.5593,16.53,123,62,15,2020-07-23,Riverine,Semi-Urban,0,7.102
+SYN-00442,Synthetic Industrial Corridor Project 00442,Industrial Corridor,Irrigation Department,Assam,ASS-29,MULTI_FACTOR_DELAY,28.8159,18.9885,238,51,7,2019-04-03,Plain,Urban,0,8.166
+SYN-00443,Synthetic National Highway Project 00443,National Highway,Irrigation Department,Madhya Pradesh,MAD-21,COMPENSATION_DELAY,40.2486,30.6201,481,316,84,2020-05-07,Hilly,Urban,0,17.257
+SYN-00444,Synthetic Industrial Corridor Project 00444,Industrial Corridor,Irrigation Department,Jharkhand,JHA-05,RNR_DELAY,6.7783,4.8332,37,27,6,2022-03-01,Rolling,Semi-Urban,0,18.64
+SYN-00445,Synthetic Urban Infrastructure Project 00445,Urban Infrastructure,Power Utility,Odisha,ODI-32,MULTI_FACTOR_DELAY,40.0798,34.0208,255,60,12,2022-08-04,Riverine,Urban,1,75.259
+SYN-00446,Synthetic Irrigation Project 00446,Irrigation,State PWD,Madhya Pradesh,MAD-08,RNR_DELAY,80.4548,65.0799,1040,351,24,2021-11-01,Coastal,Rural,0,59.193
+SYN-00447,Synthetic Irrigation Project 00447,Irrigation,NHIDCL,Maharashtra,MAH-21,NORMAL,10.812,9.285,80,60,10,2025-10-01,Plain,Rural,0,22.722
+SYN-00448,Synthetic Urban Infrastructure Project 00448,Urban Infrastructure,NHIDCL,Jharkhand,JHA-22,NORMAL,9.8621,6.4159,68,40,11,2022-10-05,Plain,Semi-Urban,0,40.856
+SYN-00449,Synthetic Industrial Corridor Project 00449,Industrial Corridor,Irrigation Department,Odisha,ODI-16,NORMAL,22.6934,15.4052,411,122,15,2023-05-22,Hilly,Semi-Urban,0,66.79
+SYN-00450,Synthetic Industrial Corridor Project 00450,Industrial Corridor,State PWD,Odisha,ODI-20,NORMAL,10.3063,9.1096,60,45,5,2023-06-05,Coastal,Rural,0,3.148
+SYN-00451,Synthetic Railway Project 00451,Railway,NHIDCL,Odisha,ODI-13,DOCUMENTATION_DELAY,67.0213,60.3358,580,238,24,2019-10-09,Hilly,Rural,1,42.535
+SYN-00452,Synthetic Industrial Corridor Project 00452,Industrial Corridor,Power Utility,Odisha,ODI-37,LEGAL_DELAY,26.3314,23.5429,430,117,35,2020-06-02,Riverine,Rural,0,25.738
+SYN-00453,Synthetic Irrigation Project 00453,Irrigation,NHIDCL,Bihar,BIH-14,MULTI_FACTOR_DELAY,26.8403,16.619,156,32,4,2025-04-14,Coastal,Semi-Urban,0,24.872
+SYN-00454,Synthetic Industrial Corridor Project 00454,Industrial Corridor,Power Utility,Bihar,BIH-21,RECOVERY,23.567,14.8616,119,35,4,2019-08-14,Plain,Rural,0,29.547
+SYN-00455,Synthetic Transmission Project 00455,Transmission,NHAI,Assam,ASS-34,NORMAL,25.4753,15.5471,276,78,5,2023-12-10,Coastal,Urban,0,60.954
+SYN-00456,Synthetic Irrigation Project 00456,Irrigation,NHIDCL,Madhya Pradesh,MAD-03,NORMAL,19.2003,12.8349,258,130,35,2022-01-19,Rolling,Semi-Urban,0,35.85
+SYN-00457,Synthetic Railway Project 00457,Railway,State PWD,Jharkhand,JHA-33,COMPENSATION_DELAY,33.9467,22.5326,620,270,61,2022-12-24,Coastal,Rural,0,60.691
+SYN-00458,Synthetic Urban Infrastructure Project 00458,Urban Infrastructure,State PWD,Odisha,ODI-29,DOCUMENTATION_DELAY,58.1779,51.483,1041,237,47,2024-02-05,Coastal,Semi-Urban,0,51.069
+SYN-00459,Synthetic Transmission Project 00459,Transmission,NHAI,Uttar Pradesh,UTT-19,MULTI_FACTOR_DELAY,34.0319,21.0117,500,122,30,2019-11-24,Plain,Semi-Urban,0,30.456
+SYN-00460,Synthetic Railway Project 00460,Railway,Irrigation Department,Jharkhand,JHA-28,NORMAL,13.2762,11.1242,132,36,6,2020-06-03,Coastal,Rural,1,41.506
+SYN-00461,Synthetic Railway Project 00461,Railway,Irrigation Department,Odisha,ODI-24,DOCUMENTATION_DELAY,23.1748,20.9489,452,277,77,2023-07-15,Riverine,Rural,0,10.228
+SYN-00462,Synthetic National Highway Project 00462,National Highway,Irrigation Department,Madhya Pradesh,MAD-04,COMPENSATION_DELAY,26.0817,25.9486,458,361,71,2019-08-19,Plain,Rural,1,16.861
+SYN-00463,Synthetic National Highway Project 00463,National Highway,Irrigation Department,Assam,ASS-24,NORMAL,10.3829,7.7149,192,126,32,2025-01-17,Rolling,Rural,0,19.643
+SYN-00464,Synthetic Transmission Project 00464,Transmission,NHAI,Assam,ASS-32,LEGAL_DELAY,37.9639,26.8918,266,107,22,2025-02-08,Riverine,Urban,0,27.14
+SYN-00465,Synthetic Irrigation Project 00465,Irrigation,Irrigation Department,West Bengal,WES-38,LEGAL_DELAY,21.0499,13.6245,266,69,16,2019-04-01,Coastal,Rural,0,6.004
+SYN-00466,Synthetic Irrigation Project 00466,Irrigation,NHAI,Odisha,ODI-31,NORMAL,82.5604,67.5577,1248,728,67,2019-03-10,Rolling,Rural,0,14.11
+SYN-00467,Synthetic Urban Infrastructure Project 00467,Urban Infrastructure,NHAI,Jharkhand,JHA-08,DOCUMENTATION_DELAY,6.3743,6.0773,70,55,5,2020-02-20,Hilly,Rural,0,2.434
+SYN-00468,Synthetic Railway Project 00468,Railway,State PWD,Assam,ASS-15,COMPENSATION_DELAY,20.1866,14.575,140,105,25,2019-06-09,Riverine,Rural,0,18.321
+SYN-00469,Synthetic Industrial Corridor Project 00469,Industrial Corridor,NHIDCL,Maharashtra,MAH-39,NORMAL,15.5223,12.4694,285,103,30,2023-10-23,Rolling,Rural,0,32.093
+SYN-00470,Synthetic Transmission Project 00470,Transmission,Power Utility,Bihar,BIH-15,LEGAL_DELAY,29.1354,27.7368,298,181,14,2019-05-12,Plain,Rural,0,65.48
+SYN-00471,Synthetic Transmission Project 00471,Transmission,NHIDCL,Assam,ASS-01,NORMAL,10.8052,9.1619,71,47,12,2024-09-24,Riverine,Semi-Urban,0,41.0
+SYN-00472,Synthetic Industrial Corridor Project 00472,Industrial Corridor,NHIDCL,Assam,ASS-21,ADMINISTRATIVE_BOTTLENECK,50.0839,38.1079,999,490,94,2020-03-19,Riverine,Urban,0,47.435
+SYN-00473,Synthetic Railway Project 00473,Railway,Power Utility,Madhya Pradesh,MAD-37,NORMAL,51.0268,38.3543,450,142,14,2023-11-24,Plain,Semi-Urban,0,16.204
+SYN-00474,Synthetic Irrigation Project 00474,Irrigation,NHIDCL,Assam,ASS-33,NORMAL,12.9084,11.3548,242,77,4,2019-02-19,Plain,Rural,0,7.983
+SYN-00475,Synthetic National Highway Project 00475,National Highway,Railway,Uttar Pradesh,UTT-05,RNR_DELAY,30.7626,28.5876,569,362,30,2021-04-28,Hilly,Rural,0,15.234
+SYN-00476,Synthetic Transmission Project 00476,Transmission,Irrigation Department,Maharashtra,MAH-27,NORMAL,14.9935,11.504,274,95,14,2021-03-22,Hilly,Rural,0,29.136
+SYN-00477,Synthetic Industrial Corridor Project 00477,Industrial Corridor,NHAI,Jharkhand,JHA-24,NORMAL,15.0164,9.9833,129,33,9,2024-10-21,Plain,Rural,1,62.035
+SYN-00478,Synthetic Transmission Project 00478,Transmission,NHIDCL,Jharkhand,JHA-07,NORMAL,46.186,39.5675,830,378,51,2022-03-22,Plain,Rural,1,57.18
+SYN-00479,Synthetic Railway Project 00479,Railway,State PWD,Uttar Pradesh,UTT-25,COMPENSATION_DELAY,47.0026,39.5028,592,299,44,2020-09-19,Coastal,Semi-Urban,0,9.358
+SYN-00480,Synthetic National Highway Project 00480,National Highway,Power Utility,West Bengal,WES-15,LEGAL_DELAY,5.0,4.755,53,30,5,2019-09-04,Coastal,Semi-Urban,0,77.003
+SYN-00481,Synthetic Industrial Corridor Project 00481,Industrial Corridor,NHIDCL,Bihar,BIH-37,RECOVERY,36.9041,30.465,325,248,15,2022-01-01,Hilly,Rural,0,3.214
+SYN-00482,Synthetic Railway Project 00482,Railway,NHAI,West Bengal,WES-17,NORMAL,8.6986,7.5681,156,68,12,2019-06-24,Riverine,Urban,0,53.24
+SYN-00483,Synthetic Industrial Corridor Project 00483,Industrial Corridor,Power Utility,Assam,ASS-28,NORMAL,21.5481,19.1852,324,132,19,2021-03-17,Coastal,Rural,1,52.691
+SYN-00484,Synthetic Irrigation Project 00484,Irrigation,Railway,Bihar,BIH-25,MULTI_FACTOR_DELAY,26.2392,20.7961,287,118,14,2021-08-09,Hilly,Rural,0,20.51
+SYN-00485,Synthetic Transmission Project 00485,Transmission,Power Utility,Madhya Pradesh,MAD-02,ADMINISTRATIVE_BOTTLENECK,12.3926,7.5879,183,143,22,2019-12-05,Hilly,Urban,0,79.188
+SYN-00486,Synthetic Industrial Corridor Project 00486,Industrial Corridor,NHIDCL,Assam,ASS-19,COMPENSATION_DELAY,89.9966,68.4674,1562,805,156,2024-10-19,Riverine,Rural,0,58.579
+SYN-00487,Synthetic National Highway Project 00487,National Highway,State PWD,Odisha,ODI-10,MULTI_FACTOR_DELAY,27.3864,22.5857,362,153,41,2022-03-31,Hilly,Semi-Urban,1,6.565
+SYN-00488,Synthetic Industrial Corridor Project 00488,Industrial Corridor,State PWD,West Bengal,WES-17,LEGAL_DELAY,46.9523,42.1243,688,194,19,2021-07-29,Hilly,Urban,0,60.043
+SYN-00489,Synthetic National Highway Project 00489,National Highway,Railway,West Bengal,WES-16,LEGAL_DELAY,5.0,4.6387,48,36,10,2025-06-19,Hilly,Semi-Urban,0,36.083
+SYN-00490,Synthetic Industrial Corridor Project 00490,Industrial Corridor,NHIDCL,Odisha,ODI-22,DOCUMENTATION_DELAY,129.3812,105.5791,1490,732,97,2019-03-24,Riverine,Semi-Urban,0,31.737
+SYN-00491,Synthetic National Highway Project 00491,National Highway,State PWD,Odisha,ODI-03,NORMAL,9.553,7.6732,150,35,9,2022-07-25,Coastal,Rural,0,28.023
+SYN-00492,Synthetic Industrial Corridor Project 00492,Industrial Corridor,Railway,Madhya Pradesh,MAD-39,NORMAL,53.0013,48.609,336,239,49,2023-12-20,Coastal,Rural,0,18.192
+SYN-00493,Synthetic Transmission Project 00493,Transmission,Railway,Bihar,BIH-09,MULTI_FACTOR_DELAY,43.9259,27.0598,260,104,16,2019-07-30,Coastal,Rural,0,52.86
+SYN-00494,Synthetic Railway Project 00494,Railway,Power Utility,Madhya Pradesh,MAD-39,MULTI_FACTOR_DELAY,12.6628,11.2852,216,91,13,2023-01-24,Rolling,Semi-Urban,1,55.37
+SYN-00495,Synthetic Industrial Corridor Project 00495,Industrial Corridor,State PWD,Assam,ASS-37,NORMAL,10.5966,9.1772,154,61,12,2021-10-27,Plain,Rural,0,57.09
+SYN-00496,Synthetic Irrigation Project 00496,Irrigation,State PWD,Odisha,ODI-08,NORMAL,41.0674,39.615,644,220,21,2024-04-02,Plain,Semi-Urban,0,27.186
+SYN-00497,Synthetic Irrigation Project 00497,Irrigation,NHIDCL,Uttar Pradesh,UTT-38,NORMAL,8.0951,5.5228,50,13,2,2022-07-14,Riverine,Urban,0,39.442
+SYN-00498,Synthetic Transmission Project 00498,Transmission,NHIDCL,Maharashtra,MAH-23,DOCUMENTATION_DELAY,9.0771,8.5557,48,16,4,2020-10-17,Riverine,Semi-Urban,1,70.4
+SYN-00499,Synthetic Transmission Project 00499,Transmission,Power Utility,Maharashtra,MAH-25,NORMAL,86.4735,66.097,1653,557,90,2022-05-18,Plain,Urban,0,54.327
+SYN-00500,Synthetic Industrial Corridor Project 00500,Industrial Corridor,NHIDCL,Bihar,BIH-33,NORMAL,15.4016,13.1307,159,70,20,2019-07-02,Coastal,Rural,0,63.156
+SYN-00501,Synthetic Irrigation Project 00501,Irrigation,NHIDCL,Odisha,ODI-08,RECOVERY,14.8598,9.2348,252,102,25,2024-08-21,Hilly,Semi-Urban,0,6.491
+SYN-00502,Synthetic Irrigation Project 00502,Irrigation,State PWD,Odisha,ODI-15,NORMAL,23.9463,19.5195,465,288,46,2022-11-16,Plain,Rural,0,41.939
+SYN-00503,Synthetic Transmission Project 00503,Transmission,State PWD,Jharkhand,JHA-02,NORMAL,13.1743,9.9932,238,157,10,2025-06-11,Rolling,Semi-Urban,0,71.014
+SYN-00504,Synthetic National Highway Project 00504,National Highway,Railway,Uttar Pradesh,UTT-28,MULTI_FACTOR_DELAY,27.6747,25.9876,215,89,10,2025-02-05,Rolling,Rural,0,10.839
+SYN-00505,Synthetic Transmission Project 00505,Transmission,Power Utility,Odisha,ODI-37,NORMAL,20.1094,14.6987,343,226,64,2019-03-17,Hilly,Semi-Urban,0,26.219
+SYN-00506,Synthetic Transmission Project 00506,Transmission,Railway,Bihar,BIH-01,NORMAL,26.671,21.072,408,172,9,2022-11-09,Hilly,Rural,0,66.792
+SYN-00507,Synthetic Railway Project 00507,Railway,Power Utility,Madhya Pradesh,MAD-26,ADMINISTRATIVE_BOTTLENECK,15.8893,10.7003,306,149,31,2021-05-19,Riverine,Rural,0,17.508
+SYN-00508,Synthetic National Highway Project 00508,National Highway,Power Utility,Madhya Pradesh,MAD-21,NORMAL,38.2245,27.5807,628,326,92,2020-08-14,Plain,Rural,0,68.984
+SYN-00509,Synthetic Transmission Project 00509,Transmission,Railway,Madhya Pradesh,MAD-34,NORMAL,16.7048,12.721,163,67,11,2021-08-08,Hilly,Rural,0,65.815
+SYN-00510,Synthetic Urban Infrastructure Project 00510,Urban Infrastructure,NHAI,West Bengal,WES-10,NORMAL,5.0,4.8046,41,28,5,2021-09-27,Rolling,Rural,0,18.663
+SYN-00511,Synthetic National Highway Project 00511,National Highway,State PWD,Madhya Pradesh,MAD-17,LEGAL_DELAY,31.9021,22.2028,326,144,27,2022-10-18,Plain,Urban,0,6.198
+SYN-00512,Synthetic Urban Infrastructure Project 00512,Urban Infrastructure,Irrigation Department,Maharashtra,MAH-02,ADMINISTRATIVE_BOTTLENECK,15.1416,12.5232,220,52,6,2023-12-26,Rolling,Rural,0,68.909
+SYN-00513,Synthetic Urban Infrastructure Project 00513,Urban Infrastructure,Power Utility,Bihar,BIH-02,ADMINISTRATIVE_BOTTLENECK,6.6892,6.21,64,46,4,2024-02-28,Hilly,Urban,0,5.738
+SYN-00514,Synthetic Irrigation Project 00514,Irrigation,NHIDCL,Uttar Pradesh,UTT-33,NORMAL,51.9102,45.706,443,289,53,2021-10-31,Coastal,Rural,0,63.37
+SYN-00515,Synthetic Transmission Project 00515,Transmission,Power Utility,Maharashtra,MAH-37,ADMINISTRATIVE_BOTTLENECK,15.0383,11.1792,232,97,15,2019-10-06,Hilly,Urban,0,40.348
+SYN-00516,Synthetic Railway Project 00516,Railway,Irrigation Department,Uttar Pradesh,UTT-22,ADMINISTRATIVE_BOTTLENECK,5.0,3.4985,94,32,8,2022-02-12,Coastal,Semi-Urban,0,20.126
+SYN-00517,Synthetic Urban Infrastructure Project 00517,Urban Infrastructure,NHAI,Assam,ASS-32,LEGAL_DELAY,40.0854,37.8726,550,261,67,2020-01-22,Rolling,Rural,0,41.46
+SYN-00518,Synthetic Urban Infrastructure Project 00518,Urban Infrastructure,NHIDCL,Uttar Pradesh,UTT-16,MULTI_FACTOR_DELAY,19.6142,18.7566,304,166,33,2024-05-11,Riverine,Semi-Urban,0,39.008
+SYN-00519,Synthetic Transmission Project 00519,Transmission,Irrigation Department,Uttar Pradesh,UTT-14,NORMAL,10.4424,9.8035,131,48,11,2019-05-15,Plain,Urban,0,66.688
+SYN-00520,Synthetic Railway Project 00520,Railway,NHAI,West Bengal,WES-01,NORMAL,79.679,55.0734,1559,676,126,2025-06-13,Hilly,Rural,1,17.435
+SYN-00521,Synthetic Railway Project 00521,Railway,Railway,Jharkhand,JHA-12,NORMAL,29.6203,25.2164,215,81,21,2020-09-25,Coastal,Semi-Urban,1,24.3
+SYN-00522,Synthetic National Highway Project 00522,National Highway,Power Utility,Bihar,BIH-31,MULTI_FACTOR_DELAY,54.932,47.3418,722,244,28,2025-06-26,Hilly,Urban,0,0.866
+SYN-00523,Synthetic Transmission Project 00523,Transmission,Power Utility,Maharashtra,MAH-31,LEGAL_DELAY,25.9178,23.0907,170,73,18,2021-07-13,Rolling,Urban,0,63.756
+SYN-00524,Synthetic National Highway Project 00524,National Highway,Irrigation Department,Assam,ASS-11,NORMAL,8.9126,8.7627,102,30,8,2021-09-17,Coastal,Semi-Urban,0,29.051
+SYN-00525,Synthetic Urban Infrastructure Project 00525,Urban Infrastructure,NHAI,Madhya Pradesh,MAD-35,RNR_DELAY,17.8296,12.4339,218,144,33,2019-05-22,Rolling,Rural,0,32.258
+SYN-00526,Synthetic Industrial Corridor Project 00526,Industrial Corridor,Railway,Assam,ASS-28,COMPENSATION_DELAY,45.1045,37.6845,720,492,38,2022-07-02,Rolling,Urban,0,52.33
+SYN-00527,Synthetic Industrial Corridor Project 00527,Industrial Corridor,Irrigation Department,Maharashtra,MAH-07,NORMAL,16.9862,10.5393,230,138,19,2020-10-03,Hilly,Urban,0,34.968
+SYN-00528,Synthetic Irrigation Project 00528,Irrigation,Railway,Jharkhand,JHA-37,NORMAL,20.757,12.6984,156,101,28,2020-11-03,Rolling,Rural,0,19.604
+SYN-00529,Synthetic Railway Project 00529,Railway,Power Utility,Bihar,BIH-19,DOCUMENTATION_DELAY,25.7815,23.4342,132,62,18,2023-03-28,Coastal,Rural,1,7.105
+SYN-00530,Synthetic Urban Infrastructure Project 00530,Urban Infrastructure,Railway,Jharkhand,JHA-31,ADMINISTRATIVE_BOTTLENECK,34.4377,25.6572,390,238,16,2023-06-02,Hilly,Urban,0,36.798
+SYN-00531,Synthetic National Highway Project 00531,National Highway,Power Utility,Maharashtra,MAH-20,RNR_DELAY,12.5503,10.8441,141,86,12,2020-01-03,Riverine,Rural,0,49.446
+SYN-00532,Synthetic Railway Project 00532,Railway,State PWD,Bihar,BIH-35,NORMAL,28.3205,18.9001,448,194,35,2022-11-18,Coastal,Rural,0,7.356
+SYN-00533,Synthetic Transmission Project 00533,Transmission,Power Utility,West Bengal,WES-14,LEGAL_DELAY,58.5736,42.6414,405,260,26,2022-07-25,Coastal,Rural,0,8.107
+SYN-00534,Synthetic Irrigation Project 00534,Irrigation,NHIDCL,Uttar Pradesh,UTT-17,ADMINISTRATIVE_BOTTLENECK,107.2875,85.6625,2129,1674,256,2024-02-01,Coastal,Urban,0,7.938
+SYN-00535,Synthetic Urban Infrastructure Project 00535,Urban Infrastructure,State PWD,Madhya Pradesh,MAD-33,ADMINISTRATIVE_BOTTLENECK,33.8917,32.1966,331,80,21,2020-02-05,Rolling,Urban,0,18.952
+SYN-00536,Synthetic Irrigation Project 00536,Irrigation,State PWD,West Bengal,WES-23,NORMAL,64.5314,48.1643,631,173,47,2024-02-17,Hilly,Urban,0,60.876
+SYN-00537,Synthetic Irrigation Project 00537,Irrigation,NHIDCL,Bihar,BIH-01,LEGAL_DELAY,25.8866,16.2436,142,90,8,2023-09-06,Coastal,Rural,1,60.248
+SYN-00538,Synthetic Railway Project 00538,Railway,NHAI,Madhya Pradesh,MAD-35,ADMINISTRATIVE_BOTTLENECK,10.6706,9.9897,160,46,4,2020-07-14,Riverine,Rural,0,4.747
+SYN-00539,Synthetic Industrial Corridor Project 00539,Industrial Corridor,NHAI,Bihar,BIH-06,COMPENSATION_DELAY,7.1114,4.436,94,29,4,2021-12-12,Coastal,Urban,0,1.478
+SYN-00540,Synthetic Industrial Corridor Project 00540,Industrial Corridor,Power Utility,Bihar,BIH-21,NORMAL,68.9132,66.7455,1288,909,184,2019-08-29,Rolling,Rural,0,67.573
+SYN-00541,Synthetic Irrigation Project 00541,Irrigation,NHIDCL,Jharkhand,JHA-31,NORMAL,43.1354,41.4429,255,93,18,2019-04-24,Coastal,Urban,0,15.613
+SYN-00542,Synthetic National Highway Project 00542,National Highway,Power Utility,Assam,ASS-13,LEGAL_DELAY,30.7216,19.7294,573,130,17,2019-03-23,Plain,Urban,0,79.101
+SYN-00543,Synthetic Urban Infrastructure Project 00543,Urban Infrastructure,NHIDCL,Assam,ASS-31,NORMAL,143.7292,140.3363,1540,412,72,2022-12-13,Coastal,Rural,0,11.021
+SYN-00544,Synthetic Irrigation Project 00544,Irrigation,Power Utility,Bihar,BIH-26,NORMAL,18.075,11.1442,274,66,8,2021-09-27,Coastal,Rural,0,41.331
+SYN-00545,Synthetic Railway Project 00545,Railway,NHAI,Assam,ASS-13,RNR_DELAY,71.864,67.1192,1313,329,85,2024-07-18,Rolling,Urban,0,46.298
+SYN-00546,Synthetic Transmission Project 00546,Transmission,State PWD,Jharkhand,JHA-27,NORMAL,21.7937,14.6107,318,191,56,2019-04-19,Rolling,Rural,0,19.613
+SYN-00547,Synthetic Urban Infrastructure Project 00547,Urban Infrastructure,Railway,West Bengal,WES-26,NORMAL,39.6571,27.2255,368,127,30,2024-10-11,Hilly,Rural,0,65.466
+SYN-00548,Synthetic National Highway Project 00548,National Highway,Power Utility,West Bengal,WES-37,NORMAL,32.4562,22.7892,608,292,86,2020-08-23,Hilly,Rural,1,30.798
+SYN-00549,Synthetic Transmission Project 00549,Transmission,Railway,Assam,ASS-27,RECOVERY,54.0789,34.5777,488,343,34,2022-08-13,Rolling,Semi-Urban,0,67.638
+SYN-00550,Synthetic Railway Project 00550,Railway,NHAI,Maharashtra,MAH-35,NORMAL,10.8315,7.4697,115,41,11,2019-04-06,Rolling,Urban,0,41.517
+SYN-00551,Synthetic Irrigation Project 00551,Irrigation,Power Utility,Odisha,ODI-29,NORMAL,56.8046,56.4225,972,520,33,2023-08-12,Rolling,Semi-Urban,0,6.378
+SYN-00552,Synthetic National Highway Project 00552,National Highway,Railway,Uttar Pradesh,UTT-32,RECOVERY,6.1125,5.2641,106,49,12,2024-01-15,Coastal,Semi-Urban,0,43.545
+SYN-00553,Synthetic Transmission Project 00553,Transmission,NHIDCL,Jharkhand,JHA-34,ADMINISTRATIVE_BOTTLENECK,19.1084,18.5661,363,112,26,2025-09-08,Riverine,Semi-Urban,0,28.03
+SYN-00554,Synthetic Transmission Project 00554,Transmission,NHIDCL,Assam,ASS-32,NORMAL,113.5848,84.9926,1592,434,29,2022-06-26,Hilly,Rural,0,40.401
+SYN-00555,Synthetic Railway Project 00555,Railway,Railway,Maharashtra,MAH-36,MULTI_FACTOR_DELAY,16.4698,13.4052,234,155,22,2021-05-17,Coastal,Rural,0,33.924
+SYN-00556,Synthetic National Highway Project 00556,National Highway,Railway,Assam,ASS-27,NORMAL,24.2346,17.3773,399,190,29,2024-04-07,Plain,Rural,0,71.281
+SYN-00557,Synthetic Irrigation Project 00557,Irrigation,Irrigation Department,Uttar Pradesh,UTT-10,DOCUMENTATION_DELAY,9.2383,8.9322,182,145,31,2025-05-21,Coastal,Rural,0,25.659
+SYN-00558,Synthetic Urban Infrastructure Project 00558,Urban Infrastructure,Railway,Madhya Pradesh,MAD-30,LEGAL_DELAY,35.9301,28.1982,287,72,8,2025-11-03,Coastal,Semi-Urban,0,17.532
+SYN-00559,Synthetic Railway Project 00559,Railway,State PWD,West Bengal,WES-14,NORMAL,33.756,29.9374,300,201,15,2023-08-07,Rolling,Semi-Urban,0,8.034
+SYN-00560,Synthetic Urban Infrastructure Project 00560,Urban Infrastructure,NHIDCL,Odisha,ODI-03,LEGAL_DELAY,48.234,35.0026,753,408,84,2020-09-19,Hilly,Semi-Urban,0,22.627
+SYN-00561,Synthetic Railway Project 00561,Railway,Irrigation Department,Bihar,BIH-20,NORMAL,82.3552,53.8343,498,199,54,2023-01-27,Riverine,Rural,0,57.083
+SYN-00562,Synthetic Irrigation Project 00562,Irrigation,Irrigation Department,Odisha,ODI-08,NORMAL,8.3694,6.2022,88,34,7,2022-04-30,Coastal,Semi-Urban,0,54.328
+SYN-00563,Synthetic Transmission Project 00563,Transmission,State PWD,Maharashtra,MAH-17,NORMAL,16.0701,9.9121,315,85,16,2019-08-29,Rolling,Rural,0,53.455
+SYN-00564,Synthetic Industrial Corridor Project 00564,Industrial Corridor,Irrigation Department,Maharashtra,MAH-35,NORMAL,26.3341,19.0971,413,187,26,2024-04-26,Rolling,Semi-Urban,0,56.483
+SYN-00565,Synthetic Urban Infrastructure Project 00565,Urban Infrastructure,State PWD,Bihar,BIH-24,NORMAL,20.1559,18.0181,372,225,41,2023-01-09,Plain,Semi-Urban,0,52.392
+SYN-00566,Synthetic Railway Project 00566,Railway,NHAI,Uttar Pradesh,UTT-36,NORMAL,50.9062,50.4831,446,276,32,2025-09-13,Plain,Urban,0,2.705
+SYN-00567,Synthetic National Highway Project 00567,National Highway,State PWD,Uttar Pradesh,UTT-39,NORMAL,41.4831,32.9356,298,77,7,2023-07-13,Plain,Urban,1,67.684
+SYN-00568,Synthetic National Highway Project 00568,National Highway,State PWD,Bihar,BIH-29,DOCUMENTATION_DELAY,18.0996,13.8411,142,56,11,2025-10-03,Rolling,Semi-Urban,0,70.804
+SYN-00569,Synthetic National Highway Project 00569,National Highway,Railway,Maharashtra,MAH-03,RNR_DELAY,5.0,3.4981,32,24,1,2021-09-26,Coastal,Urban,0,4.034
+SYN-00570,Synthetic Industrial Corridor Project 00570,Industrial Corridor,Power Utility,Madhya Pradesh,MAD-08,NORMAL,38.6157,31.6487,539,109,17,2022-04-20,Hilly,Rural,0,21.138
+SYN-00571,Synthetic Railway Project 00571,Railway,NHIDCL,Assam,ASS-23,MULTI_FACTOR_DELAY,5.0,4.7297,65,25,5,2019-06-23,Riverine,Urban,0,77.239
+SYN-00572,Synthetic Transmission Project 00572,Transmission,Power Utility,Maharashtra,MAH-39,NORMAL,5.0,3.2908,40,24,2,2019-08-04,Plain,Urban,0,22.065
+SYN-00573,Synthetic Transmission Project 00573,Transmission,Irrigation Department,Uttar Pradesh,UTT-33,ADMINISTRATIVE_BOTTLENECK,18.4801,13.0355,266,96,7,2024-12-10,Hilly,Semi-Urban,1,79.362
+SYN-00574,Synthetic Industrial Corridor Project 00574,Industrial Corridor,NHAI,Maharashtra,MAH-32,NORMAL,8.7931,8.0566,61,47,6,2020-03-11,Rolling,Rural,0,23.486
+SYN-00575,Synthetic National Highway Project 00575,National Highway,NHAI,West Bengal,WES-22,ADMINISTRATIVE_BOTTLENECK,5.0,3.135,34,16,1,2024-09-04,Plain,Semi-Urban,0,10.015
+SYN-00576,Synthetic Urban Infrastructure Project 00576,Urban Infrastructure,State PWD,Maharashtra,MAH-23,NORMAL,10.5091,6.7093,73,57,6,2023-06-09,Plain,Semi-Urban,0,24.99
+SYN-00577,Synthetic Irrigation Project 00577,Irrigation,Railway,Bihar,BIH-13,ADMINISTRATIVE_BOTTLENECK,27.7365,18.6037,263,161,29,2025-01-02,Riverine,Semi-Urban,0,55.241
+SYN-00578,Synthetic Irrigation Project 00578,Irrigation,Irrigation Department,Uttar Pradesh,UTT-01,ADMINISTRATIVE_BOTTLENECK,15.7153,11.6425,258,196,25,2020-08-20,Hilly,Rural,0,31.26
+SYN-00579,Synthetic Urban Infrastructure Project 00579,Urban Infrastructure,Railway,Bihar,BIH-17,NORMAL,31.9111,27.0015,252,72,13,2023-12-11,Hilly,Rural,0,32.848
+SYN-00580,Synthetic National Highway Project 00580,National Highway,Railway,Maharashtra,MAH-10,NORMAL,19.6191,15.064,188,111,15,2019-10-29,Hilly,Semi-Urban,0,40.661
+SYN-00581,Synthetic Transmission Project 00581,Transmission,Power Utility,Madhya Pradesh,MAD-12,MULTI_FACTOR_DELAY,19.7978,13.0321,383,217,14,2023-08-03,Hilly,Rural,0,44.444
+SYN-00582,Synthetic Transmission Project 00582,Transmission,NHAI,Madhya Pradesh,MAD-08,ADMINISTRATIVE_BOTTLENECK,63.8115,57.2733,612,321,73,2022-04-03,Plain,Semi-Urban,0,41.612
+SYN-00583,Synthetic Urban Infrastructure Project 00583,Urban Infrastructure,Irrigation Department,Assam,ASS-35,MULTI_FACTOR_DELAY,5.8909,3.9906,110,31,4,2022-11-04,Coastal,Semi-Urban,0,70.675
+SYN-00584,Synthetic Urban Infrastructure Project 00584,Urban Infrastructure,Power Utility,West Bengal,WES-37,MULTI_FACTOR_DELAY,23.7235,23.3035,444,323,75,2024-10-15,Coastal,Urban,1,4.929
+SYN-00585,Synthetic Irrigation Project 00585,Irrigation,State PWD,Madhya Pradesh,MAD-02,COMPENSATION_DELAY,13.4455,13.2196,265,199,55,2025-09-22,Plain,Rural,0,10.945
+SYN-00586,Synthetic National Highway Project 00586,National Highway,NHIDCL,Uttar Pradesh,UTT-29,NORMAL,25.2975,17.1705,268,178,14,2020-12-30,Rolling,Rural,1,26.258
+SYN-00587,Synthetic Urban Infrastructure Project 00587,Urban Infrastructure,NHAI,Odisha,ODI-05,RNR_DELAY,17.9866,15.0546,158,80,13,2020-03-23,Rolling,Urban,0,52.587
+SYN-00588,Synthetic Industrial Corridor Project 00588,Industrial Corridor,Irrigation Department,Bihar,BIH-22,NORMAL,62.5972,44.6454,534,350,49,2025-03-26,Riverine,Semi-Urban,0,49.426
+SYN-00589,Synthetic Transmission Project 00589,Transmission,Railway,Madhya Pradesh,MAD-25,NORMAL,25.6636,24.4984,510,348,47,2024-06-22,Rolling,Urban,1,29.321
+SYN-00590,Synthetic National Highway Project 00590,National Highway,Power Utility,West Bengal,WES-14,NORMAL,11.9119,7.8036,116,25,5,2024-08-25,Hilly,Urban,0,67.533
+SYN-00591,Synthetic Industrial Corridor Project 00591,Industrial Corridor,NHAI,Bihar,BIH-15,MULTI_FACTOR_DELAY,12.3055,7.7369,240,120,36,2019-01-26,Riverine,Rural,1,0.868
+SYN-00592,Synthetic Industrial Corridor Project 00592,Industrial Corridor,NHIDCL,Odisha,ODI-38,MULTI_FACTOR_DELAY,49.0467,46.2416,838,524,137,2025-03-05,Plain,Semi-Urban,0,52.332
+SYN-00593,Synthetic Railway Project 00593,Railway,NHIDCL,Maharashtra,MAH-06,NORMAL,14.2034,10.1082,150,67,5,2019-10-03,Rolling,Semi-Urban,0,49.514
+SYN-00594,Synthetic Irrigation Project 00594,Irrigation,NHIDCL,Odisha,ODI-29,COMPENSATION_DELAY,10.6775,9.0603,172,55,5,2024-03-08,Hilly,Rural,0,56.81
+SYN-00595,Synthetic Railway Project 00595,Railway,Railway,Jharkhand,JHA-05,RECOVERY,33.3093,28.3908,501,336,20,2023-08-05,Riverine,Rural,1,74.143
+SYN-00596,Synthetic National Highway Project 00596,National Highway,State PWD,Uttar Pradesh,UTT-18,NORMAL,15.19,12.7744,295,196,29,2021-12-02,Hilly,Semi-Urban,0,79.602
+SYN-00597,Synthetic Urban Infrastructure Project 00597,Urban Infrastructure,NHIDCL,Assam,ASS-34,NORMAL,42.0127,38.3321,736,301,29,2020-01-26,Hilly,Rural,0,13.937
+SYN-00598,Synthetic National Highway Project 00598,National Highway,Power Utility,Uttar Pradesh,UTT-29,NORMAL,15.4739,10.5181,175,56,9,2021-10-29,Rolling,Urban,0,9.502
+SYN-00599,Synthetic Irrigation Project 00599,Irrigation,NHAI,Jharkhand,JHA-23,RECOVERY,24.2339,21.2523,281,218,23,2024-01-18,Plain,Rural,0,38.936
+SYN-00600,Synthetic Railway Project 00600,Railway,NHAI,Uttar Pradesh,UTT-03,NORMAL,21.9427,18.9696,363,92,5,2023-08-06,Plain,Semi-Urban,0,9.162
+SYN-00601,Synthetic Transmission Project 00601,Transmission,Railway,Assam,ASS-23,NORMAL,13.0562,8.3861,215,165,35,2021-09-11,Rolling,Rural,0,37.165
+SYN-00602,Synthetic Transmission Project 00602,Transmission,Irrigation Department,Odisha,ODI-03,ADMINISTRATIVE_BOTTLENECK,11.6271,10.6507,205,128,16,2021-04-18,Plain,Rural,0,55.659
+SYN-00603,Synthetic Irrigation Project 00603,Irrigation,Irrigation Department,West Bengal,WES-06,COMPENSATION_DELAY,11.3656,10.6498,146,59,13,2022-12-29,Riverine,Urban,0,29.471
+SYN-00604,Synthetic Transmission Project 00604,Transmission,Railway,Maharashtra,MAH-13,LEGAL_DELAY,23.7111,20.9934,364,216,21,2020-08-31,Hilly,Semi-Urban,0,54.298
+SYN-00605,Synthetic Irrigation Project 00605,Irrigation,Power Utility,Bihar,BIH-26,ADMINISTRATIVE_BOTTLENECK,15.81,13.3092,251,181,52,2020-12-01,Hilly,Semi-Urban,0,54.914
+SYN-00606,Synthetic Irrigation Project 00606,Irrigation,Power Utility,Jharkhand,JHA-32,NORMAL,39.1208,35.8079,630,345,100,2021-02-26,Riverine,Urban,0,58.836
+SYN-00607,Synthetic Irrigation Project 00607,Irrigation,Railway,Assam,ASS-31,LEGAL_DELAY,26.0688,21.1884,497,218,59,2020-04-07,Coastal,Rural,0,22.836
+SYN-00608,Synthetic National Highway Project 00608,National Highway,State PWD,Jharkhand,JHA-35,ADMINISTRATIVE_BOTTLENECK,11.8189,11.6878,63,39,4,2022-08-23,Plain,Urban,1,39.913
+SYN-00609,Synthetic Railway Project 00609,Railway,Power Utility,Maharashtra,MAH-15,COMPENSATION_DELAY,6.1276,3.7149,45,20,4,2022-05-21,Coastal,Urban,0,4.107
+SYN-00610,Synthetic National Highway Project 00610,National Highway,NHAI,Odisha,ODI-21,NORMAL,6.5434,5.4383,75,17,4,2019-03-13,Plain,Semi-Urban,0,40.164
+SYN-00611,Synthetic Railway Project 00611,Railway,NHAI,Madhya Pradesh,MAD-19,LEGAL_DELAY,12.6776,10.5592,177,139,42,2019-04-21,Hilly,Rural,0,23.852
+SYN-00612,Synthetic Urban Infrastructure Project 00612,Urban Infrastructure,NHIDCL,Odisha,ODI-35,DOCUMENTATION_DELAY,8.4621,5.6058,103,32,2,2025-02-09,Plain,Rural,0,77.889
+SYN-00613,Synthetic National Highway Project 00613,National Highway,State PWD,Jharkhand,JHA-29,NORMAL,19.978,12.9454,196,70,17,2019-04-14,Plain,Rural,0,2.437
+SYN-00614,Synthetic National Highway Project 00614,National Highway,Irrigation Department,Odisha,ODI-10,MULTI_FACTOR_DELAY,48.8793,33.8422,640,376,103,2025-12-26,Plain,Rural,0,26.933
+SYN-00615,Synthetic Urban Infrastructure Project 00615,Urban Infrastructure,NHAI,West Bengal,WES-16,NORMAL,14.1996,13.9934,79,33,3,2023-01-26,Coastal,Urban,0,66.605
+SYN-00616,Synthetic Transmission Project 00616,Transmission,NHAI,Maharashtra,MAH-14,NORMAL,5.4207,4.6526,73,54,4,2025-12-05,Riverine,Urban,0,49.737
+SYN-00617,Synthetic Urban Infrastructure Project 00617,Urban Infrastructure,Railway,Maharashtra,MAH-15,NORMAL,9.0497,9.0329,89,64,10,2025-06-09,Rolling,Rural,1,4.368
+SYN-00618,Synthetic Industrial Corridor Project 00618,Industrial Corridor,Railway,West Bengal,WES-25,RNR_DELAY,13.5566,12.241,141,51,6,2025-03-05,Rolling,Semi-Urban,0,13.333
+SYN-00619,Synthetic Urban Infrastructure Project 00619,Urban Infrastructure,Irrigation Department,Bihar,BIH-19,LEGAL_DELAY,45.2774,43.9274,320,185,48,2025-02-10,Coastal,Rural,0,59.017
+SYN-00620,Synthetic Urban Infrastructure Project 00620,Urban Infrastructure,State PWD,Uttar Pradesh,UTT-08,MULTI_FACTOR_DELAY,15.1211,13.0238,184,70,6,2025-02-09,Plain,Urban,1,27.188
+SYN-00621,Synthetic Railway Project 00621,Railway,NHIDCL,West Bengal,WES-22,MULTI_FACTOR_DELAY,93.768,66.3615,667,246,68,2025-06-15,Riverine,Semi-Urban,0,67.825
+SYN-00622,Synthetic Railway Project 00622,Railway,State PWD,Madhya Pradesh,MAD-25,NORMAL,22.2117,21.8665,368,277,47,2019-06-28,Hilly,Urban,1,31.794
+SYN-00623,Synthetic Railway Project 00623,Railway,NHIDCL,Maharashtra,MAH-18,COMPENSATION_DELAY,33.0086,28.1015,329,196,19,2022-12-26,Hilly,Urban,0,5.188
+SYN-00624,Synthetic Industrial Corridor Project 00624,Industrial Corridor,State PWD,Jharkhand,JHA-24,COMPENSATION_DELAY,29.5789,25.6984,188,131,24,2024-04-22,Hilly,Rural,1,43.036
+SYN-00625,Synthetic Irrigation Project 00625,Irrigation,State PWD,Maharashtra,MAH-27,RNR_DELAY,46.1432,28.5505,465,320,58,2023-04-18,Plain,Rural,0,74.475
+SYN-00626,Synthetic Irrigation Project 00626,Irrigation,NHIDCL,Uttar Pradesh,UTT-27,LEGAL_DELAY,24.9604,24.1538,492,140,38,2022-04-24,Riverine,Semi-Urban,0,37.985
+SYN-00627,Synthetic Railway Project 00627,Railway,Railway,Maharashtra,MAH-29,NORMAL,17.1452,11.1646,302,145,40,2019-09-30,Plain,Semi-Urban,1,16.68
+SYN-00628,Synthetic Railway Project 00628,Railway,Power Utility,Assam,ASS-11,RNR_DELAY,43.6291,40.3033,236,183,51,2019-09-16,Riverine,Urban,0,56.883
+SYN-00629,Synthetic Industrial Corridor Project 00629,Industrial Corridor,NHIDCL,Jharkhand,JHA-23,MULTI_FACTOR_DELAY,8.4725,6.5178,132,43,12,2019-01-30,Plain,Semi-Urban,0,79.408
+SYN-00630,Synthetic Urban Infrastructure Project 00630,Urban Infrastructure,Railway,Bihar,BIH-13,NORMAL,12.17,9.1054,75,57,10,2024-12-27,Plain,Rural,0,9.043
+SYN-00631,Synthetic Transmission Project 00631,Transmission,Railway,West Bengal,WES-27,NORMAL,14.654,12.8584,253,88,8,2025-12-02,Coastal,Rural,0,38.17
+SYN-00632,Synthetic National Highway Project 00632,National Highway,NHAI,Uttar Pradesh,UTT-07,ADMINISTRATIVE_BOTTLENECK,39.7311,27.4269,570,449,103,2020-03-07,Plain,Semi-Urban,0,1.161
+SYN-00633,Synthetic Irrigation Project 00633,Irrigation,State PWD,Uttar Pradesh,UTT-24,NORMAL,114.7528,92.6655,1332,633,34,2023-11-11,Coastal,Rural,0,32.279
+SYN-00634,Synthetic Urban Infrastructure Project 00634,Urban Infrastructure,NHAI,Uttar Pradesh,UTT-15,MULTI_FACTOR_DELAY,25.2366,15.3793,274,154,24,2019-03-13,Coastal,Urban,0,61.989
+SYN-00635,Synthetic Industrial Corridor Project 00635,Industrial Corridor,Railway,Madhya Pradesh,MAD-24,NORMAL,24.5339,17.8062,342,103,23,2019-03-01,Coastal,Rural,0,13.079
+SYN-00636,Synthetic Urban Infrastructure Project 00636,Urban Infrastructure,Power Utility,Madhya Pradesh,MAD-35,NORMAL,27.5852,21.2193,400,315,65,2020-03-09,Coastal,Rural,0,24.33
+SYN-00637,Synthetic Transmission Project 00637,Transmission,Power Utility,Uttar Pradesh,UTT-09,NORMAL,18.5281,12.9284,263,66,19,2022-08-27,Rolling,Semi-Urban,0,6.106
+SYN-00638,Synthetic National Highway Project 00638,National Highway,Irrigation Department,Jharkhand,JHA-15,LEGAL_DELAY,33.7306,33.4557,294,101,27,2025-07-16,Hilly,Urban,0,29.828
+SYN-00639,Synthetic Industrial Corridor Project 00639,Industrial Corridor,Irrigation Department,Madhya Pradesh,MAD-25,DOCUMENTATION_DELAY,17.493,11.8035,128,92,22,2023-10-21,Plain,Urban,0,62.168
+SYN-00640,Synthetic Transmission Project 00640,Transmission,NHIDCL,Jharkhand,JHA-19,NORMAL,23.4892,21.0489,165,114,16,2025-06-12,Riverine,Rural,0,26.925
+SYN-00641,Synthetic National Highway Project 00641,National Highway,NHIDCL,Uttar Pradesh,UTT-22,RECOVERY,17.849,16.7787,289,193,53,2022-05-17,Riverine,Rural,1,32.626
+SYN-00642,Synthetic Industrial Corridor Project 00642,Industrial Corridor,NHIDCL,Uttar Pradesh,UTT-04,NORMAL,63.3062,48.208,877,463,66,2024-09-24,Riverine,Rural,1,67.948
+SYN-00643,Synthetic Irrigation Project 00643,Irrigation,Irrigation Department,West Bengal,WES-07,ADMINISTRATIVE_BOTTLENECK,41.785,34.6351,219,56,7,2019-08-30,Rolling,Semi-Urban,0,67.749
+SYN-00644,Synthetic Railway Project 00644,Railway,Irrigation Department,Uttar Pradesh,UTT-02,NORMAL,6.9044,5.5367,37,26,7,2024-04-08,Hilly,Urban,0,39.538
+SYN-00645,Synthetic Urban Infrastructure Project 00645,Urban Infrastructure,NHIDCL,West Bengal,WES-10,ADMINISTRATIVE_BOTTLENECK,25.3933,21.2496,486,135,25,2023-08-04,Plain,Rural,0,49.242
+SYN-00646,Synthetic Transmission Project 00646,Transmission,NHIDCL,Assam,ASS-39,NORMAL,51.3182,37.946,775,441,38,2023-10-24,Coastal,Urban,0,49.839
+SYN-00647,Synthetic Urban Infrastructure Project 00647,Urban Infrastructure,Power Utility,Maharashtra,MAH-01,COMPENSATION_DELAY,73.6713,50.9711,471,110,27,2022-03-24,Coastal,Semi-Urban,0,49.168
+SYN-00648,Synthetic National Highway Project 00648,National Highway,Irrigation Department,Uttar Pradesh,UTT-25,NORMAL,27.6774,21.8019,285,144,36,2025-11-19,Rolling,Rural,0,54.396
+SYN-00649,Synthetic Transmission Project 00649,Transmission,Power Utility,Jharkhand,JHA-26,NORMAL,47.9076,31.9408,250,62,3,2020-09-29,Coastal,Semi-Urban,0,10.241
+SYN-00650,Synthetic Irrigation Project 00650,Irrigation,NHIDCL,Jharkhand,JHA-13,COMPENSATION_DELAY,9.6579,9.0743,96,64,4,2020-08-03,Riverine,Rural,1,46.476
+SYN-00651,Synthetic Urban Infrastructure Project 00651,Urban Infrastructure,Railway,West Bengal,WES-34,NORMAL,53.5946,38.6034,445,154,8,2020-07-06,Plain,Rural,0,3.696
+SYN-00652,Synthetic Railway Project 00652,Railway,State PWD,Bihar,BIH-01,NORMAL,29.48,25.7261,400,197,26,2020-08-08,Plain,Urban,0,8.51
+SYN-00653,Synthetic Railway Project 00653,Railway,NHIDCL,Odisha,ODI-03,RECOVERY,32.4916,24.0106,339,163,30,2019-04-18,Rolling,Rural,0,66.433
+SYN-00654,Synthetic Railway Project 00654,Railway,Power Utility,Odisha,ODI-39,RNR_DELAY,9.5467,8.0691,55,12,3,2023-08-11,Rolling,Rural,0,28.683
+SYN-00655,Synthetic National Highway Project 00655,National Highway,Railway,Bihar,BIH-26,NORMAL,27.0993,22.9991,211,100,14,2021-11-16,Plain,Rural,0,25.893
+SYN-00656,Synthetic Transmission Project 00656,Transmission,Railway,Maharashtra,MAH-21,NORMAL,81.6908,70.552,885,409,62,2024-07-09,Rolling,Rural,0,7.62
+SYN-00657,Synthetic Irrigation Project 00657,Irrigation,Power Utility,Jharkhand,JHA-11,RECOVERY,44.615,33.9161,804,367,79,2023-06-08,Hilly,Urban,0,61.02
+SYN-00658,Synthetic Urban Infrastructure Project 00658,Urban Infrastructure,NHIDCL,West Bengal,WES-30,ADMINISTRATIVE_BOTTLENECK,9.0348,7.3267,96,63,14,2021-02-27,Rolling,Rural,0,51.931
+SYN-00659,Synthetic Urban Infrastructure Project 00659,Urban Infrastructure,NHIDCL,Madhya Pradesh,MAD-08,NORMAL,29.351,21.9021,391,243,65,2020-10-30,Plain,Rural,0,4.14
+SYN-00660,Synthetic Urban Infrastructure Project 00660,Urban Infrastructure,Power Utility,Odisha,ODI-24,ADMINISTRATIVE_BOTTLENECK,5.0,3.3948,89,54,3,2022-01-07,Coastal,Semi-Urban,0,71.798
+SYN-00661,Synthetic Industrial Corridor Project 00661,Industrial Corridor,NHAI,Maharashtra,MAH-19,ADMINISTRATIVE_BOTTLENECK,66.9657,56.2865,860,208,55,2025-03-20,Plain,Rural,0,8.79
+SYN-00662,Synthetic Urban Infrastructure Project 00662,Urban Infrastructure,Irrigation Department,Madhya Pradesh,MAD-22,NORMAL,6.2698,6.132,57,33,4,2024-07-24,Hilly,Urban,0,30.282
+SYN-00663,Synthetic Irrigation Project 00663,Irrigation,NHAI,Uttar Pradesh,UTT-23,NORMAL,23.6553,14.4985,234,151,31,2019-04-18,Rolling,Rural,0,56.156
+SYN-00664,Synthetic Urban Infrastructure Project 00664,Urban Infrastructure,Power Utility,Assam,ASS-19,MULTI_FACTOR_DELAY,38.6526,29.1441,255,199,50,2020-01-21,Riverine,Urban,0,39.28
+SYN-00665,Synthetic Irrigation Project 00665,Irrigation,Irrigation Department,Bihar,BIH-09,LEGAL_DELAY,16.4155,9.8937,93,32,3,2020-03-04,Riverine,Rural,1,45.769
+SYN-00666,Synthetic National Highway Project 00666,National Highway,NHAI,Assam,ASS-35,NORMAL,12.6945,11.7865,233,103,20,2020-12-03,Hilly,Urban,0,14.1
+SYN-00667,Synthetic Industrial Corridor Project 00667,Industrial Corridor,Irrigation Department,Jharkhand,JHA-18,RECOVERY,87.774,83.1682,1032,428,121,2023-03-07,Riverine,Rural,0,75.039
+SYN-00668,Synthetic National Highway Project 00668,National Highway,Railway,West Bengal,WES-29,RNR_DELAY,15.4928,12.6177,231,184,45,2023-03-01,Riverine,Rural,0,26.187
+SYN-00669,Synthetic Urban Infrastructure Project 00669,Urban Infrastructure,Irrigation Department,West Bengal,WES-32,DOCUMENTATION_DELAY,8.7472,8.4858,162,37,9,2022-12-06,Riverine,Rural,0,69.552
+SYN-00670,Synthetic Urban Infrastructure Project 00670,Urban Infrastructure,Irrigation Department,West Bengal,WES-30,ADMINISTRATIVE_BOTTLENECK,15.2104,15.12,98,56,12,2024-11-21,Hilly,Semi-Urban,0,32.626
+SYN-00671,Synthetic Irrigation Project 00671,Irrigation,NHAI,Maharashtra,MAH-31,NORMAL,38.3868,29.295,507,165,22,2019-09-15,Rolling,Semi-Urban,0,9.83
+SYN-00672,Synthetic Transmission Project 00672,Transmission,NHAI,Uttar Pradesh,UTT-28,NORMAL,16.8492,14.1647,332,158,11,2024-09-06,Riverine,Rural,0,66.402
+SYN-00673,Synthetic National Highway Project 00673,National Highway,Power Utility,Maharashtra,MAH-28,MULTI_FACTOR_DELAY,12.2598,11.9748,140,88,6,2019-04-07,Rolling,Urban,0,15.957
+SYN-00674,Synthetic Irrigation Project 00674,Irrigation,NHIDCL,Odisha,ODI-01,LEGAL_DELAY,11.4321,9.1768,187,86,14,2020-07-15,Coastal,Semi-Urban,0,24.417
+SYN-00675,Synthetic National Highway Project 00675,National Highway,Railway,West Bengal,WES-36,NORMAL,30.0967,23.4294,595,440,38,2023-09-14,Rolling,Semi-Urban,0,35.711
+SYN-00676,Synthetic Railway Project 00676,Railway,State PWD,Bihar,BIH-15,RNR_DELAY,35.0787,23.9215,670,304,65,2022-12-28,Rolling,Rural,0,28.014
+SYN-00677,Synthetic Industrial Corridor Project 00677,Industrial Corridor,NHIDCL,Madhya Pradesh,MAD-13,DOCUMENTATION_DELAY,5.0917,3.9481,97,58,6,2020-08-30,Plain,Urban,0,31.165
+SYN-00678,Synthetic Irrigation Project 00678,Irrigation,Irrigation Department,Bihar,BIH-29,NORMAL,31.4757,19.2369,465,329,26,2019-08-30,Riverine,Urban,0,46.559
+SYN-00679,Synthetic Transmission Project 00679,Transmission,NHIDCL,Madhya Pradesh,MAD-16,NORMAL,83.1025,61.5561,1021,448,67,2019-09-30,Hilly,Rural,0,23.622
+SYN-00680,Synthetic Railway Project 00680,Railway,Railway,Uttar Pradesh,UTT-13,LEGAL_DELAY,16.1087,15.0996,276,192,36,2023-03-24,Hilly,Rural,0,24.017
+SYN-00681,Synthetic Transmission Project 00681,Transmission,NHAI,Jharkhand,JHA-30,NORMAL,34.4668,22.2038,592,207,19,2024-01-23,Hilly,Rural,0,64.9
+SYN-00682,Synthetic Transmission Project 00682,Transmission,NHIDCL,Madhya Pradesh,MAD-33,NORMAL,19.0304,18.6906,377,132,8,2024-02-18,Rolling,Semi-Urban,0,13.24
+SYN-00683,Synthetic National Highway Project 00683,National Highway,NHIDCL,Maharashtra,MAH-35,NORMAL,28.4311,22.1955,521,202,55,2020-11-11,Rolling,Semi-Urban,1,73.061
+SYN-00684,Synthetic Industrial Corridor Project 00684,Industrial Corridor,State PWD,Bihar,BIH-21,COMPENSATION_DELAY,44.2957,36.3873,308,198,20,2024-03-28,Rolling,Semi-Urban,1,32.417
+SYN-00685,Synthetic Irrigation Project 00685,Irrigation,Power Utility,Jharkhand,JHA-13,NORMAL,28.2541,22.2009,276,212,47,2022-01-11,Riverine,Semi-Urban,0,14.951
+SYN-00686,Synthetic Irrigation Project 00686,Irrigation,Irrigation Department,Madhya Pradesh,MAD-27,NORMAL,18.936,11.7404,239,90,15,2023-08-11,Hilly,Urban,0,30.97
+SYN-00687,Synthetic Industrial Corridor Project 00687,Industrial Corridor,NHIDCL,Maharashtra,MAH-33,DOCUMENTATION_DELAY,7.7797,7.3837,129,64,13,2025-12-26,Hilly,Rural,0,1.02
+SYN-00688,Synthetic Industrial Corridor Project 00688,Industrial Corridor,Power Utility,Odisha,ODI-12,NORMAL,8.7071,7.9735,142,108,6,2025-08-19,Coastal,Rural,0,47.874
+SYN-00689,Synthetic Transmission Project 00689,Transmission,NHAI,Odisha,ODI-26,NORMAL,31.4785,25.4401,167,83,20,2024-07-05,Riverine,Rural,0,67.997
+SYN-00690,Synthetic Transmission Project 00690,Transmission,Irrigation Department,Uttar Pradesh,UTT-27,NORMAL,56.7004,47.0282,1020,810,47,2025-05-14,Rolling,Rural,0,38.129
+SYN-00691,Synthetic Transmission Project 00691,Transmission,NHAI,West Bengal,WES-25,NORMAL,32.2547,31.1667,363,290,70,2025-04-08,Hilly,Rural,0,60.342
+SYN-00692,Synthetic Industrial Corridor Project 00692,Industrial Corridor,NHAI,Bihar,BIH-25,RNR_DELAY,18.7996,17.1131,230,114,10,2022-05-27,Plain,Rural,0,43.425
+SYN-00693,Synthetic Industrial Corridor Project 00693,Industrial Corridor,Irrigation Department,Jharkhand,JHA-04,NORMAL,5.0008,4.311,52,32,3,2025-09-21,Hilly,Rural,1,42.001
+SYN-00694,Synthetic National Highway Project 00694,National Highway,Irrigation Department,Madhya Pradesh,MAD-20,NORMAL,7.1943,5.8286,143,56,10,2020-06-30,Rolling,Urban,0,73.725
+SYN-00695,Synthetic Railway Project 00695,Railway,Railway,Bihar,BIH-09,NORMAL,48.4228,42.8483,349,152,14,2021-10-12,Plain,Rural,1,15.938
+SYN-00696,Synthetic Industrial Corridor Project 00696,Industrial Corridor,State PWD,Uttar Pradesh,UTT-31,NORMAL,14.0432,10.9573,74,38,9,2020-09-20,Riverine,Urban,0,21.809
+SYN-00697,Synthetic Irrigation Project 00697,Irrigation,Railway,Madhya Pradesh,MAD-30,DOCUMENTATION_DELAY,22.2447,18.3051,265,152,31,2021-11-26,Plain,Rural,0,68.058
+SYN-00698,Synthetic Irrigation Project 00698,Irrigation,Power Utility,Maharashtra,MAH-13,COMPENSATION_DELAY,5.0,4.1098,69,14,2,2025-03-21,Rolling,Semi-Urban,0,27.546
+SYN-00699,Synthetic Transmission Project 00699,Transmission,NHAI,Madhya Pradesh,MAD-17,RECOVERY,9.0417,7.1705,106,36,2,2023-10-28,Coastal,Urban,0,70.322
+SYN-00700,Synthetic National Highway Project 00700,National Highway,NHIDCL,West Bengal,WES-34,NORMAL,42.7092,41.6367,338,217,35,2022-09-18,Hilly,Rural,0,9.714
+SYN-00701,Synthetic Railway Project 00701,Railway,State PWD,Uttar Pradesh,UTT-10,MULTI_FACTOR_DELAY,19.8206,14.8508,282,82,8,2020-06-30,Plain,Rural,0,21.653
+SYN-00702,Synthetic National Highway Project 00702,National Highway,NHAI,Maharashtra,MAH-36,NORMAL,7.1157,5.5191,76,56,13,2022-08-24,Rolling,Rural,0,4.619
+SYN-00703,Synthetic Industrial Corridor Project 00703,Industrial Corridor,Irrigation Department,Jharkhand,JHA-22,NORMAL,9.6149,5.9039,142,47,11,2024-03-29,Rolling,Rural,1,43.822
+SYN-00704,Synthetic Transmission Project 00704,Transmission,NHIDCL,Jharkhand,JHA-04,RECOVERY,32.3962,23.9775,458,268,66,2024-06-18,Hilly,Rural,0,48.929
+SYN-00705,Synthetic National Highway Project 00705,National Highway,Power Utility,Bihar,BIH-01,NORMAL,35.9076,33.1579,364,232,23,2024-12-15,Rolling,Semi-Urban,0,6.338
+SYN-00706,Synthetic Railway Project 00706,Railway,NHIDCL,Odisha,ODI-05,NORMAL,30.6671,21.3698,347,175,29,2020-07-12,Plain,Rural,0,22.043
+SYN-00707,Synthetic Irrigation Project 00707,Irrigation,Irrigation Department,Madhya Pradesh,MAD-29,NORMAL,23.2307,21.7176,445,344,21,2022-01-06,Plain,Urban,0,40.613
+SYN-00708,Synthetic Irrigation Project 00708,Irrigation,Railway,Jharkhand,JHA-25,MULTI_FACTOR_DELAY,18.4482,12.6777,119,76,7,2024-11-25,Riverine,Urban,0,2.476
+SYN-00709,Synthetic National Highway Project 00709,National Highway,NHIDCL,Bihar,BIH-21,NORMAL,15.5746,11.7109,171,100,25,2021-04-29,Plain,Semi-Urban,0,52.97
+SYN-00710,Synthetic Railway Project 00710,Railway,Railway,Bihar,BIH-15,NORMAL,17.0988,15.155,287,218,37,2022-05-06,Hilly,Rural,0,8.768
+SYN-00711,Synthetic National Highway Project 00711,National Highway,Irrigation Department,Assam,ASS-19,RECOVERY,33.9363,26.427,478,186,43,2019-07-01,Riverine,Semi-Urban,0,38.27
+SYN-00712,Synthetic Urban Infrastructure Project 00712,Urban Infrastructure,Power Utility,Assam,ASS-38,MULTI_FACTOR_DELAY,134.9659,82.7735,1980,670,42,2023-12-02,Plain,Rural,0,30.865
+SYN-00713,Synthetic Transmission Project 00713,Transmission,NHAI,Uttar Pradesh,UTT-05,LEGAL_DELAY,38.5189,29.3304,302,228,53,2022-11-20,Rolling,Semi-Urban,0,5.599
+SYN-00714,Synthetic Transmission Project 00714,Transmission,NHIDCL,Odisha,ODI-36,MULTI_FACTOR_DELAY,11.6984,10.6288,85,42,10,2023-08-27,Coastal,Rural,0,26.915
+SYN-00715,Synthetic National Highway Project 00715,National Highway,Power Utility,Madhya Pradesh,MAD-35,MULTI_FACTOR_DELAY,24.8864,21.6428,492,306,72,2025-11-07,Coastal,Semi-Urban,0,30.429
+SYN-00716,Synthetic Railway Project 00716,Railway,NHIDCL,Bihar,BIH-36,RECOVERY,18.3997,14.0275,286,102,15,2022-04-19,Rolling,Rural,0,8.773
+SYN-00717,Synthetic Industrial Corridor Project 00717,Industrial Corridor,Railway,West Bengal,WES-29,NORMAL,19.1081,16.5761,183,72,18,2020-10-05,Hilly,Rural,0,5.694
+SYN-00718,Synthetic Irrigation Project 00718,Irrigation,Power Utility,Jharkhand,JHA-09,NORMAL,50.6065,30.3733,364,201,48,2024-01-24,Plain,Urban,0,34.431
+SYN-00719,Synthetic Railway Project 00719,Railway,NHAI,Bihar,BIH-28,NORMAL,9.4252,8.2441,89,60,6,2022-10-19,Coastal,Rural,1,77.483
+SYN-00720,Synthetic Industrial Corridor Project 00720,Industrial Corridor,Railway,Jharkhand,JHA-31,NORMAL,5.4674,3.7638,38,18,2,2019-11-24,Coastal,Rural,0,68.777
+SYN-00721,Synthetic Transmission Project 00721,Transmission,Power Utility,Jharkhand,JHA-14,NORMAL,29.063,26.2693,568,158,23,2020-03-08,Coastal,Urban,0,14.037
+SYN-00722,Synthetic Railway Project 00722,Railway,Railway,Maharashtra,MAH-24,NORMAL,22.1955,13.3236,427,120,31,2020-07-16,Riverine,Rural,0,44.544
+SYN-00723,Synthetic Railway Project 00723,Railway,Power Utility,Maharashtra,MAH-12,NORMAL,25.7488,16.4703,428,331,35,2025-03-24,Coastal,Rural,0,37.732
+SYN-00724,Synthetic Irrigation Project 00724,Irrigation,Power Utility,West Bengal,WES-24,NORMAL,5.8826,5.2323,78,18,4,2025-11-28,Hilly,Rural,0,9.201
+SYN-00725,Synthetic Transmission Project 00725,Transmission,Railway,Maharashtra,MAH-37,RNR_DELAY,17.1844,10.4628,225,49,11,2025-02-10,Rolling,Rural,0,39.609
+SYN-00726,Synthetic Urban Infrastructure Project 00726,Urban Infrastructure,State PWD,Bihar,BIH-11,RNR_DELAY,146.6249,100.937,2431,607,153,2024-03-16,Hilly,Semi-Urban,0,68.676
+SYN-00727,Synthetic Industrial Corridor Project 00727,Industrial Corridor,State PWD,Assam,ASS-09,NORMAL,14.4423,12.4226,212,69,5,2024-03-19,Coastal,Semi-Urban,0,45.75
+SYN-00728,Synthetic National Highway Project 00728,National Highway,Power Utility,West Bengal,WES-27,NORMAL,13.2687,9.3914,181,66,5,2025-11-12,Rolling,Rural,0,74.227
+SYN-00729,Synthetic Railway Project 00729,Railway,NHIDCL,West Bengal,WES-19,NORMAL,12.3583,12.0454,165,61,4,2020-04-25,Coastal,Semi-Urban,0,41.052
+SYN-00730,Synthetic National Highway Project 00730,National Highway,Power Utility,Odisha,ODI-37,RNR_DELAY,34.4211,25.3678,478,114,10,2021-12-21,Riverine,Rural,1,73.656
+SYN-00731,Synthetic Urban Infrastructure Project 00731,Urban Infrastructure,NHAI,Uttar Pradesh,UTT-26,MULTI_FACTOR_DELAY,29.9069,24.653,242,158,26,2019-03-12,Rolling,Rural,0,76.033
+SYN-00732,Synthetic Irrigation Project 00732,Irrigation,Power Utility,Assam,ASS-15,NORMAL,19.0952,17.0998,324,145,18,2024-01-14,Rolling,Urban,0,30.3
+SYN-00733,Synthetic Urban Infrastructure Project 00733,Urban Infrastructure,Power Utility,West Bengal,WES-27,ADMINISTRATIVE_BOTTLENECK,9.3956,6.5317,181,103,5,2021-01-31,Rolling,Urban,0,46.538
+SYN-00734,Synthetic Irrigation Project 00734,Irrigation,NHIDCL,Uttar Pradesh,UTT-19,NORMAL,14.5441,13.426,262,206,54,2022-10-31,Plain,Rural,0,7.454
+SYN-00735,Synthetic Irrigation Project 00735,Irrigation,NHAI,Odisha,ODI-38,ADMINISTRATIVE_BOTTLENECK,5.0,3.639,28,14,1,2019-07-08,Coastal,Semi-Urban,0,74.541
+SYN-00736,Synthetic Transmission Project 00736,Transmission,Power Utility,Odisha,ODI-12,RECOVERY,31.9896,25.539,308,180,42,2022-01-24,Rolling,Rural,0,69.599
+SYN-00737,Synthetic Industrial Corridor Project 00737,Industrial Corridor,Railway,Assam,ASS-24,RNR_DELAY,41.1796,32.4047,279,108,13,2020-03-28,Riverine,Urban,0,49.8
+SYN-00738,Synthetic National Highway Project 00738,National Highway,Irrigation Department,West Bengal,WES-33,ADMINISTRATIVE_BOTTLENECK,81.772,72.4763,1511,390,96,2023-10-31,Hilly,Rural,0,35.127
+SYN-00739,Synthetic Irrigation Project 00739,Irrigation,Railway,Uttar Pradesh,UTT-25,RECOVERY,33.8073,21.2675,485,358,35,2025-01-23,Plain,Semi-Urban,1,43.887
+SYN-00740,Synthetic Urban Infrastructure Project 00740,Urban Infrastructure,State PWD,West Bengal,WES-21,COMPENSATION_DELAY,23.1138,18.3903,235,150,16,2020-02-03,Coastal,Semi-Urban,0,16.598
+SYN-00741,Synthetic Industrial Corridor Project 00741,Industrial Corridor,Irrigation Department,Odisha,ODI-04,LEGAL_DELAY,49.9535,49.6284,713,456,51,2021-01-20,Plain,Urban,0,3.4
+SYN-00742,Synthetic Transmission Project 00742,Transmission,NHAI,Jharkhand,JHA-04,MULTI_FACTOR_DELAY,43.6926,32.3803,684,320,48,2025-07-28,Rolling,Urban,1,22.617
+SYN-00743,Synthetic National Highway Project 00743,National Highway,Railway,Maharashtra,MAH-26,NORMAL,13.5611,10.9195,168,108,16,2020-12-12,Riverine,Semi-Urban,0,17.328
+SYN-00744,Synthetic National Highway Project 00744,National Highway,State PWD,Uttar Pradesh,UTT-29,RECOVERY,5.6893,5.5747,90,66,10,2025-12-23,Plain,Urban,0,18.713
+SYN-00745,Synthetic Transmission Project 00745,Transmission,Irrigation Department,Jharkhand,JHA-27,NORMAL,42.1672,35.9281,444,203,31,2021-04-10,Plain,Rural,0,50.127
+SYN-00746,Synthetic Industrial Corridor Project 00746,Industrial Corridor,Railway,Uttar Pradesh,UTT-08,ADMINISTRATIVE_BOTTLENECK,7.4464,5.409,86,67,6,2022-01-10,Plain,Semi-Urban,0,59.977
+SYN-00747,Synthetic Transmission Project 00747,Transmission,State PWD,West Bengal,WES-34,RECOVERY,5.0,3.865,83,44,3,2022-05-08,Hilly,Semi-Urban,0,40.469
+SYN-00748,Synthetic Railway Project 00748,Railway,Irrigation Department,Maharashtra,MAH-27,COMPENSATION_DELAY,6.9699,4.7961,114,77,21,2021-07-13,Riverine,Rural,0,21.514
+SYN-00749,Synthetic Urban Infrastructure Project 00749,Urban Infrastructure,NHAI,Maharashtra,MAH-33,NORMAL,19.6001,19.3797,145,33,9,2024-01-29,Hilly,Urban,0,63.237
+SYN-00750,Synthetic Urban Infrastructure Project 00750,Urban Infrastructure,Power Utility,Jharkhand,JHA-29,RNR_DELAY,6.474,6.2847,89,67,4,2019-11-28,Hilly,Rural,0,67.21
+SYN-00751,Synthetic Irrigation Project 00751,Irrigation,Irrigation Department,Assam,ASS-25,RNR_DELAY,162.7481,99.2761,1580,479,118,2024-11-16,Riverine,Urban,0,57.189
+SYN-00752,Synthetic Industrial Corridor Project 00752,Industrial Corridor,Irrigation Department,Assam,ASS-08,ADMINISTRATIVE_BOTTLENECK,10.3415,8.1117,187,54,5,2024-04-30,Coastal,Rural,1,19.053
+SYN-00753,Synthetic Railway Project 00753,Railway,NHIDCL,Madhya Pradesh,MAD-17,NORMAL,6.6323,6.3437,107,64,18,2024-07-20,Hilly,Rural,0,17.203
+SYN-00754,Synthetic Industrial Corridor Project 00754,Industrial Corridor,NHAI,Odisha,ODI-12,RECOVERY,12.9606,12.1547,161,79,10,2021-02-13,Coastal,Urban,0,70.524
+SYN-00755,Synthetic Industrial Corridor Project 00755,Industrial Corridor,NHAI,Assam,ASS-16,NORMAL,10.3851,7.2442,202,47,5,2023-01-09,Hilly,Rural,0,32.548
+SYN-00756,Synthetic Irrigation Project 00756,Irrigation,Irrigation Department,Madhya Pradesh,MAD-21,DOCUMENTATION_DELAY,76.8612,60.2015,883,312,75,2019-05-08,Coastal,Rural,0,2.46
+SYN-00757,Synthetic Railway Project 00757,Railway,NHAI,Bihar,BIH-08,ADMINISTRATIVE_BOTTLENECK,9.261,6.8919,146,46,2,2019-06-01,Riverine,Rural,0,26.408
+SYN-00758,Synthetic Urban Infrastructure Project 00758,Urban Infrastructure,Railway,Uttar Pradesh,UTT-31,ADMINISTRATIVE_BOTTLENECK,44.0456,33.9144,374,130,20,2025-11-09,Rolling,Semi-Urban,0,24.833
+SYN-00759,Synthetic National Highway Project 00759,National Highway,State PWD,Odisha,ODI-08,MULTI_FACTOR_DELAY,9.6376,6.6962,54,14,4,2024-06-04,Hilly,Urban,0,64.023
+SYN-00760,Synthetic Irrigation Project 00760,Irrigation,Irrigation Department,Madhya Pradesh,MAD-27,NORMAL,12.9228,9.7027,72,23,4,2022-11-11,Coastal,Rural,1,19.842
+SYN-00761,Synthetic Industrial Corridor Project 00761,Industrial Corridor,Irrigation Department,Assam,ASS-29,ADMINISTRATIVE_BOTTLENECK,25.4552,17.0944,494,374,74,2022-09-11,Coastal,Urban,0,19.133
+SYN-00762,Synthetic Irrigation Project 00762,Irrigation,NHIDCL,West Bengal,WES-01,COMPENSATION_DELAY,22.5309,17.4152,219,136,10,2021-04-01,Coastal,Semi-Urban,0,17.675
+SYN-00763,Synthetic Urban Infrastructure Project 00763,Urban Infrastructure,NHAI,Jharkhand,JHA-35,NORMAL,15.1414,13.2499,235,147,28,2020-01-14,Hilly,Semi-Urban,0,20.811
+SYN-00764,Synthetic Industrial Corridor Project 00764,Industrial Corridor,NHAI,Madhya Pradesh,MAD-39,LEGAL_DELAY,21.6739,18.7463,108,62,12,2023-02-07,Coastal,Rural,0,58.654
+SYN-00765,Synthetic National Highway Project 00765,National Highway,Railway,Uttar Pradesh,UTT-21,ADMINISTRATIVE_BOTTLENECK,31.0525,21.3508,269,175,44,2022-07-21,Hilly,Semi-Urban,0,21.579
+SYN-00766,Synthetic Railway Project 00766,Railway,NHIDCL,West Bengal,WES-15,NORMAL,11.3228,8.2672,66,28,3,2023-05-31,Rolling,Semi-Urban,0,73.936
+SYN-00767,Synthetic Industrial Corridor Project 00767,Industrial Corridor,NHAI,Odisha,ODI-01,NORMAL,41.3886,38.7701,752,514,65,2020-11-07,Plain,Rural,0,77.622
+SYN-00768,Synthetic National Highway Project 00768,National Highway,NHAI,Maharashtra,MAH-34,MULTI_FACTOR_DELAY,37.4037,24.9207,497,361,105,2021-11-06,Plain,Rural,0,7.338
+SYN-00769,Synthetic Transmission Project 00769,Transmission,NHAI,West Bengal,WES-30,RECOVERY,7.8038,7.7932,93,25,4,2020-04-23,Riverine,Semi-Urban,1,3.252
+SYN-00770,Synthetic Urban Infrastructure Project 00770,Urban Infrastructure,Power Utility,Uttar Pradesh,UTT-31,RECOVERY,8.3528,5.0167,93,42,3,2023-08-06,Hilly,Rural,0,37.456
+SYN-00771,Synthetic Railway Project 00771,Railway,Power Utility,Assam,ASS-33,NORMAL,14.4237,8.9736,76,41,7,2022-12-27,Plain,Urban,1,71.058
+SYN-00772,Synthetic Industrial Corridor Project 00772,Industrial Corridor,Power Utility,Madhya Pradesh,MAD-30,NORMAL,6.0942,5.7889,55,32,4,2021-04-18,Coastal,Semi-Urban,0,26.161
+SYN-00773,Synthetic Transmission Project 00773,Transmission,NHIDCL,West Bengal,WES-27,COMPENSATION_DELAY,7.2177,4.9289,124,70,15,2019-12-30,Hilly,Rural,0,52.038
+SYN-00774,Synthetic National Highway Project 00774,National Highway,NHIDCL,Uttar Pradesh,UTT-36,NORMAL,10.6699,6.465,60,24,1,2022-07-28,Rolling,Urban,0,61.214
+SYN-00775,Synthetic Transmission Project 00775,Transmission,Power Utility,Uttar Pradesh,UTT-15,ADMINISTRATIVE_BOTTLENECK,7.1193,4.4123,120,79,5,2023-07-09,Rolling,Rural,0,48.008
+SYN-00776,Synthetic Railway Project 00776,Railway,NHAI,Jharkhand,JHA-06,RNR_DELAY,58.9426,36.7246,568,309,24,2024-12-25,Coastal,Rural,0,74.132
+SYN-00777,Synthetic Irrigation Project 00777,Irrigation,State PWD,Bihar,BIH-33,NORMAL,48.8424,47.7693,464,176,35,2022-03-01,Rolling,Rural,0,49.706
+SYN-00778,Synthetic Railway Project 00778,Railway,NHAI,Jharkhand,JHA-22,DOCUMENTATION_DELAY,17.5194,15.4955,165,111,30,2020-03-03,Coastal,Semi-Urban,0,28.173
+SYN-00779,Synthetic Irrigation Project 00779,Irrigation,Railway,Assam,ASS-27,DOCUMENTATION_DELAY,47.511,38.2534,362,112,19,2023-11-14,Riverine,Semi-Urban,0,10.835
+SYN-00780,Synthetic Urban Infrastructure Project 00780,Urban Infrastructure,State PWD,Uttar Pradesh,UTT-10,MULTI_FACTOR_DELAY,18.3457,14.3546,287,170,18,2025-03-22,Coastal,Rural,0,43.021
+SYN-00781,Synthetic Railway Project 00781,Railway,NHIDCL,Odisha,ODI-27,COMPENSATION_DELAY,13.0671,12.5509,237,106,15,2022-06-12,Rolling,Rural,0,17.99
+SYN-00782,Synthetic Irrigation Project 00782,Irrigation,Power Utility,Assam,ASS-22,NORMAL,5.0,4.166,47,23,2,2019-08-22,Rolling,Rural,0,27.776
+SYN-00783,Synthetic Transmission Project 00783,Transmission,Railway,Maharashtra,MAH-33,LEGAL_DELAY,64.6897,46.5984,691,144,14,2022-12-13,Riverine,Semi-Urban,0,17.613
+SYN-00784,Synthetic Transmission Project 00784,Transmission,NHAI,Assam,ASS-26,COMPENSATION_DELAY,15.3745,11.3786,306,147,12,2025-07-15,Riverine,Rural,0,61.988
+SYN-00785,Synthetic Industrial Corridor Project 00785,Industrial Corridor,NHIDCL,Assam,ASS-06,NORMAL,23.966,22.5713,203,99,8,2020-09-15,Coastal,Rural,0,8.488
+SYN-00786,Synthetic National Highway Project 00786,National Highway,State PWD,Madhya Pradesh,MAD-36,ADMINISTRATIVE_BOTTLENECK,25.9436,17.9958,416,263,62,2021-09-15,Hilly,Semi-Urban,0,15.93
+SYN-00787,Synthetic National Highway Project 00787,National Highway,Railway,Bihar,BIH-27,MULTI_FACTOR_DELAY,5.0,4.0756,56,18,5,2023-03-10,Rolling,Rural,0,49.573
+SYN-00788,Synthetic Irrigation Project 00788,Irrigation,Power Utility,West Bengal,WES-03,MULTI_FACTOR_DELAY,16.1877,14.4972,104,62,14,2023-03-07,Riverine,Semi-Urban,0,26.335
+SYN-00789,Synthetic Irrigation Project 00789,Irrigation,NHAI,Assam,ASS-24,NORMAL,24.0822,19.0539,248,120,33,2020-10-29,Rolling,Rural,0,72.719
+SYN-00790,Synthetic Irrigation Project 00790,Irrigation,Irrigation Department,Uttar Pradesh,UTT-32,RNR_DELAY,11.1251,7.7927,129,57,6,2020-09-14,Hilly,Rural,1,6.836
+SYN-00791,Synthetic National Highway Project 00791,National Highway,Railway,Bihar,BIH-33,NORMAL,40.5834,33.2386,518,202,32,2021-10-02,Riverine,Rural,0,42.664
+SYN-00792,Synthetic National Highway Project 00792,National Highway,State PWD,Madhya Pradesh,MAD-34,RECOVERY,5.682,3.4524,107,80,14,2024-09-16,Plain,Rural,0,25.625
+SYN-00793,Synthetic National Highway Project 00793,National Highway,NHIDCL,Madhya Pradesh,MAD-28,COMPENSATION_DELAY,26.3242,19.5975,223,98,20,2021-03-25,Rolling,Rural,1,57.522
+SYN-00794,Synthetic Industrial Corridor Project 00794,Industrial Corridor,Railway,Uttar Pradesh,UTT-06,NORMAL,10.2257,9.819,134,53,6,2022-05-30,Hilly,Rural,0,40.322
+SYN-00795,Synthetic Irrigation Project 00795,Irrigation,NHAI,Maharashtra,MAH-39,RECOVERY,23.1453,21.7317,132,89,21,2021-07-06,Coastal,Rural,0,43.343
+SYN-00796,Synthetic Industrial Corridor Project 00796,Industrial Corridor,NHAI,Maharashtra,MAH-14,RECOVERY,33.6677,29.8439,404,302,86,2022-04-16,Riverine,Rural,0,35.22
+SYN-00797,Synthetic Irrigation Project 00797,Irrigation,Railway,West Bengal,WES-19,RECOVERY,21.4656,15.2621,209,112,14,2022-09-05,Plain,Rural,1,59.182
+SYN-00798,Synthetic Transmission Project 00798,Transmission,NHIDCL,Bihar,BIH-09,NORMAL,13.4399,8.2045,207,87,11,2022-07-12,Riverine,Rural,0,45.938
+SYN-00799,Synthetic Industrial Corridor Project 00799,Industrial Corridor,Railway,West Bengal,WES-24,NORMAL,24.225,17.1319,288,222,35,2024-01-07,Hilly,Semi-Urban,0,43.845
+SYN-00800,Synthetic Railway Project 00800,Railway,NHAI,Jharkhand,JHA-34,RNR_DELAY,26.0797,21.6842,518,399,57,2022-09-28,Hilly,Rural,0,62.545
+SYN-00801,Synthetic Urban Infrastructure Project 00801,Urban Infrastructure,Railway,West Bengal,WES-10,ADMINISTRATIVE_BOTTLENECK,69.5461,45.6227,1214,656,175,2023-12-25,Hilly,Urban,1,73.885
+SYN-00802,Synthetic Railway Project 00802,Railway,Railway,Maharashtra,MAH-19,NORMAL,9.4421,8.5414,82,36,7,2020-02-01,Hilly,Rural,0,26.202
+SYN-00803,Synthetic Railway Project 00803,Railway,NHAI,Jharkhand,JHA-19,MULTI_FACTOR_DELAY,11.0656,10.9057,190,39,3,2022-09-16,Coastal,Rural,0,7.82
+SYN-00804,Synthetic Industrial Corridor Project 00804,Industrial Corridor,State PWD,Jharkhand,JHA-37,RECOVERY,44.8343,41.8322,729,397,38,2019-07-15,Coastal,Rural,0,36.591
+SYN-00805,Synthetic Industrial Corridor Project 00805,Industrial Corridor,NHAI,Maharashtra,MAH-10,MULTI_FACTOR_DELAY,22.1161,14.5473,430,113,23,2022-12-07,Rolling,Urban,0,75.606
+SYN-00806,Synthetic Railway Project 00806,Railway,NHAI,Assam,ASS-06,RNR_DELAY,23.3852,15.8313,435,200,31,2019-12-17,Riverine,Semi-Urban,0,72.144
+SYN-00807,Synthetic National Highway Project 00807,National Highway,NHAI,Bihar,BIH-01,NORMAL,10.1982,6.6032,158,96,8,2024-05-28,Plain,Rural,0,24.8
+SYN-00808,Synthetic National Highway Project 00808,National Highway,NHAI,Bihar,BIH-33,NORMAL,42.7442,31.8286,585,334,99,2020-10-11,Plain,Urban,0,57.498
+SYN-00809,Synthetic Transmission Project 00809,Transmission,State PWD,Madhya Pradesh,MAD-07,NORMAL,52.7444,42.2674,806,564,108,2025-07-26,Hilly,Rural,0,47.274
+SYN-00810,Synthetic Urban Infrastructure Project 00810,Urban Infrastructure,NHAI,Assam,ASS-34,NORMAL,11.8255,8.9059,90,54,15,2023-04-03,Hilly,Rural,0,12.676
+SYN-00811,Synthetic Transmission Project 00811,Transmission,NHIDCL,Jharkhand,JHA-08,LEGAL_DELAY,8.9791,7.3092,59,45,5,2021-01-05,Rolling,Rural,0,57.545
+SYN-00812,Synthetic National Highway Project 00812,National Highway,Power Utility,Assam,ASS-15,ADMINISTRATIVE_BOTTLENECK,23.9885,22.9469,125,83,24,2023-09-12,Riverine,Rural,0,22.849
+SYN-00813,Synthetic Transmission Project 00813,Transmission,Power Utility,Uttar Pradesh,UTT-33,RNR_DELAY,23.4701,16.1824,155,43,12,2025-08-31,Coastal,Urban,0,64.313
+SYN-00814,Synthetic Transmission Project 00814,Transmission,State PWD,Uttar Pradesh,UTT-14,MULTI_FACTOR_DELAY,34.0396,20.5401,673,173,47,2023-06-18,Coastal,Rural,0,70.189
+SYN-00815,Synthetic Irrigation Project 00815,Irrigation,Railway,Madhya Pradesh,MAD-32,NORMAL,11.2631,7.6077,222,78,6,2019-06-01,Riverine,Semi-Urban,1,73.058
+SYN-00816,Synthetic Irrigation Project 00816,Irrigation,NHIDCL,Maharashtra,MAH-13,ADMINISTRATIVE_BOTTLENECK,111.2952,94.7689,576,336,95,2025-10-19,Plain,Urban,0,3.047
+SYN-00817,Synthetic Transmission Project 00817,Transmission,State PWD,Odisha,ODI-36,RECOVERY,7.3444,5.4342,131,55,7,2020-06-02,Rolling,Rural,0,20.553
+SYN-00818,Synthetic Urban Infrastructure Project 00818,Urban Infrastructure,NHIDCL,Odisha,ODI-13,NORMAL,14.0885,8.954,237,59,12,2025-07-07,Coastal,Rural,1,51.609
+SYN-00819,Synthetic Transmission Project 00819,Transmission,Irrigation Department,West Bengal,WES-28,ADMINISTRATIVE_BOTTLENECK,24.0955,23.301,164,77,17,2021-07-16,Riverine,Rural,0,27.423
+SYN-00820,Synthetic Irrigation Project 00820,Irrigation,State PWD,Maharashtra,MAH-16,DOCUMENTATION_DELAY,51.5605,35.9545,449,338,82,2020-01-15,Coastal,Rural,0,32.357
+SYN-00821,Synthetic Railway Project 00821,Railway,Railway,Uttar Pradesh,UTT-02,COMPENSATION_DELAY,9.4553,6.6202,179,69,13,2021-06-22,Riverine,Rural,0,48.485
+SYN-00822,Synthetic Irrigation Project 00822,Irrigation,Railway,Jharkhand,JHA-25,NORMAL,21.1411,19.1924,398,138,29,2024-07-09,Plain,Urban,0,27.777
+SYN-00823,Synthetic Industrial Corridor Project 00823,Industrial Corridor,State PWD,Assam,ASS-07,RNR_DELAY,39.0167,35.8815,449,104,27,2020-11-01,Coastal,Semi-Urban,0,13.128
+SYN-00824,Synthetic Railway Project 00824,Railway,Railway,Assam,ASS-07,MULTI_FACTOR_DELAY,17.21,16.8277,193,120,13,2022-11-26,Coastal,Rural,0,78.918
+SYN-00825,Synthetic Industrial Corridor Project 00825,Industrial Corridor,NHIDCL,Jharkhand,JHA-33,COMPENSATION_DELAY,23.6567,19.1765,204,67,6,2024-12-12,Hilly,Rural,1,78.805
+SYN-00826,Synthetic Irrigation Project 00826,Irrigation,NHIDCL,Bihar,BIH-33,NORMAL,21.6166,15.2405,409,231,54,2022-12-24,Hilly,Rural,0,63.355
+SYN-00827,Synthetic Irrigation Project 00827,Irrigation,Power Utility,Odisha,ODI-20,NORMAL,9.2572,8.4037,147,80,22,2025-01-01,Plain,Semi-Urban,0,16.053
+SYN-00828,Synthetic National Highway Project 00828,National Highway,NHIDCL,Jharkhand,JHA-27,RECOVERY,15.3454,11.2593,98,58,5,2019-05-29,Plain,Rural,0,16.804
+SYN-00829,Synthetic National Highway Project 00829,National Highway,NHIDCL,Maharashtra,MAH-04,NORMAL,12.9193,11.8643,199,75,21,2021-11-10,Plain,Urban,0,14.433
+SYN-00830,Synthetic Irrigation Project 00830,Irrigation,Irrigation Department,Maharashtra,MAH-27,NORMAL,13.1965,13.0861,140,46,14,2024-01-20,Rolling,Semi-Urban,0,59.077
+SYN-00831,Synthetic Urban Infrastructure Project 00831,Urban Infrastructure,NHAI,Assam,ASS-02,RECOVERY,11.0731,9.4211,70,50,6,2019-04-04,Plain,Urban,0,40.398
+SYN-00832,Synthetic Industrial Corridor Project 00832,Industrial Corridor,NHIDCL,Odisha,ODI-29,COMPENSATION_DELAY,14.7555,14.2143,172,80,17,2023-07-02,Coastal,Rural,0,38.335
+SYN-00833,Synthetic Industrial Corridor Project 00833,Industrial Corridor,Railway,Odisha,ODI-18,MULTI_FACTOR_DELAY,154.7499,130.6439,2507,1638,287,2022-10-21,Coastal,Semi-Urban,1,66.535
+SYN-00834,Synthetic National Highway Project 00834,National Highway,State PWD,Jharkhand,JHA-16,ADMINISTRATIVE_BOTTLENECK,25.1826,17.2182,271,121,9,2024-05-11,Hilly,Urban,0,30.397
+SYN-00835,Synthetic Urban Infrastructure Project 00835,Urban Infrastructure,Power Utility,Assam,ASS-04,DOCUMENTATION_DELAY,13.3403,12.7343,122,46,12,2023-02-04,Plain,Semi-Urban,0,56.645
+SYN-00836,Synthetic National Highway Project 00836,National Highway,NHIDCL,Assam,ASS-22,ADMINISTRATIVE_BOTTLENECK,21.8879,14.0791,386,291,47,2024-03-12,Rolling,Rural,0,14.987
+SYN-00837,Synthetic Railway Project 00837,Railway,Railway,West Bengal,WES-05,ADMINISTRATIVE_BOTTLENECK,14.0503,13.3698,166,56,16,2019-08-27,Coastal,Rural,0,72.78
+SYN-00838,Synthetic Urban Infrastructure Project 00838,Urban Infrastructure,NHAI,Assam,ASS-10,NORMAL,5.7232,5.5008,63,18,2,2019-12-15,Rolling,Rural,0,48.733
+SYN-00839,Synthetic Irrigation Project 00839,Irrigation,Power Utility,Jharkhand,JHA-06,NORMAL,38.5978,34.9558,267,59,15,2022-10-08,Rolling,Rural,0,68.892
+SYN-00840,Synthetic National Highway Project 00840,National Highway,Power Utility,Madhya Pradesh,MAD-24,COMPENSATION_DELAY,58.8624,45.3392,327,235,36,2024-12-12,Rolling,Semi-Urban,0,41.493
+SYN-00841,Synthetic Irrigation Project 00841,Irrigation,NHAI,Bihar,BIH-34,NORMAL,23.4137,18.6669,382,270,38,2024-08-20,Hilly,Urban,1,26.156
+SYN-00842,Synthetic Irrigation Project 00842,Irrigation,NHIDCL,Bihar,BIH-11,DOCUMENTATION_DELAY,5.0,4.4867,63,50,6,2022-09-04,Coastal,Rural,0,40.501
+SYN-00843,Synthetic Transmission Project 00843,Transmission,NHIDCL,Jharkhand,JHA-21,DOCUMENTATION_DELAY,58.5392,46.8953,1112,659,74,2020-12-15,Hilly,Urban,0,43.826
+SYN-00844,Synthetic Irrigation Project 00844,Irrigation,NHIDCL,West Bengal,WES-34,RNR_DELAY,7.102,6.7372,139,68,12,2021-11-28,Coastal,Urban,0,56.69
+SYN-00845,Synthetic Railway Project 00845,Railway,Irrigation Department,Jharkhand,JHA-31,MULTI_FACTOR_DELAY,9.2725,5.747,165,94,22,2023-02-06,Plain,Urban,0,51.943
+SYN-00846,Synthetic Irrigation Project 00846,Irrigation,Railway,Bihar,BIH-15,NORMAL,11.8218,8.591,105,32,7,2024-06-16,Coastal,Rural,1,69.499
+SYN-00847,Synthetic Industrial Corridor Project 00847,Industrial Corridor,Irrigation Department,Bihar,BIH-14,NORMAL,73.4439,69.3744,682,166,17,2024-07-23,Riverine,Rural,0,59.115
+SYN-00848,Synthetic Railway Project 00848,Railway,Irrigation Department,Assam,ASS-39,RECOVERY,6.3993,6.273,95,19,1,2020-06-25,Coastal,Urban,0,20.646
+SYN-00849,Synthetic Urban Infrastructure Project 00849,Urban Infrastructure,State PWD,Maharashtra,MAH-23,NORMAL,14.1801,13.4304,168,61,16,2021-08-22,Riverine,Rural,0,18.471
+SYN-00850,Synthetic Industrial Corridor Project 00850,Industrial Corridor,NHIDCL,Uttar Pradesh,UTT-28,COMPENSATION_DELAY,25.191,20.0599,221,87,20,2021-11-16,Plain,Rural,0,59.318
+SYN-00851,Synthetic Urban Infrastructure Project 00851,Urban Infrastructure,Irrigation Department,Odisha,ODI-02,NORMAL,8.9888,5.6537,68,45,8,2020-02-16,Plain,Urban,0,60.856
+SYN-00852,Synthetic National Highway Project 00852,National Highway,Railway,Uttar Pradesh,UTT-31,MULTI_FACTOR_DELAY,9.0463,7.2768,106,50,5,2025-07-16,Plain,Semi-Urban,0,61.81
+SYN-00853,Synthetic National Highway Project 00853,National Highway,NHIDCL,Assam,ASS-39,NORMAL,50.1611,43.3412,814,312,31,2020-08-22,Coastal,Urban,0,17.969
+SYN-00854,Synthetic Urban Infrastructure Project 00854,Urban Infrastructure,Power Utility,Assam,ASS-06,NORMAL,66.574,62.7654,908,286,80,2020-03-12,Plain,Rural,0,13.821
+SYN-00855,Synthetic National Highway Project 00855,National Highway,NHAI,Bihar,BIH-06,ADMINISTRATIVE_BOTTLENECK,80.6656,62.9099,1412,753,163,2021-05-21,Riverine,Rural,1,21.515
+SYN-00856,Synthetic Urban Infrastructure Project 00856,Urban Infrastructure,NHIDCL,West Bengal,WES-22,RECOVERY,49.82,44.2004,684,164,22,2020-10-15,Riverine,Urban,0,56.421
+SYN-00857,Synthetic Industrial Corridor Project 00857,Industrial Corridor,NHAI,Bihar,BIH-31,NORMAL,49.6952,44.9506,256,120,15,2023-07-30,Rolling,Urban,0,77.309
+SYN-00858,Synthetic Railway Project 00858,Railway,Railway,Odisha,ODI-11,ADMINISTRATIVE_BOTTLENECK,61.8623,58.9534,454,264,72,2022-08-05,Coastal,Rural,0,41.515
+SYN-00859,Synthetic Railway Project 00859,Railway,Railway,Assam,ASS-05,DOCUMENTATION_DELAY,29.544,24.4472,477,174,41,2020-10-05,Coastal,Semi-Urban,0,44.755
+SYN-00860,Synthetic Industrial Corridor Project 00860,Industrial Corridor,Irrigation Department,Odisha,ODI-22,DOCUMENTATION_DELAY,10.7152,10.4603,108,36,7,2022-05-26,Coastal,Rural,0,43.555
+SYN-00861,Synthetic National Highway Project 00861,National Highway,NHAI,Madhya Pradesh,MAD-25,NORMAL,5.0,4.8224,57,30,8,2020-07-07,Rolling,Urban,0,56.463
+SYN-00862,Synthetic Transmission Project 00862,Transmission,State PWD,Assam,ASS-06,NORMAL,18.4681,15.5727,352,209,39,2022-05-17,Rolling,Rural,0,61.335
+SYN-00863,Synthetic Industrial Corridor Project 00863,Industrial Corridor,NHAI,Uttar Pradesh,UTT-17,ADMINISTRATIVE_BOTTLENECK,17.3271,15.9361,226,110,30,2021-01-09,Rolling,Urban,0,73.951
+SYN-00864,Synthetic Transmission Project 00864,Transmission,Irrigation Department,Odisha,ODI-36,LEGAL_DELAY,8.113,5.155,61,13,3,2024-12-28,Coastal,Rural,0,74.226
+SYN-00865,Synthetic Irrigation Project 00865,Irrigation,Power Utility,Assam,ASS-10,COMPENSATION_DELAY,26.163,16.3421,226,145,21,2021-12-13,Hilly,Semi-Urban,0,14.464
+SYN-00866,Synthetic Industrial Corridor Project 00866,Industrial Corridor,Irrigation Department,Uttar Pradesh,UTT-18,NORMAL,19.608,14.154,266,177,49,2023-06-04,Hilly,Semi-Urban,0,35.921
+SYN-00867,Synthetic Urban Infrastructure Project 00867,Urban Infrastructure,Railway,Jharkhand,JHA-27,RECOVERY,37.1156,26.5655,287,163,14,2025-04-14,Hilly,Rural,0,76.815
+SYN-00868,Synthetic Railway Project 00868,Railway,State PWD,Madhya Pradesh,MAD-07,ADMINISTRATIVE_BOTTLENECK,29.5835,27.7264,458,268,75,2020-12-30,Coastal,Rural,0,10.091
+SYN-00869,Synthetic Industrial Corridor Project 00869,Industrial Corridor,Railway,Madhya Pradesh,MAD-09,RECOVERY,51.2587,46.1785,740,423,102,2020-01-06,Plain,Rural,1,43.204
+SYN-00870,Synthetic Irrigation Project 00870,Irrigation,State PWD,Assam,ASS-05,NORMAL,17.36,17.2448,270,147,36,2020-11-08,Rolling,Semi-Urban,0,22.865
+SYN-00871,Synthetic Urban Infrastructure Project 00871,Urban Infrastructure,Irrigation Department,Madhya Pradesh,MAD-27,ADMINISTRATIVE_BOTTLENECK,35.4949,32.8882,550,248,69,2024-11-15,Riverine,Rural,1,17.964
+SYN-00872,Synthetic Irrigation Project 00872,Irrigation,Railway,Jharkhand,JHA-34,RNR_DELAY,50.7117,33.8024,475,313,63,2019-04-30,Riverine,Rural,0,38.747
+SYN-00873,Synthetic Transmission Project 00873,Transmission,NHIDCL,West Bengal,WES-13,NORMAL,15.4834,13.1813,183,70,12,2025-09-07,Hilly,Rural,0,7.373
+SYN-00874,Synthetic Transmission Project 00874,Transmission,NHAI,Assam,ASS-14,RNR_DELAY,27.2478,19.757,149,112,18,2023-10-09,Coastal,Semi-Urban,0,67.14
+SYN-00875,Synthetic Irrigation Project 00875,Irrigation,State PWD,Assam,ASS-07,NORMAL,36.2221,34.2747,218,130,24,2019-10-12,Coastal,Urban,0,2.736
+SYN-00876,Synthetic National Highway Project 00876,National Highway,Railway,Assam,ASS-30,MULTI_FACTOR_DELAY,84.2514,66.4181,1343,335,44,2020-06-07,Plain,Urban,0,18.832
+SYN-00877,Synthetic Railway Project 00877,Railway,NHIDCL,Odisha,ODI-34,NORMAL,5.8074,5.5833,79,18,4,2022-10-22,Coastal,Urban,0,72.093
+SYN-00878,Synthetic Industrial Corridor Project 00878,Industrial Corridor,Power Utility,West Bengal,WES-29,LEGAL_DELAY,20.2344,16.0749,125,47,5,2019-06-01,Rolling,Rural,0,13.806
+SYN-00879,Synthetic Industrial Corridor Project 00879,Industrial Corridor,NHAI,Madhya Pradesh,MAD-26,NORMAL,19.9375,13.1816,239,95,6,2022-03-15,Riverine,Rural,0,30.713
+SYN-00880,Synthetic Railway Project 00880,Railway,Power Utility,Assam,ASS-25,NORMAL,28.7244,24.4858,445,244,62,2021-02-08,Rolling,Semi-Urban,0,55.473
+SYN-00881,Synthetic Urban Infrastructure Project 00881,Urban Infrastructure,Irrigation Department,Madhya Pradesh,MAD-07,NORMAL,14.1638,11.0048,274,160,37,2023-08-07,Rolling,Rural,0,2.558
+SYN-00882,Synthetic Transmission Project 00882,Transmission,Irrigation Department,Madhya Pradesh,MAD-24,NORMAL,5.0,3.2127,43,10,1,2021-04-05,Rolling,Semi-Urban,0,65.378
+SYN-00883,Synthetic Irrigation Project 00883,Irrigation,State PWD,West Bengal,WES-30,MULTI_FACTOR_DELAY,12.6564,12.6273,79,63,4,2021-03-23,Plain,Rural,0,39.955
+SYN-00884,Synthetic Transmission Project 00884,Transmission,Railway,Bihar,BIH-29,NORMAL,44.2899,34.2122,538,298,77,2020-11-09,Hilly,Semi-Urban,0,74.711
+SYN-00885,Synthetic Irrigation Project 00885,Irrigation,NHIDCL,Madhya Pradesh,MAD-04,ADMINISTRATIVE_BOTTLENECK,27.2416,24.4776,458,253,21,2024-10-05,Plain,Rural,0,55.711
+SYN-00886,Synthetic Irrigation Project 00886,Irrigation,Railway,Uttar Pradesh,UTT-07,NORMAL,74.8266,50.1838,785,417,26,2025-01-18,Hilly,Rural,0,12.065
+SYN-00887,Synthetic Industrial Corridor Project 00887,Industrial Corridor,NHIDCL,Odisha,ODI-37,NORMAL,16.2387,11.0225,241,188,30,2020-05-16,Rolling,Urban,0,47.308
+SYN-00888,Synthetic Industrial Corridor Project 00888,Industrial Corridor,NHAI,Maharashtra,MAH-07,RNR_DELAY,10.8294,8.4902,150,102,22,2021-09-16,Rolling,Rural,0,47.556
+SYN-00889,Synthetic Urban Infrastructure Project 00889,Urban Infrastructure,NHIDCL,Assam,ASS-21,COMPENSATION_DELAY,22.1851,19.1961,187,122,11,2024-12-06,Hilly,Rural,1,57.683
+SYN-00890,Synthetic National Highway Project 00890,National Highway,Railway,Madhya Pradesh,MAD-31,RNR_DELAY,35.5501,29.6158,222,99,12,2019-09-16,Hilly,Semi-Urban,0,9.529
+SYN-00891,Synthetic Industrial Corridor Project 00891,Industrial Corridor,Railway,Uttar Pradesh,UTT-02,RNR_DELAY,24.494,14.9292,472,105,30,2020-04-26,Coastal,Rural,0,16.283
+SYN-00892,Synthetic Transmission Project 00892,Transmission,Irrigation Department,Bihar,BIH-02,LEGAL_DELAY,29.9246,25.2518,252,114,7,2024-03-03,Rolling,Semi-Urban,0,52.324
+SYN-00893,Synthetic Urban Infrastructure Project 00893,Urban Infrastructure,State PWD,Maharashtra,MAH-11,RECOVERY,5.3204,4.1696,66,20,2,2025-05-08,Coastal,Rural,0,36.39
+SYN-00894,Synthetic National Highway Project 00894,National Highway,NHIDCL,West Bengal,WES-05,NORMAL,7.1638,6.0764,118,93,23,2025-02-19,Hilly,Rural,0,65.663
+SYN-00895,Synthetic National Highway Project 00895,National Highway,Railway,West Bengal,WES-34,COMPENSATION_DELAY,25.0383,24.5194,430,295,66,2023-02-20,Coastal,Urban,0,30.714
+SYN-00896,Synthetic Urban Infrastructure Project 00896,Urban Infrastructure,Railway,West Bengal,WES-27,ADMINISTRATIVE_BOTTLENECK,15.3562,10.9953,225,132,17,2020-08-26,Plain,Semi-Urban,1,66.984
+SYN-00897,Synthetic Industrial Corridor Project 00897,Industrial Corridor,State PWD,Madhya Pradesh,MAD-20,NORMAL,31.185,22.0613,484,278,75,2020-06-18,Rolling,Rural,0,31.603
+SYN-00898,Synthetic Transmission Project 00898,Transmission,Irrigation Department,Uttar Pradesh,UTT-08,LEGAL_DELAY,14.5725,11.5429,94,21,2,2021-10-21,Coastal,Rural,0,46.393
+SYN-00899,Synthetic Irrigation Project 00899,Irrigation,NHIDCL,Bihar,BIH-39,NORMAL,68.4672,66.4827,679,146,21,2020-12-21,Coastal,Semi-Urban,0,13.587
+SYN-00900,Synthetic National Highway Project 00900,National Highway,Irrigation Department,Uttar Pradesh,UTT-26,RNR_DELAY,24.5676,24.1368,368,107,29,2021-06-23,Plain,Urban,0,12.286
+SYN-00901,Synthetic Transmission Project 00901,Transmission,Power Utility,West Bengal,WES-39,ADMINISTRATIVE_BOTTLENECK,25.1381,17.4951,249,87,14,2024-02-13,Plain,Rural,0,15.812
+SYN-00902,Synthetic Railway Project 00902,Railway,State PWD,Jharkhand,JHA-25,NORMAL,11.4716,10.6414,84,54,12,2020-10-25,Plain,Rural,0,49.094
+SYN-00903,Synthetic Railway Project 00903,Railway,Railway,Madhya Pradesh,MAD-32,NORMAL,122.9311,77.7225,1052,458,104,2024-04-20,Coastal,Rural,0,25.917
+SYN-00904,Synthetic National Highway Project 00904,National Highway,Railway,West Bengal,WES-16,NORMAL,16.3599,13.2965,302,70,19,2019-08-04,Riverine,Semi-Urban,0,54.919
+SYN-00905,Synthetic Irrigation Project 00905,Irrigation,NHIDCL,Jharkhand,JHA-18,MULTI_FACTOR_DELAY,35.788,32.7219,633,131,24,2021-10-26,Rolling,Rural,0,54.017
+SYN-00906,Synthetic Railway Project 00906,Railway,State PWD,Madhya Pradesh,MAD-28,MULTI_FACTOR_DELAY,15.5732,10.4126,276,166,23,2023-08-05,Plain,Rural,0,56.902
+SYN-00907,Synthetic Railway Project 00907,Railway,NHIDCL,Assam,ASS-07,NORMAL,9.9253,8.5793,182,119,28,2023-06-20,Hilly,Rural,0,39.806
+SYN-00908,Synthetic Urban Infrastructure Project 00908,Urban Infrastructure,State PWD,Uttar Pradesh,UTT-35,NORMAL,70.863,46.7607,723,416,57,2021-09-09,Hilly,Semi-Urban,0,20.961
+SYN-00909,Synthetic Irrigation Project 00909,Irrigation,Power Utility,Uttar Pradesh,UTT-04,NORMAL,13.2591,9.3567,210,65,13,2025-10-17,Riverine,Urban,0,45.984
+SYN-00910,Synthetic Irrigation Project 00910,Irrigation,Irrigation Department,Bihar,BIH-07,NORMAL,47.7325,47.3389,562,201,49,2023-08-29,Plain,Semi-Urban,0,41.838
+SYN-00911,Synthetic Industrial Corridor Project 00911,Industrial Corridor,NHIDCL,Madhya Pradesh,MAD-04,NORMAL,14.6508,14.5929,292,229,35,2021-10-04,Hilly,Semi-Urban,0,65.253
+SYN-00912,Synthetic Industrial Corridor Project 00912,Industrial Corridor,Irrigation Department,Assam,ASS-06,NORMAL,13.0075,11.2936,190,106,25,2020-07-23,Hilly,Semi-Urban,0,50.371
+SYN-00913,Synthetic Industrial Corridor Project 00913,Industrial Corridor,Railway,Odisha,ODI-25,NORMAL,21.1209,16.5536,191,64,7,2021-10-10,Riverine,Semi-Urban,0,26.297
+SYN-00914,Synthetic Irrigation Project 00914,Irrigation,NHAI,Jharkhand,JHA-17,NORMAL,26.1783,16.6069,441,257,76,2023-12-17,Rolling,Urban,0,17.022
+SYN-00915,Synthetic Urban Infrastructure Project 00915,Urban Infrastructure,Power Utility,West Bengal,WES-23,NORMAL,42.6954,27.9624,630,138,11,2023-12-19,Plain,Rural,0,40.597
+SYN-00916,Synthetic Transmission Project 00916,Transmission,NHIDCL,Jharkhand,JHA-18,ADMINISTRATIVE_BOTTLENECK,65.003,58.8266,933,312,44,2024-09-10,Riverine,Rural,0,35.318
+SYN-00917,Synthetic Irrigation Project 00917,Irrigation,Power Utility,Assam,ASS-29,NORMAL,21.5878,18.0159,203,91,15,2020-02-15,Riverine,Rural,0,70.367
+SYN-00918,Synthetic Industrial Corridor Project 00918,Industrial Corridor,State PWD,Maharashtra,MAH-04,NORMAL,46.7175,43.5557,544,296,54,2021-07-04,Plain,Semi-Urban,0,74.841
+SYN-00919,Synthetic Railway Project 00919,Railway,State PWD,Bihar,BIH-34,DOCUMENTATION_DELAY,10.9047,10.8867,161,89,7,2020-06-22,Rolling,Urban,0,28.154
+SYN-00920,Synthetic National Highway Project 00920,National Highway,Irrigation Department,Madhya Pradesh,MAD-03,NORMAL,28.491,23.9803,213,89,20,2020-03-21,Hilly,Rural,0,30.161
+SYN-00921,Synthetic Urban Infrastructure Project 00921,Urban Infrastructure,Irrigation Department,Odisha,ODI-31,DOCUMENTATION_DELAY,26.3389,16.5062,323,200,48,2025-07-12,Plain,Urban,0,3.635
+SYN-00922,Synthetic Railway Project 00922,Railway,NHIDCL,Madhya Pradesh,MAD-21,NORMAL,8.7952,8.3707,133,72,16,2022-11-12,Hilly,Rural,0,32.282
+SYN-00923,Synthetic Irrigation Project 00923,Irrigation,Power Utility,Odisha,ODI-25,NORMAL,18.4871,17.0643,224,48,13,2024-12-12,Coastal,Rural,0,77.3
+SYN-00924,Synthetic Urban Infrastructure Project 00924,Urban Infrastructure,Irrigation Department,Odisha,ODI-15,NORMAL,41.422,26.3804,794,567,159,2025-10-28,Coastal,Semi-Urban,0,52.552
+SYN-00925,Synthetic Urban Infrastructure Project 00925,Urban Infrastructure,NHAI,Odisha,ODI-29,COMPENSATION_DELAY,14.3642,9.1948,221,104,15,2025-05-19,Coastal,Rural,0,17.566
+SYN-00926,Synthetic Transmission Project 00926,Transmission,NHAI,Uttar Pradesh,UTT-11,NORMAL,16.8134,14.3796,138,64,9,2019-07-30,Hilly,Semi-Urban,0,46.631
+SYN-00927,Synthetic National Highway Project 00927,National Highway,Power Utility,Odisha,ODI-22,COMPENSATION_DELAY,20.1855,17.299,233,101,5,2024-09-29,Coastal,Rural,0,59.775
+SYN-00928,Synthetic Urban Infrastructure Project 00928,Urban Infrastructure,Irrigation Department,Madhya Pradesh,MAD-10,MULTI_FACTOR_DELAY,28.1971,25.3187,464,251,38,2019-12-09,Coastal,Semi-Urban,0,51.206
+SYN-00929,Synthetic Industrial Corridor Project 00929,Industrial Corridor,Power Utility,Bihar,BIH-27,NORMAL,40.5871,37.2936,804,342,90,2025-09-01,Rolling,Rural,1,25.98
+SYN-00930,Synthetic Railway Project 00930,Railway,State PWD,Uttar Pradesh,UTT-36,NORMAL,9.5499,6.6163,184,93,6,2019-12-23,Riverine,Urban,0,20.487
+SYN-00931,Synthetic Urban Infrastructure Project 00931,Urban Infrastructure,Railway,Jharkhand,JHA-28,NORMAL,11.8767,7.8121,214,115,9,2020-09-04,Coastal,Rural,1,52.796
+SYN-00932,Synthetic Urban Infrastructure Project 00932,Urban Infrastructure,State PWD,Odisha,ODI-23,MULTI_FACTOR_DELAY,27.1643,18.6131,309,99,24,2022-02-17,Plain,Urban,0,46.731
+SYN-00933,Synthetic Industrial Corridor Project 00933,Industrial Corridor,Power Utility,Madhya Pradesh,MAD-14,RECOVERY,39.6739,28.1835,706,464,37,2019-04-22,Riverine,Rural,0,11.695
+SYN-00934,Synthetic Railway Project 00934,Railway,Railway,Assam,ASS-20,DOCUMENTATION_DELAY,8.3162,5.5209,82,17,1,2024-12-06,Riverine,Rural,1,1.654
+SYN-00935,Synthetic Irrigation Project 00935,Irrigation,Irrigation Department,Jharkhand,JHA-06,NORMAL,111.7749,101.7034,1905,774,183,2025-02-28,Plain,Rural,0,19.718
+SYN-00936,Synthetic Transmission Project 00936,Transmission,NHIDCL,Assam,ASS-26,COMPENSATION_DELAY,7.6967,6.6045,136,30,5,2022-09-30,Coastal,Rural,0,64.507
+SYN-00937,Synthetic Industrial Corridor Project 00937,Industrial Corridor,State PWD,Maharashtra,MAH-28,NORMAL,15.1149,11.9352,106,31,8,2022-05-13,Rolling,Urban,0,27.443
+SYN-00938,Synthetic Industrial Corridor Project 00938,Industrial Corridor,Irrigation Department,Assam,ASS-06,COMPENSATION_DELAY,15.5073,9.5123,147,63,3,2021-11-25,Rolling,Semi-Urban,0,53.678
+SYN-00939,Synthetic Urban Infrastructure Project 00939,Urban Infrastructure,NHIDCL,Assam,ASS-08,LEGAL_DELAY,44.6083,34.4725,568,231,39,2023-03-10,Hilly,Rural,0,63.568
+SYN-00940,Synthetic Transmission Project 00940,Transmission,Power Utility,Bihar,BIH-31,MULTI_FACTOR_DELAY,30.4345,26.9288,388,93,16,2021-08-20,Riverine,Rural,0,14.189
+SYN-00941,Synthetic Transmission Project 00941,Transmission,NHAI,Madhya Pradesh,MAD-08,ADMINISTRATIVE_BOTTLENECK,37.7741,27.3499,436,126,14,2019-01-17,Hilly,Rural,0,71.864
+SYN-00942,Synthetic National Highway Project 00942,National Highway,Irrigation Department,West Bengal,WES-10,NORMAL,25.4023,22.0992,495,153,32,2020-06-05,Riverine,Rural,0,48.462
+SYN-00943,Synthetic Industrial Corridor Project 00943,Industrial Corridor,State PWD,Odisha,ODI-38,RNR_DELAY,54.403,34.4757,1070,449,56,2023-07-23,Hilly,Urban,1,47.525
+SYN-00944,Synthetic National Highway Project 00944,National Highway,NHIDCL,Odisha,ODI-04,ADMINISTRATIVE_BOTTLENECK,8.458,7.4043,54,13,3,2020-08-11,Coastal,Urban,0,12.377
+SYN-00945,Synthetic Railway Project 00945,Railway,Power Utility,Uttar Pradesh,UTT-04,LEGAL_DELAY,92.8518,87.6312,1019,324,48,2025-12-22,Hilly,Urban,0,26.244
+SYN-00946,Synthetic Transmission Project 00946,Transmission,Irrigation Department,West Bengal,WES-31,NORMAL,15.524,14.1984,189,74,11,2021-10-29,Hilly,Semi-Urban,0,21.018
+SYN-00947,Synthetic Irrigation Project 00947,Irrigation,Irrigation Department,Odisha,ODI-32,NORMAL,117.8979,111.8053,1493,1053,230,2024-12-19,Hilly,Rural,0,43.823
+SYN-00948,Synthetic National Highway Project 00948,National Highway,State PWD,Uttar Pradesh,UTT-06,RNR_DELAY,17.6769,11.2066,190,120,30,2022-02-23,Rolling,Rural,0,16.728
+SYN-00949,Synthetic Urban Infrastructure Project 00949,Urban Infrastructure,Power Utility,Jharkhand,JHA-24,COMPENSATION_DELAY,20.1953,20.1514,185,63,5,2025-01-07,Rolling,Semi-Urban,0,61.548
+SYN-00950,Synthetic Industrial Corridor Project 00950,Industrial Corridor,NHAI,Maharashtra,MAH-31,LEGAL_DELAY,20.0367,15.6536,344,114,9,2022-05-21,Riverine,Rural,0,74.147
+SYN-00951,Synthetic National Highway Project 00951,National Highway,Irrigation Department,Uttar Pradesh,UTT-34,LEGAL_DELAY,5.0,3.0056,72,19,4,2021-01-14,Riverine,Semi-Urban,0,6.382
+SYN-00952,Synthetic Industrial Corridor Project 00952,Industrial Corridor,Irrigation Department,Assam,ASS-27,COMPENSATION_DELAY,18.1141,16.9173,189,134,34,2024-10-22,Hilly,Rural,0,12.222
+SYN-00953,Synthetic Industrial Corridor Project 00953,Industrial Corridor,NHIDCL,Madhya Pradesh,MAD-05,COMPENSATION_DELAY,14.1208,11.6457,180,53,7,2021-09-25,Hilly,Urban,0,65.759
+SYN-00954,Synthetic Railway Project 00954,Railway,Irrigation Department,Madhya Pradesh,MAD-18,ADMINISTRATIVE_BOTTLENECK,7.7496,6.4958,43,20,4,2025-01-08,Rolling,Urban,1,37.256
+SYN-00955,Synthetic Urban Infrastructure Project 00955,Urban Infrastructure,NHAI,Madhya Pradesh,MAD-14,NORMAL,67.7946,47.8611,1028,696,106,2024-06-25,Hilly,Semi-Urban,0,17.974
+SYN-00956,Synthetic Industrial Corridor Project 00956,Industrial Corridor,Power Utility,West Bengal,WES-31,ADMINISTRATIVE_BOTTLENECK,178.7376,165.1606,1977,959,231,2021-12-15,Coastal,Rural,0,75.506
+SYN-00957,Synthetic National Highway Project 00957,National Highway,NHAI,Jharkhand,JHA-33,DOCUMENTATION_DELAY,27.8966,18.6185,554,243,70,2023-04-04,Hilly,Rural,0,49.973
+SYN-00958,Synthetic Railway Project 00958,Railway,NHAI,Uttar Pradesh,UTT-20,NORMAL,19.8784,15.8498,372,176,25,2021-03-05,Plain,Rural,0,67.267
+SYN-00959,Synthetic Industrial Corridor Project 00959,Industrial Corridor,Power Utility,Uttar Pradesh,UTT-30,LEGAL_DELAY,59.9374,44.6051,472,165,14,2019-07-21,Hilly,Rural,0,25.438
+SYN-00960,Synthetic Urban Infrastructure Project 00960,Urban Infrastructure,Power Utility,Assam,ASS-39,COMPENSATION_DELAY,29.3424,28.9778,165,46,7,2020-05-17,Riverine,Rural,0,46.704
+SYN-00961,Synthetic Transmission Project 00961,Transmission,NHAI,Bihar,BIH-27,DOCUMENTATION_DELAY,19.6601,14.3387,165,128,11,2022-10-06,Plain,Semi-Urban,0,51.52
+SYN-00962,Synthetic National Highway Project 00962,National Highway,State PWD,West Bengal,WES-33,RNR_DELAY,18.9186,12.9555,361,221,55,2022-04-06,Plain,Semi-Urban,0,42.99
+SYN-00963,Synthetic Urban Infrastructure Project 00963,Urban Infrastructure,Railway,Maharashtra,MAH-03,RNR_DELAY,37.5309,34.1305,559,177,41,2019-04-17,Rolling,Rural,0,60.134
+SYN-00964,Synthetic Irrigation Project 00964,Irrigation,Irrigation Department,Maharashtra,MAH-22,ADMINISTRATIVE_BOTTLENECK,28.5555,25.4155,503,203,30,2025-08-10,Plain,Semi-Urban,0,47.771
+SYN-00965,Synthetic Transmission Project 00965,Transmission,Railway,West Bengal,WES-23,ADMINISTRATIVE_BOTTLENECK,42.5082,42.2737,677,247,59,2022-09-06,Coastal,Rural,0,46.257
+SYN-00966,Synthetic Industrial Corridor Project 00966,Industrial Corridor,Railway,West Bengal,WES-09,NORMAL,5.0,3.1065,99,74,21,2019-03-06,Rolling,Rural,0,37.953
+SYN-00967,Synthetic Railway Project 00967,Railway,NHAI,Madhya Pradesh,MAD-25,DOCUMENTATION_DELAY,16.324,13.412,213,127,13,2025-09-12,Riverine,Urban,0,46.387
+SYN-00968,Synthetic National Highway Project 00968,National Highway,Irrigation Department,Odisha,ODI-22,MULTI_FACTOR_DELAY,16.797,10.6483,185,122,34,2020-02-14,Rolling,Semi-Urban,1,20.386
+SYN-00969,Synthetic National Highway Project 00969,National Highway,Railway,Assam,ASS-18,NORMAL,55.1845,51.1752,368,270,44,2020-07-21,Hilly,Rural,0,63.029
+SYN-00970,Synthetic National Highway Project 00970,National Highway,State PWD,Madhya Pradesh,MAD-35,NORMAL,10.0736,7.2651,95,54,6,2021-10-18,Coastal,Semi-Urban,0,66.905
+SYN-00971,Synthetic Railway Project 00971,Railway,NHAI,Bihar,BIH-36,COMPENSATION_DELAY,18.2206,17.3013,290,231,13,2022-07-02,Riverine,Urban,0,39.194
+SYN-00972,Synthetic Railway Project 00972,Railway,Irrigation Department,Madhya Pradesh,MAD-29,LEGAL_DELAY,42.1763,38.3977,812,279,60,2021-11-09,Hilly,Urban,1,60.98
+SYN-00973,Synthetic Irrigation Project 00973,Irrigation,NHAI,Jharkhand,JHA-10,ADMINISTRATIVE_BOTTLENECK,11.2031,11.0764,209,109,23,2019-06-15,Riverine,Urban,0,50.577
+SYN-00974,Synthetic Irrigation Project 00974,Irrigation,Irrigation Department,Odisha,ODI-25,DOCUMENTATION_DELAY,16.1509,12.1428,111,30,7,2024-11-23,Coastal,Rural,0,30.509
+SYN-00975,Synthetic Transmission Project 00975,Transmission,Power Utility,West Bengal,WES-27,NORMAL,18.1607,15.9454,265,122,8,2019-08-16,Plain,Rural,0,22.887
+SYN-00976,Synthetic Transmission Project 00976,Transmission,NHIDCL,Maharashtra,MAH-02,ADMINISTRATIVE_BOTTLENECK,40.8237,35.1378,455,163,14,2021-03-30,Coastal,Semi-Urban,0,63.718
+SYN-00977,Synthetic Urban Infrastructure Project 00977,Urban Infrastructure,NHAI,Uttar Pradesh,UTT-01,NORMAL,37.8778,33.2941,456,354,92,2022-05-17,Coastal,Semi-Urban,0,10.626
+SYN-00978,Synthetic Railway Project 00978,Railway,NHAI,Bihar,BIH-07,NORMAL,31.5746,28.4866,621,212,60,2024-05-10,Hilly,Rural,0,25.886
+SYN-00979,Synthetic Industrial Corridor Project 00979,Industrial Corridor,NHAI,West Bengal,WES-04,MULTI_FACTOR_DELAY,21.8121,21.4142,392,229,46,2019-08-12,Riverine,Semi-Urban,0,26.97
+SYN-00980,Synthetic Railway Project 00980,Railway,Irrigation Department,Madhya Pradesh,MAD-16,COMPENSATION_DELAY,32.8338,22.4614,183,106,6,2025-06-07,Coastal,Urban,0,36.933
+SYN-00981,Synthetic Railway Project 00981,Railway,NHAI,Assam,ASS-07,LEGAL_DELAY,29.636,23.6221,277,209,38,2024-09-23,Coastal,Semi-Urban,0,66.833
+SYN-00982,Synthetic Industrial Corridor Project 00982,Industrial Corridor,State PWD,Maharashtra,MAH-31,COMPENSATION_DELAY,51.0848,31.8113,990,465,123,2025-06-19,Riverine,Rural,0,41.109
+SYN-00983,Synthetic National Highway Project 00983,National Highway,Railway,Uttar Pradesh,UTT-36,NORMAL,30.5526,21.517,365,123,10,2023-12-29,Riverine,Semi-Urban,0,63.278
+SYN-00984,Synthetic Industrial Corridor Project 00984,Industrial Corridor,NHIDCL,Maharashtra,MAH-27,NORMAL,20.4985,12.374,150,30,8,2020-01-05,Hilly,Urban,0,69.156
+SYN-00985,Synthetic Transmission Project 00985,Transmission,State PWD,Odisha,ODI-32,NORMAL,5.0526,4.3293,58,20,5,2022-09-16,Rolling,Rural,1,76.335
+SYN-00986,Synthetic Railway Project 00986,Railway,Power Utility,Uttar Pradesh,UTT-18,DOCUMENTATION_DELAY,10.0025,9.4402,185,96,27,2023-12-24,Coastal,Rural,0,68.006
+SYN-00987,Synthetic Transmission Project 00987,Transmission,Irrigation Department,Jharkhand,JHA-19,NORMAL,17.2034,16.0074,319,141,14,2023-07-24,Riverine,Urban,0,23.475
+SYN-00988,Synthetic Railway Project 00988,Railway,NHIDCL,Bihar,BIH-34,MULTI_FACTOR_DELAY,47.7307,43.4055,870,354,75,2024-03-14,Plain,Rural,0,27.629
+SYN-00989,Synthetic Transmission Project 00989,Transmission,Irrigation Department,Maharashtra,MAH-03,NORMAL,9.6115,7.0327,186,107,9,2025-08-10,Rolling,Rural,0,21.552
+SYN-00990,Synthetic Transmission Project 00990,Transmission,State PWD,Odisha,ODI-31,ADMINISTRATIVE_BOTTLENECK,21.1031,13.8728,165,58,4,2021-12-11,Plain,Rural,0,62.177
+SYN-00991,Synthetic Irrigation Project 00991,Irrigation,Irrigation Department,Maharashtra,MAH-08,COMPENSATION_DELAY,35.7515,26.7603,522,110,33,2022-08-16,Rolling,Rural,0,41.564
+SYN-00992,Synthetic Railway Project 00992,Railway,NHAI,West Bengal,WES-15,ADMINISTRATIVE_BOTTLENECK,8.6758,6.3977,98,58,5,2022-07-25,Rolling,Rural,0,62.593
+SYN-00993,Synthetic Urban Infrastructure Project 00993,Urban Infrastructure,NHIDCL,West Bengal,WES-08,NORMAL,27.5863,18.9659,259,85,17,2019-05-31,Rolling,Urban,0,16.595
+SYN-00994,Synthetic Irrigation Project 00994,Irrigation,NHIDCL,Madhya Pradesh,MAD-02,NORMAL,5.0,3.0274,37,11,2,2021-07-01,Rolling,Semi-Urban,0,61.204
+SYN-00995,Synthetic Railway Project 00995,Railway,Railway,Jharkhand,JHA-07,DOCUMENTATION_DELAY,32.4146,31.2883,242,74,12,2024-05-23,Plain,Semi-Urban,0,71.326
+SYN-00996,Synthetic Industrial Corridor Project 00996,Industrial Corridor,NHIDCL,Assam,ASS-33,RNR_DELAY,35.0783,21.8331,635,356,83,2024-03-01,Hilly,Urban,0,21.577
+SYN-00997,Synthetic Transmission Project 00997,Transmission,NHIDCL,Madhya Pradesh,MAD-36,NORMAL,16.8514,14.4236,319,216,13,2020-06-07,Rolling,Rural,0,32.35
+SYN-00998,Synthetic Railway Project 00998,Railway,Railway,Bihar,BIH-13,ADMINISTRATIVE_BOTTLENECK,19.1827,18.5324,231,129,17,2024-10-09,Plain,Semi-Urban,0,66.193
+SYN-00999,Synthetic Railway Project 00999,Railway,Railway,Bihar,BIH-13,ADMINISTRATIVE_BOTTLENECK,12.228,8.5488,75,26,6,2023-10-23,Rolling,Rural,0,13.185
+SYN-01000,Synthetic Irrigation Project 01000,Irrigation,Railway,Odisha,ODI-36,DOCUMENTATION_DELAY,26.7739,20.5693,495,106,19,2023-09-22,Rolling,Rural,0,72.17

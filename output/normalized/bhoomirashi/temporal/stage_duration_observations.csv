@@ -1,0 +1,8 @@
+project_id,cycle_number,cycle_id,transition,from_stage,to_stage,start_event_date,end_event_date,duration_days,start_notification_id,end_notification_id,start_notification_number,end_notification_number,start_status,end_status,start_event_sequence,end_event_sequence,observation_quality,usable_for_empirical_benchmark
+54635,1,54635_C01,3a_to_3A,3a,3A,2017-05-17,2017-09-18,124,50840,44531,1405,2685,3a Notified,3A Notified,1,2,OBSERVED,1
+54635,2,54635_C02,3a_to_3A,3a,3A,2021-09-15,2021-11-15,61,58267,56691,3761(E),4732(E),3a Notified,3A Notified,1,2,OBSERVED,1
+54635,2,54635_C02,3A_to_3D,3A,3D,2021-11-15,2022-03-24,129,56691,44312,4732(E),1306(E),3A Notified,3D Notified,2,3,OBSERVED,1
+60681,1,60681_C01,3a_to_3A,3a,3A,2004-05-19,2005-04-13,329,59817,60106,602,560,3a Notified,3A Notified,2,3,OBSERVED,1
+60681,1,60681_C01,3A_to_3D,3A,3D,2005-04-13,2005-11-10,211,60106,46246,560,1592,3A Notified,3D Notified,3,4,OBSERVED,1
+61053,1,61053_C01,3a_to_3A,3a,3A,2023-10-11,2024-03-06,147,60885,67707,4434,1079,3a Notified,3A Notified,1,2,OBSERVED,1
+61053,1,61053_C01,3A_to_3D,3A,3D,2024-03-06,2024-06-14,100,67707,54973,1079,2331,3A Notified,3D Notified,2,3,OBSERVED,1

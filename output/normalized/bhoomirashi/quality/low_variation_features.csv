@@ -1,0 +1,4 @@
+column,unique_values,issue,recommendation
+urban_survey_count,2,LOW_VARIATION,Review before using as an ML feature.
+urban_survey_pct,2,LOW_VARIATION,Review before using as an ML feature.
+wet_land_pct,1,NO_VARIATION,Do not use as predictive feature until more varied data exists.

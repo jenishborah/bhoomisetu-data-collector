@@ -1,0 +1,3 @@
+stage_transition,from_stage,to_stage,benchmark_type,benchmark_days,source,confidence,minimum_observations_required,current_observations,usable_for_ml_label,notes
+3a_to_3A,3a,3A,empirical_pending,,Historical BhoomiRashi acquisition records,LOW,100,4,NO,Empirical benchmark will be calculated only after sufficient completed transition observations are available
+3A_to_3D,3A,3D,empirical_pending,,Historical BhoomiRashi acquisition records,LOW,100,3,NO,Empirical benchmark will be calculated only after sufficient completed transition observations are available
