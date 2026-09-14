@@ -8,10 +8,7 @@ import threading
 
 from backend.app.repositories.project_repository import get_repository
 from backend.app.services.evidence_engine import get_global_model_context
-from backend.app.services.predictor import (
-    predict_projects,
-    predict_project,
-)
+from backend.app.services.predictor import predict_projects
 from backend.app.services.risk_engine import build_risk_summary
 
 
@@ -50,11 +47,9 @@ class DashboardService:
         complete project DataFrame in one call.
         """
 
-        # Fast path after the dashboard has already been calculated.
         if self._scored_projects is not None:
             return self._scored_projects
 
-        # Only one request is allowed to perform the initial calculation.
         with self._lock:
             if self._scored_projects is not None:
                 return self._scored_projects
@@ -71,32 +66,36 @@ class DashboardService:
                 self._scored_projects = []
                 return self._scored_projects
 
+            # IMPORTANT:
+            # Do not fall back to 1000 individual predictions here.
+            # That would recreate the Render timeout problem if batch
+            # prediction fails.
             try:
                 predictions = predict_projects(records)
-            except Exception:
-                # Fallback to individual predictions so that one future
-                # batch incompatibility does not make the dashboard unusable.
-                predictions = []
+            except Exception as exc:
+                raise RuntimeError(
+                    "National dashboard batch prediction failed. "
+                    "The dashboard was not scored to avoid falling back "
+                    "to slow per-project inference."
+                ) from exc
 
-                for record in records:
-                    try:
-                        predictions.append(
-                            predict_project(record)
-                        )
-                    except Exception:
-                        predictions.append(None)
+            if len(predictions) != len(records):
+                raise RuntimeError(
+                    "National dashboard prediction count mismatch: "
+                    f"received {len(predictions)} predictions for "
+                    f"{len(records)} projects."
+                )
 
             scored: list[dict[str, Any]] = []
 
             for record, prediction in zip(records, predictions):
-                if prediction is None:
-                    continue
-
                 try:
                     risk = build_risk_summary(
                         prediction["predictions"]
                     )
                 except Exception:
+                    # Keep the national view usable if a future data
+                    # refresh contains one malformed scored result.
                     continue
 
                 score = dict(record)
@@ -106,25 +105,20 @@ class DashboardService:
                 score["risk_percentage"] = (
                     risk["headline_percentage"]
                 )
-
                 score["risk_30d"] = (
                     risk["horizons"]["30d"]["percentage"]
                 )
-
                 score["risk_60d"] = (
                     risk["horizons"]["60d"]["percentage"]
                 )
-
                 score["risk_90d"] = (
                     risk["horizons"]["90d"]["percentage"]
                 )
-
                 score["trend"] = risk["trend"]
 
                 scored.append(score)
 
             self._scored_projects = scored
-
             return scored
 
     @staticmethod
@@ -137,16 +131,13 @@ class DashboardService:
             "state": item.get("state") or "Unknown",
             "district": item.get("district") or "Unknown",
             "implementing_agency": (
-                item.get("implementing_agency")
-                or "Unknown"
+                item.get("implementing_agency") or "Unknown"
             ),
             "project_type": (
-                item.get("project_type")
-                or "Unknown"
+                item.get("project_type") or "Unknown"
             ),
             "current_stage": (
-                item.get("current_stage")
-                or "Unknown"
+                item.get("current_stage") or "Unknown"
             ),
             "days_in_current_stage": int(
                 item.get("days_in_current_stage") or 0
@@ -166,21 +157,18 @@ class DashboardService:
         self,
         projects: list[dict[str, Any]],
     ) -> str | None:
-
         dates = [
             str(item.get("snapshot_date"))[:10]
             for item in projects
             if item.get("snapshot_date") is not None
         ]
-
         return max(dates) if dates else None
 
     def overview(self) -> dict[str, Any]:
         projects = self._score_latest_projects()
 
         ongoing = [
-            item
-            for item in projects
+            item for item in projects
             if item.get("current_stage")
         ]
 
@@ -207,37 +195,26 @@ class DashboardService:
 
         for item in ongoing:
             state = item.get("state") or "Unknown"
-
             entry = by_state[state]
 
             entry["ongoing_projects"] += 1
-            entry["risk_total"] += float(
-                item["risk_90d"]
-            )
+            entry["risk_total"] += float(item["risk_90d"])
 
             if item["risk_band"] == "HIGH":
                 entry["high_risk_projects"] += 1
-
             elif item["risk_band"] == "CRITICAL":
                 entry["critical_projects"] += 1
 
             by_agency[
-                item.get("implementing_agency")
-                or "Unknown"
+                item.get("implementing_agency") or "Unknown"
             ] += 1
 
         state_rows = [
             {
                 "state": state,
-                "ongoing_projects": values[
-                    "ongoing_projects"
-                ],
-                "high_risk_projects": values[
-                    "high_risk_projects"
-                ],
-                "critical_projects": values[
-                    "critical_projects"
-                ],
+                "ongoing_projects": values["ongoing_projects"],
+                "high_risk_projects": values["high_risk_projects"],
+                "critical_projects": values["critical_projects"],
                 "average_90d_risk": round(
                     values["risk_total"]
                     / values["ongoing_projects"],
@@ -255,10 +232,8 @@ class DashboardService:
         )
 
         priority = [
-            item
-            for item in projects
-            if item["risk_band"]
-            in {"HIGH", "CRITICAL"}
+            item for item in projects
+            if item["risk_band"] in {"HIGH", "CRITICAL"}
         ]
 
         priority.sort(
@@ -272,7 +247,6 @@ class DashboardService:
         return {
             "total_projects": len(projects),
             "ongoing_projects": len(ongoing),
-
             "risk_summary": {
                 key: bands.get(key, 0)
                 for key in (
@@ -282,18 +256,11 @@ class DashboardService:
                     "critical",
                 )
             },
-
             "projects_by_state": state_rows,
-
             "projects_by_stage": {
                 stage: stages.get(stage, 0)
-                for stage in (
-                    "3a",
-                    "3A",
-                    "3D",
-                )
+                for stage in ("3a", "3A", "3D")
             },
-
             "projects_by_agency": [
                 {
                     "agency": agency,
@@ -301,25 +268,18 @@ class DashboardService:
                 }
                 for agency, count in sorted(
                     by_agency.items(),
-                    key=lambda item: (
-                        -item[1],
-                        item[0],
-                    ),
+                    key=lambda item: (-item[1], item[0]),
                 )
             ],
-
             "recently_flagged_projects": [
                 self._public_project(item)
                 for item in priority[:12]
             ],
-
             "last_updated": self._last_updated(projects),
-
             "data_source": (
                 "Local synthetic_projects.csv and "
                 "latest synthetic_snapshots.csv"
             ),
-
             "prototype_note": PROTOTYPE_NOTE,
         }
 
@@ -344,17 +304,11 @@ class DashboardService:
 
         for item in projects:
             state = item.get("state") or "Unknown"
-
             entry = groups[state]
 
             entry["projects"] += 1
-            entry[
-                item["risk_band"].lower()
-            ] += 1
-
-            entry["risk_total"] += float(
-                item["risk_90d"]
-            )
+            entry[item["risk_band"].lower()] += 1
+            entry["risk_total"] += float(item["risk_90d"])
 
         state_rows = []
 
@@ -363,7 +317,6 @@ class DashboardService:
                 {
                     "state": state,
                     "projects": values["projects"],
-
                     "risk_summary": {
                         key: values[key]
                         for key in (
@@ -373,15 +326,8 @@ class DashboardService:
                             "critical",
                         )
                     },
-
-                    "high_risk_projects": values[
-                        "high"
-                    ],
-
-                    "critical_projects": values[
-                        "critical"
-                    ],
-
+                    "high_risk_projects": values["high"],
+                    "critical_projects": values["critical"],
                     "average_90d_risk": round(
                         values["risk_total"]
                         / values["projects"],
@@ -400,10 +346,8 @@ class DashboardService:
         )
 
         priority = [
-            item
-            for item in projects
-            if item["risk_band"]
-            in {"HIGH", "CRITICAL"}
+            item for item in projects
+            if item["risk_band"] in {"HIGH", "CRITICAL"}
         ]
 
         priority.sort(
@@ -423,43 +367,28 @@ class DashboardService:
 
         return {
             "projects_scored": len(projects),
-
             "risk_distribution": distribution,
-
             "state_risk_distribution": state_rows,
-
             "state_risk": state_rows,
-
             "project_risks": [
                 self._public_project(item)
                 for item in projects
             ],
-
             "top_high_priority_projects": [
                 self._public_project(item)
                 for item in priority[:25]
             ],
-
             "high_priority_projects": [
                 self._public_project(item)
                 for item in priority[:25]
             ],
-
-            "model_explanation_summary": (
-                get_global_model_context()
-            ),
-
+            "model_explanation_summary": get_global_model_context(),
             "model_version": MODEL_VERSION,
-
-            "last_updated": self._last_updated(
-                projects
-            ),
-
+            "last_updated": self._last_updated(projects),
             "risk_basis": (
-                "Calibrated 30/60/90-day prototype model "
-                "probabilities; headline band uses 90-day risk."
+                "Calibrated 30/60/90-day prototype model probabilities; "
+                "headline band uses 90-day risk."
             ),
-
             "prototype_note": PROTOTYPE_NOTE,
         }
 
