@@ -1,5 +1,15 @@
 from __future__ import annotations
 
+import os
+
+# Render free-tier instances have limited CPU/RAM.
+# Keep numerical/ML inference single-threaded to avoid excessive
+# joblib/OpenMP worker creation during dashboard batch prediction.
+os.environ.setdefault("OMP_NUM_THREADS", "1")
+os.environ.setdefault("OPENBLAS_NUM_THREADS", "1")
+os.environ.setdefault("MKL_NUM_THREADS", "1")
+os.environ.setdefault("NUMEXPR_NUM_THREADS", "1")
+
 from pathlib import Path
 from typing import Any
 
@@ -118,7 +128,27 @@ class Predictor:
             )
 
         try:
-            return joblib.load(path)
+            model = joblib.load(path)
+
+            # Render free-tier instances have limited CPU/RAM.
+            # Force every exposed sklearn/XGBoost n_jobs parameter
+            # to one worker during API inference.
+            try:
+                params = model.get_params(deep=True)
+                single_thread_params = {
+                    name: 1
+                    for name in params
+                    if name == "n_jobs" or name.endswith("__n_jobs")
+                }
+
+                if single_thread_params:
+                    model.set_params(**single_thread_params)
+            except Exception:
+                # Some saved estimators/pipelines may not expose
+                # set_params(). Do not fail artifact loading for that.
+                pass
+
+            return model
         except Exception as exc:
             raise ModelLoadError(
                 f"Failed to load XGBoost model for {target}: {path}\n"
