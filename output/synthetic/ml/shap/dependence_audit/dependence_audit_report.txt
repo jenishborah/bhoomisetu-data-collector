@@ -1,0 +1,48 @@
+BhoomiSetu SHAP Dependence / Sanity Audit
+========================================================================
+
+Data source:
+  local_shap_explanations.csv
+
+Interpretation:
+  SHAP values describe model attribution, not causality.
+  Results are based on synthetic prototype data.
+
+TARGET: delay_next_30d
+------------------------------------------------------------------------
+case_age_months: nonlinear_or_mixed | n=1732 | range=0..36.27 | SHAP=-0.8226..0.6026 | mean=-0.0677
+days_in_current_stage: nonlinear_or_mixed | n=1732 | range=0..264 | SHAP=-3.0073..0.6216 | mean=-0.5222
+days_since_project_start: nonlinear_or_mixed | n=1732 | range=0..420 | SHAP=-2.1192..0.4114 | mean=-0.3784
+disbursal_pct: nonlinear_or_mixed | n=1732 | range=0..53.04 | SHAP=-1.2387..0.3533 | mean=-0.1836
+docs_complete_pct: mostly_decreasing_risk | n=1732 | range=38.69..100 | SHAP=-1.0466..0.9512 | mean=-0.1918
+file_pending_days: nonlinear_or_mixed | n=1732 | range=0..196 | SHAP=-0.8411..0.3014 | mean=-0.1444
+grievance_redressal_days: nonlinear_or_mixed | n=1732 | range=5.24..58.8 | SHAP=-1.0117..0.6629 | mean=-0.1582
+grievances_30d: nonlinear_or_mixed | n=1732 | range=0..20 | SHAP=-0.3304..0.9849 | mean=-0.0799
+land_acquisition_ratio: nonlinear_or_mixed | n=1732 | range=0.6062..0.9981 | SHAP=-0.9358..0.1833 | mean=-0.1270
+rnr_progress_pct: nonlinear_or_mixed | n=1732 | range=0..100 | SHAP=-1.1103..0.2770 | mean=-0.1097
+
+TARGET: delay_next_60d
+------------------------------------------------------------------------
+case_age_months: nonlinear_or_mixed | n=1732 | range=0..36.27 | SHAP=-0.4218..0.7408 | mean=-0.0316
+days_in_current_stage: nonlinear_or_mixed | n=1732 | range=0..264 | SHAP=-3.5712..0.6301 | mean=-0.3465
+days_since_project_start: nonlinear_or_mixed | n=1732 | range=0..420 | SHAP=-1.3432..0.4288 | mean=-0.2184
+disbursal_pct: mostly_decreasing_risk | n=1732 | range=0..53.04 | SHAP=-1.6334..0.2909 | mean=-0.1947
+docs_complete_pct: mostly_decreasing_risk | n=1732 | range=38.69..100 | SHAP=-0.6772..1.0012 | mean=-0.0832
+file_pending_days: mostly_increasing_risk | n=1732 | range=0..196 | SHAP=-0.8647..0.4377 | mean=-0.1160
+grievance_redressal_days: nonlinear_or_mixed | n=1732 | range=5.24..58.8 | SHAP=-0.8468..0.7150 | mean=-0.1610
+grievances_30d: nonlinear_or_mixed | n=1732 | range=0..20 | SHAP=-0.3824..0.6895 | mean=-0.0911
+land_acquisition_ratio: nonlinear_or_mixed | n=1732 | range=0.6062..0.9981 | SHAP=-0.8371..0.2156 | mean=-0.0925
+rnr_progress_pct: mostly_decreasing_risk | n=1732 | range=0..100 | SHAP=-0.8675..0.4833 | mean=-0.0747
+
+TARGET: delay_next_90d
+------------------------------------------------------------------------
+case_age_months: nonlinear_or_mixed | n=1732 | range=0..36.27 | SHAP=-0.4516..0.8875 | mean=-0.0256
+days_in_current_stage: mostly_decreasing_risk | n=1732 | range=0..264 | SHAP=-2.3842..0.4565 | mean=-0.1612
+days_since_project_start: nonlinear_or_mixed | n=1732 | range=0..420 | SHAP=-1.3239..0.3320 | mean=-0.1372
+disbursal_pct: mostly_decreasing_risk | n=1732 | range=0..53.04 | SHAP=-1.5074..0.2893 | mean=-0.1949
+docs_complete_pct: mostly_decreasing_risk | n=1732 | range=38.69..100 | SHAP=-0.6296..0.7566 | mean=-0.0695
+file_pending_days: mostly_increasing_risk | n=1732 | range=0..196 | SHAP=-0.6505..0.4679 | mean=-0.1104
+grievance_redressal_days: nonlinear_or_mixed | n=1732 | range=5.24..58.8 | SHAP=-1.0287..0.6560 | mean=-0.1521
+grievances_30d: nonlinear_or_mixed | n=1732 | range=0..20 | SHAP=-0.6007..0.7683 | mean=-0.0914
+land_acquisition_ratio: nonlinear_or_mixed | n=1732 | range=0.6062..0.9981 | SHAP=-1.0581..0.2671 | mean=-0.1034
+rnr_progress_pct: mostly_decreasing_risk | n=1732 | range=0..100 | SHAP=-1.0342..0.4025 | mean=-0.0767

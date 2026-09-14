@@ -1,0 +1,39 @@
+BhoomiSetu ML Feature Build Report
+========================================================================
+Input snapshots              : 11672
+Final predictor count        : 32
+  Numeric predictors         : 28
+  Categorical predictors     : 4
+Target count                 : 3
+
+Predictor leakage check      : PASS
+Predictor missing values     : 0
+Maximum predictor missing %  : 0.0000%
+
+Excluded from predictors:
+  - delay_next_30d
+  - delay_next_60d
+  - delay_next_90d
+  - event_count_so_far
+  - is_censored
+  - project_id
+  - project_start_date
+  - scenario
+  - scenario_ground_truth
+  - snapshot_date
+  - snapshot_id
+  - stage_entry_date
+
+Engineered features:
+  - land_acquisition_ratio
+  - affected_family_per_parcel
+  - vulnerable_family_share
+  - compensation_pending_cr
+  - rnr_remaining_pct
+  - docs_remaining_pct
+
+Important:
+This feature matrix is for prototype ML experimentation.
+It does not establish real-world Indian land-acquisition accuracy.
+
+Predictor missingness check: PASS

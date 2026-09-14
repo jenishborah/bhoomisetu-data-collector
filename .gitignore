@@ -121,3 +121,18 @@ output/normalized/notification_surveys.csv
 # Synthetic data is intentionally versioned for reproducible ML experiments.
 # It contains no real landowner/party identity data.
 
+.venv/
+__pycache__/
+*.py[cod]
+
+frontend/node_modules/
+frontend/dist/
+
+.env
+.env.*
+!.env.example
+
+.vscode/
+.idea/
+
+*.log

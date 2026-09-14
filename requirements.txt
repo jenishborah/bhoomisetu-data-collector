@@ -4,3 +4,9 @@ pandas
 lxml
 pydantic
 python-dateutil
+fastapi
+uvicorn[standard]
+joblib
+numpy
+scikit-learn
+xgboost

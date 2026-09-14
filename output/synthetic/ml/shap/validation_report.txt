@@ -1,0 +1,67 @@
+BhoomiSetu SHAP Explainability Validation
+========================================================================
+
+DATA
+Total snapshots: 11672
+Total projects: 1000
+Predictor count: 32
+
+PROJECT SPLIT
+Train projects: 700
+Validation projects: 150
+Test projects: 150
+
+LEAKAGE CONTROLS
+Project-disjoint split: PASS
+Forbidden features excluded: PASS
+Target columns excluded from predictors: PASS
+Scenario ground truth excluded: PASS
+Future snapshot metadata excluded: PASS
+
+SHAP METHOD
+Explainer: shap.TreeExplainer
+Model explained: underlying XGBoost estimator
+Preprocessing: exact fitted baseline Pipeline preprocessing
+Probability calibration: sigmoid layer is separate
+Interpretation: model-attributed contribution, not causality
+
+TARGET RESULTS
+delay_next_30d:
+  Test snapshots: 1732
+  Positive labels: 70
+  Mean raw probability: 0.172985
+  Mean calibrated probability: 0.031438
+  Maximum absolute SHAP value: 3.007316
+  SHAP shape validation: PASS
+  Finite SHAP values: PASS
+  Forbidden-feature check: PASS
+delay_next_60d:
+  Test snapshots: 1732
+  Positive labels: 140
+  Mean raw probability: 0.225234
+  Mean calibrated probability: 0.063160
+  Maximum absolute SHAP value: 3.571230
+  SHAP shape validation: PASS
+  Finite SHAP values: PASS
+  Forbidden-feature check: PASS
+delay_next_90d:
+  Test snapshots: 1732
+  Positive labels: 210
+  Mean raw probability: 0.248799
+  Mean calibrated probability: 0.094131
+  Maximum absolute SHAP value: 2.546378
+  SHAP shape validation: PASS
+  Finite SHAP values: PASS
+  Forbidden-feature check: PASS
+
+INTERPRETATION RULE
+Positive SHAP values push the XGBoost prediction toward
+higher delay risk; negative SHAP values push it toward
+lower delay risk.
+
+IMPORTANT LIMITATION
+SHAP explains the behavior of the trained synthetic-data
+prototype model. It does not establish causal relationships
+or real-world Indian land-acquisition delay mechanisms.
+
+SHAP PIPELINE: PASS

@@ -1,0 +1,136 @@
+target,rank,feature,display_feature,mean_abs_shap,mean_signed_shap,normalized_importance_pct
+delay_next_30d,1,days_in_current_stage,days in current stage,0.76050216,-0.52220273,13.968401
+delay_next_30d,2,days_since_project_start,days since project start,0.5534798,-0.3783679,10.165951
+delay_next_30d,3,current_stage_3D,Current stage: 3D,0.45899466,-0.18788995,8.43051
+delay_next_30d,4,docs_complete_pct,docs complete pct,0.38956398,-0.19181743,7.155253
+delay_next_30d,5,disbursal_pct,disbursal pct,0.23614676,-0.18359731,4.3373876
+delay_next_30d,6,grievance_redressal_days,grievance redressal days,0.21980989,-0.15821166,4.0373225
+delay_next_30d,7,file_pending_days,file pending days,0.19046226,-0.14440826,3.4982848
+delay_next_30d,8,case_age_months,case age months,0.1791938,-0.0676557,3.291313
+delay_next_30d,9,compensation_awarded_cr,compensation awarded cr,0.16989756,-0.038446058,3.120566
+delay_next_30d,10,land_acquisition_ratio,land acquisition ratio,0.16417626,-0.12695912,3.0154808
+delay_next_30d,11,grievances_30d,grievances 30d,0.16126,-0.07988269,2.961917
+delay_next_30d,12,proximity_km_to_urban,proximity km to urban,0.15694843,-0.08008386,2.882725
+delay_next_30d,13,compensation_pending_cr,compensation pending cr,0.14867993,-0.103095576,2.7308545
+delay_next_30d,14,compensation_disbursed_cr,compensation disbursed cr,0.13335499,-0.08355688,2.4493763
+delay_next_30d,15,rnr_progress_pct,rnr progress pct,0.12931927,-0.10973181,2.3752506
+delay_next_30d,16,pending_approvals_count,pending approvals count,0.11566573,-0.052762374,2.1244717
+delay_next_30d,17,vulnerable_family_share,vulnerable family share,0.10738783,-0.08775666,1.9724287
+delay_next_30d,18,land_required_ha,land required ha,0.103465855,-0.057142925,1.9003924
+delay_next_30d,19,docs_remaining_pct,docs remaining pct,0.09900039,-0.0018282683,1.8183736
+delay_next_30d,20,affected_families,affected families,0.09844247,-0.09527657,1.8081262
+delay_next_30d,21,affected_family_per_parcel,affected family per parcel,0.097418144,-0.088589065,1.7893121
+delay_next_30d,22,total_parcels,total parcels,0.09483146,-0.05484448,1.7418016
+delay_next_30d,23,rnr_consent_pct,rnr consent pct,0.087216645,-0.074551925,1.6019377
+delay_next_30d,24,land_to_acquire_ha,land to acquire ha,0.08492,-0.07419671,1.5597543
+delay_next_30d,25,approval_dept_District Administration,approval dept District Administration,0.060254354,-0.012431197,1.1067121
+delay_next_30d,26,vulnerable_families,vulnerable families,0.054772463,-0.029210107,1.0060244
+delay_next_30d,27,title_disputes_parcels,title disputes parcels,0.054051325,-0.01855101,0.99277896
+delay_next_30d,28,rnr_remaining_pct,rnr remaining pct,0.047013875,-0.013092734,0.8635198
+delay_next_30d,29,terrain_type_Rolling,terrain type Rolling,0.041377228,-0.0011476817,0.75998956
+delay_next_30d,30,terrain_type_Hilly,Terrain: Hilly,0.035893176,-0.004904732,0.6592621
+delay_next_30d,31,approval_dept_Environment,Approval department: Environment,0.03337416,-0.014802619,0.6129945
+delay_next_30d,32,current_stage_3A,Current stage: 3A,0.030802872,-0.010245778,0.56576675
+delay_next_30d,33,approval_dept_Forest,approval dept Forest,0.030413816,-0.0065212846,0.5586208
+delay_next_30d,34,court_cases_count,court cases count,0.024691885,-0.0034482875,0.4535242
+delay_next_30d,35,approval_dept_Revenue,Approval department: Revenue,0.018656638,-0.009691866,0.34267277
+delay_next_30d,36,approval_dept_PWD,approval dept PWD,0.014734137,-0.008867362,0.27062687
+delay_next_30d,37,urban_rural_Rural,Setting: Rural,0.012975954,-0.0030664175,0.23833373
+delay_next_30d,38,forest_involved,forest involved,0.010576657,-0.0035349464,0.19426504
+delay_next_30d,39,approval_dept_Multiple Departments,approval dept Multiple Departments,0.009968016,-0.004267248,0.18308592
+delay_next_30d,40,terrain_type_Coastal,terrain type Coastal,0.008295765,-0.0013485646,0.15237112
+delay_next_30d,41,terrain_type_Riverine,terrain type Riverine,0.0056307195,-0.0019535406,0.10342132
+delay_next_30d,42,urban_rural_Urban,Setting: Urban,0.005542399,-0.0011886895,0.10179911
+delay_next_30d,43,urban_rural_Semi-Urban,urban rural Semi-Urban,0.0025903273,-0.0008067454,0.04757742
+delay_next_30d,44,terrain_type_Plain,Terrain: Plain,0.0018962832,-0.001388217,0.034829676
+delay_next_30d,45,current_stage_3a,Current stage: 3a,0.0007972563,-0.00022613391,0.014643475
+delay_next_60d,1,days_in_current_stage,days in current stage,0.62596446,-0.34654403,13.21934
+delay_next_60d,2,current_stage_3D,Current stage: 3D,0.55507135,-0.24586663,11.722195
+delay_next_60d,3,days_since_project_start,days since project start,0.34571493,-0.21838936,7.300931
+delay_next_60d,4,disbursal_pct,disbursal pct,0.30850962,-0.19471057,6.515216
+delay_next_60d,5,grievance_redressal_days,grievance redressal days,0.26225963,-0.16100088,5.538492
+delay_next_60d,6,docs_complete_pct,docs complete pct,0.25256774,-0.083169095,5.3338156
+delay_next_60d,7,grievances_30d,grievances 30d,0.20279256,-0.091071956,4.2826457
+delay_next_60d,8,file_pending_days,file pending days,0.16875546,-0.11602722,3.5638378
+delay_next_60d,9,case_age_months,case age months,0.16638245,-0.03163622,3.5137236
+delay_next_60d,10,land_acquisition_ratio,land acquisition ratio,0.16249722,-0.092492886,3.431674
+delay_next_60d,11,proximity_km_to_urban,proximity km to urban,0.14169037,-0.062594436,2.9922676
+delay_next_60d,12,rnr_progress_pct,rnr progress pct,0.10670349,-0.07470982,2.2534022
+delay_next_60d,13,vulnerable_family_share,vulnerable family share,0.10106726,-0.06909104,2.1343744
+delay_next_60d,14,affected_family_per_parcel,affected family per parcel,0.1005794,-0.08301937,2.1240716
+delay_next_60d,15,docs_remaining_pct,docs remaining pct,0.097741775,-0.04642552,2.0641456
+delay_next_60d,16,pending_approvals_count,pending approvals count,0.09186989,-0.052132305,1.9401411
+delay_next_60d,17,compensation_disbursed_cr,compensation disbursed cr,0.08856388,-0.05792606,1.8703235
+delay_next_60d,18,rnr_consent_pct,rnr consent pct,0.085690916,-0.057414457,1.8096513
+delay_next_60d,19,land_to_acquire_ha,land to acquire ha,0.075314336,-0.050739642,1.5905149
+delay_next_60d,20,land_required_ha,land required ha,0.07117536,-0.024510503,1.5031066
+delay_next_60d,21,compensation_pending_cr,compensation pending cr,0.07037232,-0.04110832,1.4861478
+delay_next_60d,22,affected_families,affected families,0.06788574,-0.04628736,1.4336352
+delay_next_60d,23,compensation_awarded_cr,compensation awarded cr,0.06605446,-0.044185475,1.3949617
+delay_next_60d,24,total_parcels,total parcels,0.06582001,-0.025335722,1.3900104
+delay_next_60d,25,court_cases_count,court cases count,0.06568101,-0.012166448,1.387075
+delay_next_60d,26,rnr_remaining_pct,rnr remaining pct,0.059802648,-0.03258825,1.2629336
+delay_next_60d,27,vulnerable_families,vulnerable families,0.047745574,-0.021067584,1.008308
+delay_next_60d,28,title_disputes_parcels,title disputes parcels,0.045283742,-0.016921433,0.95631814
+delay_next_60d,29,terrain_type_Rolling,terrain type Rolling,0.036447663,0.00063373725,0.7697147
+delay_next_60d,30,terrain_type_Hilly,Terrain: Hilly,0.029989045,-0.001243052,0.6333193
+delay_next_60d,31,approval_dept_Environment,Approval department: Environment,0.025932081,-0.009799582,0.5476429
+delay_next_60d,32,approval_dept_Revenue,Approval department: Revenue,0.01960299,-0.0060804016,0.4139829
+delay_next_60d,33,forest_involved,forest involved,0.015788207,-0.0020671377,0.333421
+delay_next_60d,34,current_stage_3A,Current stage: 3A,0.014714138,-0.007184748,0.31073838
+delay_next_60d,35,approval_dept_Forest,approval dept Forest,0.01450955,-0.0013082759,0.30641785
+delay_next_60d,36,urban_rural_Rural,Setting: Rural,0.013693338,-0.0050884555,0.2891808
+delay_next_60d,37,approval_dept_Multiple Departments,approval dept Multiple Departments,0.009260339,-0.0022877622,0.19556312
+delay_next_60d,38,terrain_type_Riverine,terrain type Riverine,0.009090055,-0.0023065528,0.19196701
+delay_next_60d,39,terrain_type_Plain,Terrain: Plain,0.008144909,-0.004703702,0.17200708
+delay_next_60d,40,terrain_type_Coastal,terrain type Coastal,0.007844238,-0.0023908303,0.1656574
+delay_next_60d,41,urban_rural_Semi-Urban,urban rural Semi-Urban,0.007811547,-0.00045970123,0.16496703
+delay_next_60d,42,approval_dept_PWD,approval dept PWD,0.006288268,-0.002753129,0.13279788
+delay_next_60d,43,approval_dept_District Administration,approval dept District Administration,0.006232761,-0.0028350055,0.13162565
+delay_next_60d,44,urban_rural_Urban,Setting: Urban,0.006171269,-0.0013218233,0.13032706
+delay_next_60d,45,current_stage_3a,Current stage: 3a,0.004139355,-0.0014335369,0.08741637
+delay_next_90d,1,current_stage_3D,Current stage: 3D,0.65456885,-0.3142161,14.176692
+delay_next_90d,2,days_in_current_stage,days in current stage,0.405657,-0.161199,8.785744
+delay_next_90d,3,disbursal_pct,disbursal pct,0.3301739,-0.19491462,7.1509266
+delay_next_90d,4,grievance_redressal_days,grievance redressal days,0.27024275,-0.15206903,5.852934
+delay_next_90d,5,days_since_project_start,days since project start,0.23639113,-0.13719346,5.1197734
+delay_next_90d,6,grievances_30d,grievances 30d,0.23072861,-0.09137312,4.997134
+delay_next_90d,7,case_age_months,case age months,0.20265414,-0.025634298,4.389096
+delay_next_90d,8,docs_complete_pct,docs complete pct,0.20000072,-0.06952255,4.331628
+delay_next_90d,9,land_acquisition_ratio,land acquisition ratio,0.18978341,-0.103386156,4.1103406
+delay_next_90d,10,file_pending_days,file pending days,0.1768203,-0.11040743,3.8295846
+delay_next_90d,11,rnr_progress_pct,rnr progress pct,0.1435532,-0.0767135,3.109084
+delay_next_90d,12,proximity_km_to_urban,proximity km to urban,0.13205978,-0.058223974,2.860159
+delay_next_90d,13,docs_remaining_pct,docs remaining pct,0.09462604,-0.014284345,2.0494165
+delay_next_90d,14,affected_family_per_parcel,affected family per parcel,0.09363136,-0.07258027,2.0278738
+delay_next_90d,15,vulnerable_families,vulnerable families,0.0885065,-0.043549396,1.916879
+delay_next_90d,16,pending_approvals_count,pending approvals count,0.08829326,-0.04118476,1.9122608
+delay_next_90d,17,vulnerable_family_share,vulnerable family share,0.08670043,-0.06321863,1.8777633
+delay_next_90d,18,rnr_consent_pct,rnr consent pct,0.086415015,-0.06501428,1.8715818
+delay_next_90d,19,land_to_acquire_ha,land to acquire ha,0.08509559,-0.06682735,1.8430057
+delay_next_90d,20,total_parcels,total parcels,0.08159358,-0.034981288,1.7671587
+delay_next_90d,21,land_required_ha,land required ha,0.08075675,-0.017737694,1.7490348
+delay_next_90d,22,compensation_disbursed_cr,compensation disbursed cr,0.07684294,-0.038964648,1.6642692
+delay_next_90d,23,compensation_pending_cr,compensation pending cr,0.07162121,-0.028545175,1.5511765
+delay_next_90d,24,affected_families,affected families,0.06117778,-0.033337012,1.3249921
+delay_next_90d,25,court_cases_count,court cases count,0.06007569,-0.0073034135,1.3011229
+delay_next_90d,26,compensation_awarded_cr,compensation awarded cr,0.055609062,-0.016787807,1.2043844
+delay_next_90d,27,rnr_remaining_pct,rnr remaining pct,0.05088191,-0.016589526,1.1020036
+delay_next_90d,28,current_stage_3A,Current stage: 3A,0.039529122,-0.003288796,0.85612416
+delay_next_90d,29,terrain_type_Rolling,terrain type Rolling,0.03919315,-0.00051961734,0.8488476
+delay_next_90d,30,terrain_type_Hilly,Terrain: Hilly,0.032810617,-0.0037006496,0.7106143
+delay_next_90d,31,title_disputes_parcels,title disputes parcels,0.030145468,-0.013791225,0.65289235
+delay_next_90d,32,approval_dept_Forest,approval dept Forest,0.026711399,-0.0010562205,0.5785171
+delay_next_90d,33,forest_involved,forest involved,0.022435976,-0.0021797642,0.48591974
+delay_next_90d,34,urban_rural_Rural,Setting: Rural,0.016516041,-0.00509579,0.3577054
+delay_next_90d,35,approval_dept_Environment,Approval department: Environment,0.013663244,-0.0029865627,0.2959194
+delay_next_90d,36,terrain_type_Riverine,terrain type Riverine,0.0107626375,-0.0036807447,0.23309787
+delay_next_90d,37,approval_dept_Revenue,Approval department: Revenue,0.009746541,-0.002603391,0.21109118
+delay_next_90d,38,terrain_type_Plain,Terrain: Plain,0.008927703,-0.0029645425,0.19335674
+delay_next_90d,39,urban_rural_Urban,Setting: Urban,0.006080044,-0.0033174483,0.13168196
+delay_next_90d,40,current_stage_3a,Current stage: 3a,0.005710978,-0.0021072633,0.123688705
+delay_next_90d,41,urban_rural_Semi-Urban,urban rural Semi-Urban,0.00538449,-0.002262803,0.116617605
+delay_next_90d,42,terrain_type_Coastal,terrain type Coastal,0.005182619,-0.000835779,0.112245485
+delay_next_90d,43,approval_dept_PWD,approval dept PWD,0.0046700113,-0.001656563,0.10114339
+delay_next_90d,44,approval_dept_Multiple Departments,approval dept Multiple Departments,0.003902066,-0.0014752819,0.08451118
+delay_next_90d,45,approval_dept_District Administration,approval dept District Administration,0.0013853732,-0.0005417404,0.030004498

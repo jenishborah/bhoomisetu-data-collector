@@ -1,0 +1,57 @@
+BhoomiSetu Baseline ML Training Report
+========================================================================
+
+DATA
+Snapshots: 11672
+Projects: 1000
+Predictors: 32
+Numeric predictors: 28
+Categorical predictors: 4
+
+PROJECT-DISJOINT CHRONOLOGICAL SPLIT
+Train projects: 700
+Validation projects: 150
+Test projects: 150
+
+LEAKAGE CHECKS
+Project overlap train/validation: 0
+Project overlap train/test: 0
+Project overlap validation/test: 0
+Project metadata used only for split: YES
+Future target columns used as predictors: NO
+Scenario ground truth used as predictor: NO
+Snapshot identifiers used as predictors: NO
+
+MODELS
+DummyClassifier(strategy='prior')
+LogisticRegression(class_weight='balanced')
+XGBClassifier
+
+INTERPRETATION
+Validation results are diagnostic only.
+The test set is not used to tune the models.
+This is a prototype experiment using synthetic data.
+Metrics do not represent real-world Indian land-acquisition accuracy.
+Synthetic scenario labels are not model features.
+
+RESULTS
+delay_next_30d | dummy | validation | ROC-AUC=0.500000 | PR-AUC=0.031921 | Brier=0.030914 | Recall=0.000000 | P@10=0.017341
+delay_next_30d | dummy | test | ROC-AUC=0.500000 | PR-AUC=0.040416 | Brier=0.038807 | Recall=0.000000 | P@10=0.040230
+delay_next_30d | logistic_regression | validation | ROC-AUC=0.751788 | PR-AUC=0.074948 | Brier=0.210756 | Recall=0.763636 | P@10=0.075145
+delay_next_30d | logistic_regression | test | ROC-AUC=0.700146 | PR-AUC=0.074766 | Brier=0.226141 | Recall=0.700000 | P@10=0.074713
+delay_next_30d | xgboost | validation | ROC-AUC=0.758993 | PR-AUC=0.078458 | Brier=0.086364 | Recall=0.290909 | P@10=0.080925
+delay_next_30d | xgboost | test | ROC-AUC=0.750120 | PR-AUC=0.105590 | Brier=0.087652 | Recall=0.328571 | P@10=0.126437
+delay_next_60d | dummy | validation | ROC-AUC=0.500000 | PR-AUC=0.063842 | Brier=0.059815 | Recall=0.000000 | P@10=0.034682
+delay_next_60d | dummy | test | ROC-AUC=0.500000 | PR-AUC=0.080831 | Brier=0.074398 | Recall=0.000000 | P@10=0.080460
+delay_next_60d | logistic_regression | validation | ROC-AUC=0.738753 | PR-AUC=0.140808 | Brier=0.217205 | Recall=0.781818 | P@10=0.144509
+delay_next_60d | logistic_regression | test | ROC-AUC=0.701090 | PR-AUC=0.143595 | Brier=0.228583 | Recall=0.707143 | P@10=0.160920
+delay_next_60d | xgboost | validation | ROC-AUC=0.791512 | PR-AUC=0.218452 | Brier=0.115880 | Recall=0.436364 | P@10=0.213873
+delay_next_60d | xgboost | test | ROC-AUC=0.764586 | PR-AUC=0.193775 | Brier=0.122553 | Recall=0.464286 | P@10=0.189655
+delay_next_90d | dummy | validation | ROC-AUC=0.500000 | PR-AUC=0.095763 | Brier=0.086702 | Recall=0.000000 | P@10=0.052023
+delay_next_90d | dummy | test | ROC-AUC=0.500000 | PR-AUC=0.121247 | Brier=0.106771 | Recall=0.000000 | P@10=0.120690
+delay_next_90d | logistic_regression | validation | ROC-AUC=0.739507 | PR-AUC=0.206569 | Brier=0.217231 | Recall=0.733333 | P@10=0.265896
+delay_next_90d | logistic_regression | test | ROC-AUC=0.694021 | PR-AUC=0.217873 | Brier=0.229008 | Recall=0.700000 | P@10=0.229885
+delay_next_90d | xgboost | validation | ROC-AUC=0.778208 | PR-AUC=0.288367 | Brier=0.132506 | Recall=0.424242 | P@10=0.271676
+delay_next_90d | xgboost | test | ROC-AUC=0.751996 | PR-AUC=0.282635 | Brier=0.139186 | Recall=0.466667 | P@10=0.316092
+
+BASELINE TRAINING: PASS

@@ -1,0 +1,36 @@
+feature,feature_type,model_role,availability,notes
+days_in_current_stage,numeric,predictor,snapshot_time,
+days_since_project_start,numeric,predictor,snapshot_time,
+land_required_ha,numeric,predictor,snapshot_time,
+land_to_acquire_ha,numeric,predictor,snapshot_time,
+total_parcels,numeric,predictor,snapshot_time,
+affected_families,numeric,predictor,snapshot_time,
+vulnerable_families,numeric,predictor,snapshot_time,
+pending_approvals_count,numeric,predictor,snapshot_time,
+file_pending_days,numeric,predictor,snapshot_time,
+docs_complete_pct,numeric,predictor,snapshot_time,
+court_cases_count,numeric,predictor,snapshot_time,
+case_age_months,numeric,predictor,snapshot_time,
+title_disputes_parcels,numeric,predictor,snapshot_time,
+grievances_30d,numeric,predictor,snapshot_time,
+compensation_awarded_cr,numeric,predictor,snapshot_time,
+compensation_disbursed_cr,numeric,predictor,snapshot_time,
+disbursal_pct,numeric,predictor,snapshot_time,
+rnr_progress_pct,numeric,predictor,snapshot_time,
+rnr_consent_pct,numeric,predictor,snapshot_time,
+grievance_redressal_days,numeric,predictor,snapshot_time,
+forest_involved,numeric,predictor,snapshot_time,
+proximity_km_to_urban,numeric,predictor,snapshot_time,
+land_acquisition_ratio,engineered_numeric,predictor,snapshot_time,land_to_acquire_ha / land_required_ha
+affected_family_per_parcel,engineered_numeric,predictor,snapshot_time,affected_families / total_parcels
+vulnerable_family_share,engineered_numeric,predictor,snapshot_time,vulnerable_families / affected_families
+compensation_pending_cr,engineered_numeric,predictor,snapshot_time,compensation_awarded_cr - compensation_disbursed_cr
+rnr_remaining_pct,engineered_numeric,predictor,snapshot_time,100 - rnr_progress_pct
+docs_remaining_pct,engineered_numeric,predictor,snapshot_time,100 - docs_complete_pct
+current_stage,categorical,predictor,snapshot_time,
+approval_dept,categorical,predictor,snapshot_time,
+terrain_type,categorical,predictor,snapshot_time,
+urban_rural,categorical,predictor,snapshot_time,
+delay_next_30d,target,label,future_window,Forward-looking delay label; never used as predictor.
+delay_next_60d,target,label,future_window,Forward-looking delay label; never used as predictor.
+delay_next_90d,target,label,future_window,Forward-looking delay label; never used as predictor.

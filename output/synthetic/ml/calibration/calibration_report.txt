@@ -1,0 +1,51 @@
+BhoomiSetu Probability Calibration Report
+========================================================================
+
+DATA
+Snapshots: 11672
+Projects: 1000
+Predictors: 32
+
+SPLIT
+Train projects: 700
+Validation/calibration projects: 150
+Test projects: 150
+
+CALIBRATION PROTOCOL
+1. XGBoost was previously trained on TRAIN projects.
+2. XGBoost validation probabilities were generated.
+3. Sigmoid and isotonic mappings were fitted using validation
+   probabilities and validation labels only.
+4. Calibrated probabilities were generated for TEST projects.
+5. TEST labels were used only for final evaluation.
+
+LEAKAGE CHECKS
+Project-disjoint split: PASS
+Calibration fitted on test labels: NO
+Future target used as predictor: NO
+Scenario ground truth used: NO
+
+RESULTS
+delay_next_30d | uncalibrated_xgboost | ROC-AUC=0.750120 | PR-AUC=0.105590 | Brier=0.087652 | ECE=0.132569
+delay_next_30d | sigmoid | ROC-AUC=0.750120 | PR-AUC=0.105590 | Brier=0.037630 | ECE=0.010514
+delay_next_30d | isotonic | ROC-AUC=0.748891 | PR-AUC=0.089866 | Brier=0.037756 | ECE=0.011449
+delay_next_60d | uncalibrated_xgboost | ROC-AUC=0.764586 | PR-AUC=0.193775 | Brier=0.122553 | ECE=0.144403
+delay_next_60d | sigmoid | ROC-AUC=0.764586 | PR-AUC=0.193775 | Brier=0.069988 | ECE=0.019509
+delay_next_60d | isotonic | ROC-AUC=0.758606 | PR-AUC=0.181687 | Brier=0.070680 | ECE=0.027492
+delay_next_90d | uncalibrated_xgboost | ROC-AUC=0.751996 | PR-AUC=0.282635 | Brier=0.139186 | ECE=0.132299
+delay_next_90d | sigmoid | ROC-AUC=0.751996 | PR-AUC=0.282635 | Brier=0.098022 | ECE=0.030566
+delay_next_90d | isotonic | ROC-AUC=0.747657 | PR-AUC=0.259941 | Brier=0.099289 | ECE=0.036420
+
+INTERPRETATION
+Lower Brier score is better.
+Lower ECE is better calibrated.
+ROC-AUC and PR-AUC measure ranking/discrimination.
+Calibration can change probability quality without necessarily
+improving ranking metrics.
+
+IMPORTANT LIMITATION
+All results are based on synthetic prototype data.
+They do not establish real-world Indian land-acquisition
+delay probabilities or production accuracy.
+
+CALIBRATION PIPELINE: PASS

@@ -1,0 +1,7 @@
+import { NavLink } from "react-router-dom";
+
+const navigation = [["/", "Dashboard", true], ["/projects", "Projects"], ["/gis", "GIS Map"], ["/stage-sentinel", "Stage Sentinel"], ["/reports", "Reports"]];
+
+export default function AppShell({ children }) {
+  return <div className="app-shell"><a href="#main-content" className="skip-link">Skip to main content</a><header><div className="gov-header"><div className="gov-header-left"><strong>GOVERNMENT OF INDIA</strong><span>Land Acquisition Monitoring &amp; Decision Support</span></div><div className="header-links" aria-label="Utility information"><span>Prototype information system</span><span>Accessibility</span></div></div><div className="brand-header"><div className="brand-left"><div className="brand-mark" aria-hidden="true"><i>BS</i></div><div><p className="ministry-label">LAND ACQUISITION MONITORING &amp; DECISION SUPPORT</p><h1>BhoomiSetu</h1><p>From Land Data to Construction-Ready Decisions</p></div></div><div className="system-status" aria-label="System status operational"><span>SYSTEM STATUS</span><strong><i />Operational</strong></div></div><nav className="main-nav" aria-label="Main navigation">{navigation.map(([to, label, end]) => <NavLink key={to} to={to} end={end}>{label}</NavLink>)}</nav></header><main id="main-content" className="main-content">{children}</main><footer><strong>BhoomiSetu</strong><span>· Synthetic-data prototype · Model-derived risk estimates are for demonstration and workflow validation only.</span></footer></div>;
+}

@@ -1,0 +1,73 @@
+BhoomiSetu SHAP Summary
+========================================================================
+
+The tables below show model-attributed feature influence.
+They must not be interpreted as causal effects.
+
+DELAY_NEXT_30D
+------------------------------------------------------------------------
+ 1. days in current stage | mean |SHAP|=0.760502 | share=13.97%
+ 2. days since project start | mean |SHAP|=0.553480 | share=10.17%
+ 3. Current stage: 3D | mean |SHAP|=0.458995 | share=8.43%
+ 4. docs complete pct | mean |SHAP|=0.389564 | share=7.16%
+ 5. disbursal pct | mean |SHAP|=0.236147 | share=4.34%
+ 6. grievance redressal days | mean |SHAP|=0.219810 | share=4.04%
+ 7. file pending days | mean |SHAP|=0.190462 | share=3.50%
+ 8. case age months | mean |SHAP|=0.179194 | share=3.29%
+ 9. compensation awarded cr | mean |SHAP|=0.169898 | share=3.12%
+10. land acquisition ratio | mean |SHAP|=0.164176 | share=3.02%
+11. grievances 30d | mean |SHAP|=0.161260 | share=2.96%
+12. proximity km to urban | mean |SHAP|=0.156948 | share=2.88%
+13. compensation pending cr | mean |SHAP|=0.148680 | share=2.73%
+14. compensation disbursed cr | mean |SHAP|=0.133355 | share=2.45%
+15. rnr progress pct | mean |SHAP|=0.129319 | share=2.38%
+
+Example local driver records are available in local_top_drivers.csv.
+
+DELAY_NEXT_60D
+------------------------------------------------------------------------
+ 1. days in current stage | mean |SHAP|=0.625964 | share=13.22%
+ 2. Current stage: 3D | mean |SHAP|=0.555071 | share=11.72%
+ 3. days since project start | mean |SHAP|=0.345715 | share=7.30%
+ 4. disbursal pct | mean |SHAP|=0.308510 | share=6.52%
+ 5. grievance redressal days | mean |SHAP|=0.262260 | share=5.54%
+ 6. docs complete pct | mean |SHAP|=0.252568 | share=5.33%
+ 7. grievances 30d | mean |SHAP|=0.202793 | share=4.28%
+ 8. file pending days | mean |SHAP|=0.168755 | share=3.56%
+ 9. case age months | mean |SHAP|=0.166382 | share=3.51%
+10. land acquisition ratio | mean |SHAP|=0.162497 | share=3.43%
+11. proximity km to urban | mean |SHAP|=0.141690 | share=2.99%
+12. rnr progress pct | mean |SHAP|=0.106703 | share=2.25%
+13. vulnerable family share | mean |SHAP|=0.101067 | share=2.13%
+14. affected family per parcel | mean |SHAP|=0.100579 | share=2.12%
+15. docs remaining pct | mean |SHAP|=0.097742 | share=2.06%
+
+Example local driver records are available in local_top_drivers.csv.
+
+DELAY_NEXT_90D
+------------------------------------------------------------------------
+ 1. Current stage: 3D | mean |SHAP|=0.654569 | share=14.18%
+ 2. days in current stage | mean |SHAP|=0.405657 | share=8.79%
+ 3. disbursal pct | mean |SHAP|=0.330174 | share=7.15%
+ 4. grievance redressal days | mean |SHAP|=0.270243 | share=5.85%
+ 5. days since project start | mean |SHAP|=0.236391 | share=5.12%
+ 6. grievances 30d | mean |SHAP|=0.230729 | share=5.00%
+ 7. case age months | mean |SHAP|=0.202654 | share=4.39%
+ 8. docs complete pct | mean |SHAP|=0.200001 | share=4.33%
+ 9. land acquisition ratio | mean |SHAP|=0.189783 | share=4.11%
+10. file pending days | mean |SHAP|=0.176820 | share=3.83%
+11. rnr progress pct | mean |SHAP|=0.143553 | share=3.11%
+12. proximity km to urban | mean |SHAP|=0.132060 | share=2.86%
+13. docs remaining pct | mean |SHAP|=0.094626 | share=2.05%
+14. affected family per parcel | mean |SHAP|=0.093631 | share=2.03%
+15. vulnerable families | mean |SHAP|=0.088506 | share=1.92%
+
+Example local driver records are available in local_top_drivers.csv.
+
+SHAP PIPELINE: PASS
+
+For dashboard wording use:
+"Why the model flags this project"
+
+Avoid wording such as:
+"These factors will cause the delay."
