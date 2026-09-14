@@ -1,1320 +1,1167 @@
-# BhoomiSetu Data Collector
+# BhoomiSetu
 
-### Government Land Acquisition Data Collection, Normalization & Temporal Intelligence Pipeline
+## Land Acquisition Intelligence & Decision Support Platform
 
-BhoomiSetu is an AI-assisted land acquisition intelligence platform being developed for **Smart India Hackathon 2026**.
+BhoomiSetu is a Smart India Hackathon 2026 prototype for **predictive
+land-acquisition monitoring**.
 
-The objective of BhoomiSetu is to move land acquisition management from a largely reactive process toward a **predictive, evidence-backed and decision-oriented system**.
+The platform is designed to move land-acquisition management from a
+reactive workflow to a **predictive, evidence-backed and
+decision-oriented system**.
 
-The broader BhoomiSetu platform is designed to answer:
+> **From Land Data to Construction-Ready Decision**
 
-> **Which land acquisition projects are likely to experience delays, why are they at risk, what dependencies are causing the risk, and what action can be taken early?**
+BhoomiSetu helps answer:
 
-This repository contains the **data collection and data engineering foundation** of BhoomiSetu.
+-   Which projects are at risk of delay?
+-   What factors are driving the risk?
+-   Which acquisition stage or dependency needs attention?
+-   What evidence supports the risk signal?
+-   What action should be considered next?
+-   How might an intervention change the projected risk?
 
----
+This repository contains the data pipeline, temporal project data, ML
+prototype, FastAPI backend and React/Vite dashboard used for the
+BhoomiSetu demonstration.
 
-# 1. What This Repository Does
+------------------------------------------------------------------------
 
-This repository is responsible for converting publicly accessible and authorized government land-acquisition information into a structured, machine-readable dataset suitable for downstream analytics, GIS processing and machine-learning development.
+## Live Prototype
 
-The current pipeline focuses on **BhoomiRashi**, the Ministry of Road Transport & Highways land acquisition portal.
+### Web Dashboard
 
-The pipeline currently performs:
+**https://bhoomisetu-data-collector.vercel.app**
 
-1. Government project discovery
-2. Project metadata extraction
-3. Notification extraction
-4. Sanction information extraction
-5. 3a notification detail extraction
-6. 3D survey and land-party extraction
-7. Data normalization
-8. Feature engineering
-9. Temporal timeline construction
-10. Project-level dataset construction
-11. Validation and data-quality checks
+The deployed frontend connects to the BhoomiSetu API hosted on Render.
 
-The resulting datasets form the initial data foundation for the future BhoomiSetu predictive analytics system.
+### Backend API
 
----
+**https://bhoomisetu-api-dmcx.onrender.com**
 
-# 2. BhoomiSetu Architecture
+### Interactive API Documentation
 
-The overall BhoomiSetu system is planned as:
+**https://bhoomisetu-api-dmcx.onrender.com/docs**
 
-```text
-                    GOVERNMENT DATA
-                           │
-          ┌────────────────┼────────────────┐
-          │                │                │
-     BhoomiRashi      Land Records       GIS / EO
-          │                │                │
-          │          State Systems         │
-          │                │                │
-          └────────────────┼────────────────┘
-                           │
-                           ▼
-                 SOURCE CONNECTORS
-                           │
-                           ▼
-                  RAW / PROVENANCE
-                       LAYER
-                           │
-                           ▼
-                  NORMALIZATION
-                       LAYER
-                           │
-                           ▼
-               CANONICAL DATA MODEL
-                           │
-             ┌─────────────┴─────────────┐
-             │                           │
-             ▼                           ▼
-      FEATURE ENGINEERING         TEMPORAL EVENTS
-             │                           │
-             └─────────────┬─────────────┘
-                           ▼
-                BHOOMISETU DATA LAYER
-                           │
-             ┌─────────────┼─────────────┐
-             │             │             │
-             ▼             ▼             ▼
-            GIS           ML          ANALYTICS
-             │             │             │
-             └─────────────┼─────────────┘
-                           ▼
-                  DECISION INTELLIGENCE
-                           │
-             ┌─────────────┼─────────────┐
-             │             │             │
-             ▼             ▼             ▼
-        Risk Score     Evidence       Next Best
-                       Drivers          Action
-             │             │             │
-             └─────────────┼─────────────┘
-                           ▼
-                     BHOOMISETU
-                      PLATFORM
+The `/docs` page provides the interactive Swagger/OpenAPI interface for
+testing the available endpoints.
+
+### Source Repository
+
+**https://github.com/jenishborah/bhoomisetu-data-collector**
+
+------------------------------------------------------------------------
+
+# 1. What is BhoomiSetu?
+
+Land acquisition involves multiple stages, documents, approvals,
+compensation activities, rehabilitation and resettlement processes,
+legal dependencies and field-level progress.
+
+A project may appear healthy at one point and become increasingly
+exposed to delay later.
+
+BhoomiSetu therefore treats acquisition as a **temporal decision
+problem**, rather than a static project-status problem.
+
+The prototype combines:
+
+``` text
+Project Data
+     ↓
+Temporal Project State
+     ↓
+Feature Engineering
+     ↓
+ML Risk Prediction
+     ↓
+Risk Bands
+     ↓
+Evidence / Explanation
+     ↓
+Recommended Actions
+     ↓
+What-if Simulation
+     ↓
+Decision Support
 ```
 
----
+------------------------------------------------------------------------
 
-# 3. Current Data Pipeline
+# 2. Core Capabilities
 
-The currently implemented pipeline is:
+## 2.1 National Dashboard
 
-```text
-BhoomiRashi
-     │
-     ▼
-Project Collection
-     │
-     ├── Project Manifest
-     ├── Notifications
-     ├── Sanctions
-     ├── 3a Details
-     └── 3D Details
-            │
-            ▼
-      Normalization
-            │
-            ▼
-     Feature Engineering
-            │
-            ├── Land features
-            ├── Survey features
-            ├── Stakeholder features
-            └── Acquisition progress
-            │
-            ▼
-     Timeline Construction
-            │
-            ├── 3a → 3A
-            ├── 3A → 3D
-            ├── 3a → 3D
-            └── Notification gaps
-            │
-            ▼
-      Project Master Dataset
+Provides a national monitoring view containing:
+
+-   Total projects
+-   Ongoing projects
+-   Risk distribution
+-   State-wise risk distribution
+-   Stage-wise project distribution
+-   Agency-wise project distribution
+-   Recently flagged high-priority projects
+-   30/60/90-day risk signals
+
+------------------------------------------------------------------------
+
+## 2.2 Project Monitoring
+
+Each project can be inspected individually for:
+
+-   Current acquisition stage
+-   Project metadata
+-   Temporal snapshots
+-   Risk score
+-   Risk band
+-   30-day delay probability
+-   60-day delay probability
+-   90-day delay probability
+-   Risk trend
+
+------------------------------------------------------------------------
+
+## 2.3 Predictive Risk Engine
+
+The prototype uses XGBoost models for three prediction horizons:
+
+``` text
+30 days
+60 days
+90 days
 ```
 
----
+The raw model probabilities are passed through the existing sigmoid
+calibration layer before being used as the prototype risk probabilities.
 
-# 4. Current Government Data Source
+The headline project risk band is derived from the calibrated 90-day
+risk.
 
-## BhoomiRashi
+------------------------------------------------------------------------
 
-The current primary government source is **BhoomiRashi**, the Ministry of Road Transport & Highways land acquisition system.
+## 2.4 Evidence and Explainability
 
-The portal contains project and land-acquisition information associated with National Highway projects.
+The prototype includes saved SHAP-based project explanations and global
+model context.
 
-BhoomiRashi provides information related to:
+The goal is not only to say:
 
-- Projects
-- Project locations
-- Land requirement
-- Land availability
-- Land acquisition
-- Notifications
-- 3a notifications
-- 3A notifications
-- 3D notifications
-- Survey numbers
-- Land parcels
-- Owners / parties
-- Objections
-- Compensation-related information
-- Competent Authority for Land Acquisition (CALA)
-- Project sanctions
-- File and workflow information
+> "This project is high risk."
 
-The BhoomiSetu collector uses only information that is publicly accessible or otherwise authorized for collection.
+but to provide evidence for:
 
-**The collector does not bypass CAPTCHA, authentication, access controls or restricted government interfaces.**
+> "Why is this project currently being flagged?"
 
----
+------------------------------------------------------------------------
 
-# 5. Understanding the 3a → 3A → 3D Workflow
+## 2.5 Recommended Actions
 
-The notification lifecycle is an important temporal signal for BhoomiSetu.
+The action engine produces deterministic workflow recommendations based
+on the current project state.
 
-The collector preserves the notification sequence rather than treating a project as a static record.
+Examples include actions related to:
+
+-   pending approvals
+-   documentation gaps
+-   compensation progress
+-   R&R progress
+-   grievance handling
+-   legal dependencies
+-   stage-level bottlenecks
+
+These are **decision-support prompts**, not guaranteed outcomes.
+
+------------------------------------------------------------------------
+
+## 2.6 What-if Simulation
+
+The simulator allows selected project conditions to be changed and the
+model to be rerun to explore a possible intervention scenario.
 
 Conceptually:
 
-```text
-Project
-   │
-   ▼
-3a Notification
-   │
-   │
-   ├── location / village context
-   ├── preliminary acquisition information
-   │
-   ▼
-3A Notification
-   │
-   │
-   ├── survey information
-   ├── objections / related processing
-   │
-   ▼
-3D Declaration
-   │
-   │
-   ├── finalized acquisition information
-   ├── survey records
-   ├── parties / owners
-   │
-   ▼
-Acquisition / Compensation / Possession
+``` text
+Current Project
+      ↓
+Baseline Risk
+      ↓
+Change Selected Inputs
+      ↓
+Re-score Project
+      ↓
+Compare Risk
 ```
 
-The actual project may contain multiple notifications at each stage.
+------------------------------------------------------------------------
 
-For example, project `54635` contains:
+# 3. How the System Works
 
-```text
-3a : 3 notifications
-3A : 3 notifications
-3D : 3 notifications
+## End-to-end flow
+
+``` text
+                 GOVERNMENT / PROJECT DATA
+                           │
+                           ▼
+                  Data Collection Layer
+                           │
+                           ▼
+                  Normalization Layer
+                           │
+                           ▼
+                  Temporal Data Layer
+                           │
+                           ▼
+                   Feature Engineering
+                           │
+                           ▼
+                  ┌────────┴────────┐
+                  │                 │
+                  ▼                 ▼
+                 GIS                ML
+                                    │
+                                    ▼
+                         30 / 60 / 90 Day Risk
+                                    │
+                                    ▼
+                         Risk Classification
+                                    │
+                    ┌───────────────┼───────────────┐
+                    ▼               ▼               ▼
+                 Evidence        Actions        Simulation
+                    │               │               │
+                    └───────────────┼───────────────┘
+                                    ▼
+                           Decision Dashboard
 ```
 
-Therefore, the system preserves individual notification events rather than collapsing them into a single date.
+------------------------------------------------------------------------
 
----
+# 4. ML Pipeline
 
-# 6. Normalized Data Model
+The current prototype uses:
 
-The collector converts source-specific information into normalized CSV structures.
+-   XGBoost
+-   scikit-learn preprocessing
+-   Sigmoid probability calibration
+-   SHAP-based explanation artifacts
+-   Temporal/project-level validation
 
-## Project Manifest
+The prototype prediction horizons are:
 
-Contains project-level information such as:
+  Horizon   Target
+  --------- ------------------
+  30 days   `delay_next_30d`
+  60 days   `delay_next_60d`
+  90 days   `delay_next_90d`
 
-```text
-project_id
-project_name
-project_number
-state
-district
-land_required_ha
-land_available_ha
-land_to_acquire_ha
-land_acquired_ha
-...
-```
+### Important
 
----
+The current ML data is **synthetic prototype data** created for workflow
+and demonstration validation.
 
-## Notifications
+The model should **not** be interpreted as a production-grade government
+forecasting model.
 
-The notification table uses:
+The repository intentionally exposes the prototype limitation through
+the API and UI.
 
-```text
-project_id
-notification_id
-notification_type
-serial_number
-publish_date
-notification_number
-status
-details_url
-objections_url
-```
+------------------------------------------------------------------------
 
-The `notification_type` identifies:
+# 5. Risk Bands
 
-```text
-3a
-3A
-3D
-```
+The prototype uses four headline risk bands:
 
----
+  -----------------------------------------------------------------------
+  Risk                                Interpretation
+  ----------------------------------- -----------------------------------
+  LOW                                 Lower current modeled delay
+                                      exposure
 
-## 3D Survey Data
+  MODERATE                            Moderate modeled delay exposure
 
-The normalized 3D survey structure contains:
+  HIGH                                Elevated modeled delay exposure
+                                      requiring attention
 
-```text
-project_id
-notification_id
-notification_number
-serial_number
-district
-sub_district
-village
-survey_number
-survey_number_raw
-area_hectares
-area_raw
-land_type
-land_nature
-land_category
-description_raw
-party_count
-owner_count
-affected_party_count
-total_party_area_hectares
-```
+  CRITICAL                            Very high modeled delay exposure
+                                      requiring priority attention
+  -----------------------------------------------------------------------
 
----
+The exact numerical probability is also returned by the API.
 
-## 3D Land Party Data
+Risk estimates are calibrated model probabilities, not guarantees that a
+project will or will not be delayed.
 
-The normalized party structure contains:
+------------------------------------------------------------------------
 
-```text
-project_id
-notification_id
-notification_number
-survey_serial_number
-district
-sub_district
-village
-survey_number
-party_sequence
-party_name
-party_address
-party_type
-party_area_hectares
-party_area_raw
-```
+# 6. Repository Structure
 
-Missing party-area values are preserved as missing values.
-
-They are **not converted to zero**, because missing information and zero land area have different meanings.
-
----
-
-# 7. Feature Engineering
-
-The feature-engineering layer transforms normalized records into project-level analytical features.
-
-Examples include:
-
-### Land and acquisition
-
-```text
-land_required_ha
-land_to_acquire_ha
-land_acquired_ha
-acquisition_completion_pct
-```
-
-### Survey coverage
-
-```text
-survey_count
-surveyed_area_ha
-surveyed_vs_land_to_acquire_pct
-private_area_ha
-government_area_ha
-private_land_pct
-government_land_pct
-```
-
-### Geographic distribution
-
-```text
-village_count
-district_count
-urban_survey_count
-urban_survey_pct
-```
-
-### Stakeholder / party indicators
-
-```text
-party_record_count
-owner_record_count
-affected_party_count
-affected_party_rate_pct
-party_area_numeric_count
-party_area_missing_count
-party_area_total_ha
-party_area_mean_ha
-party_area_max_ha
-```
-
-These features provide the foundation for future risk modelling.
-
----
-
-# 8. Temporal Intelligence
-
-Land acquisition is not a static process.
-
-A project can look healthy at one point in time and become increasingly delayed later.
-
-Therefore, BhoomiSetu preserves temporal information.
-
-The timeline layer derives:
-
-```text
-first_3a_date
-latest_3a_date
-
-first_3A_date
-latest_3A_date
-
-first_3D_date
-latest_3D_date
-
-days_3a_to_3A
-days_3A_to_3D
-days_3a_to_3D
-
-timeline_span_days
-```
-
-It also preserves individual notification events.
-
-The event-level timeline contains:
-
-```text
-notification_id
-notification_type
-publish_date
-previous_publish_date
-days_since_previous_event
-days_since_first_event
-```
-
-This allows BhoomiSetu to detect long periods of inactivity between acquisition events.
-
-For example, the current reference data contains projects with substantially different transition durations.
-
-These differences are useful temporal signals for future modelling.
-
----
-
-# 9. Current Prototype Dataset
-
-The current prototype contains five BhoomiRashi project references:
-
-```text
-54635
-59362
-60432
-60681
-61053
-```
-
-The current extracted 3D data contains:
-
-```text
-508 survey records
-751 party records
-```
-
-The project-level feature table contains:
-
-```text
-5 projects
-32 engineered features
-```
-
-The combined project master currently contains:
-
-```text
-5 projects
-50 columns
-```
-
-These records are being used as a **data-engineering and integration reference set**.
-
-They are **not sufficient by themselves to train a production machine-learning model**.
-
-The test project `59362` should also not be interpreted as a real-world training example.
-
----
-
-# 10. Why We Do Not Train the ML Model Directly on These Five Projects
-
-BhoomiSetu ultimately needs to answer a temporal question:
-
-> Given what is known about a project at a particular point in time, what is the probability that the project will experience a delay in the coming period?
-
-A single static row per project is therefore insufficient.
-
-The future ML dataset will use:
-
-```text
-project_id
-snapshot_date
-current_stage
-days_in_current_stage
-historical features
-current operational features
-historical notification information
-GIS/context features
-...
-```
-
-followed by future-looking labels such as:
-
-```text
-delay_next_30d
-delay_next_60d
-delay_next_90d
-```
-
-The labels will be generated only from events that occur **after the snapshot date**.
-
-This prevents future information from leaking into the model inputs.
-
----
-
-# 11. From Static Project Data to Temporal Snapshots
-
-The future training architecture will transform:
-
-```text
-PROJECT
-  │
-  ├── Event 1
-  ├── Event 2
-  ├── Event 3
-  ├── Event 4
-  └── Event 5
-```
-
-into:
-
-```text
-PROJECT SNAPSHOT 1
-PROJECT SNAPSHOT 2
-PROJECT SNAPSHOT 3
-PROJECT SNAPSHOT 4
-...
-```
-
-Each snapshot represents what BhoomiSetu knew at that point in time.
-
-Example:
-
-```text
-Snapshot Date: 2024-03-06
-
-Current Stage:
-3A
-
-Known History:
-3a notification
-3A notification
-
-Current Indicators:
-land acquisition progress
-stakeholder indicators
-administrative indicators
-GIS indicators
-
-Future Outcome:
-Did the project experience a delay in the next 30/60/90 days?
-```
-
-This temporal structure will later support Stage Sentinel.
-
----
-
-# 12. Scaling the Data Collection Architecture
-
-The current implementation starts with BhoomiRashi, but the architecture is intentionally designed around **source connectors**.
-
-Instead of making the entire system dependent on one website, each government source will have its own connector.
-
-Conceptually:
-
-```text
-                    BhoomiSetu
-                        │
-                Source Connector Layer
-                        │
-        ┌───────────────┼────────────────┐
-        │               │                │
-   BhoomiRashi      State Land        GIS / EO
-                    Systems           Services
-        │               │                │
-        │          ILRMS / Landhub      │
-        │          BhuNaksha            │
-        │                               │
-        └───────────────┬───────────────┘
-                        │
-                        ▼
-                Canonical Data Model
-```
-
-Each connector should be responsible for:
-
-- source authentication where authorized
-- source-specific request handling
-- source-specific parsing
-- source metadata
-- provenance
-- rate limiting
-- retry handling
-- validation
-- normalization
-
-The downstream BhoomiSetu system should not need to know the internal structure of each government portal.
-
----
-
-# 13. Planned Government Data Integration
-
-As BhoomiSetu scales, multiple official government information sources can contribute complementary context.
-
-Potential sources include:
-
-### Land Records
-
-State land-record systems can provide:
-
-- cadastral information
-- survey / Dag numbers
-- land ownership context
-- land classification
-- parcel information
-
-For Assam, the broader ILRMS ecosystem includes services such as:
-
-```text
-Dharitree
-BhuNaksha
-Landhub
-Basundhara
-```
-
-Where official APIs or authorized interfaces are available, BhoomiSetu can integrate them through dedicated connectors.
-
----
-
-### GIS and Earth Observation
-
-Geospatial information can enrich acquisition projects with:
-
-- land-use / land-cover
-- water bodies
-- flood-prone areas
-- terrain
-- environmental context
-- settlement proximity
-- infrastructure context
-
-BhoomiSetu can consume official geospatial services such as OGC-compatible WMS/WMTS services where permitted.
-
----
-
-### Environmental and Forest Clearances
-
-Environmental workflows can provide context around:
-
-- environmental clearance
-- forest-related approvals
-- wildlife-related considerations
-- CRZ-related considerations
-
-These signals can become part of the project's dependency and regulatory context.
-
----
-
-### Census / Demographic Information
-
-Official demographic datasets can provide aggregated context such as:
-
-- households
-- population
-- workforce characteristics
-- village-level demographic indicators
-
-These should be used at appropriate geographic aggregation levels and with responsible interpretation.
-
----
-
-### Open Government Data
-
-The Open Government Data platform can provide machine-readable datasets that complement project and administrative information.
-
-Where an official API or downloadable dataset exists, it should be preferred over website extraction.
-
----
-
-# 14. API-First Integration Strategy
-
-BhoomiSetu should not rely on web scraping as the long-term architecture.
-
-The integration priority is:
-
-```text
-1. Official API
-       ↓
-2. Official machine-readable dataset
-       ↓
-3. Official OGC / GIS service
-       ↓
-4. Authorized government data feed
-       ↓
-5. Public portal extraction where permitted
-```
-
-The source connector should hide the implementation details.
-
-For example:
-
-```text
-BhoomiRashiConnector
-        │
-        ▼
-Raw BhoomiRashi records
-        │
-        ▼
-BhoomiSetu Normalizer
-        │
-        ▼
-Canonical project / parcel / event model
-```
-
-If an official BhoomiRashi API becomes available in the future, the connector can be replaced or upgraded without changing the ML and analytics layers.
-
----
-
-# 15. Provenance and Data Lineage
-
-Government data should remain traceable.
-
-Every normalized record should ultimately be associated with its source context wherever available.
-
-The planned lineage is:
-
-```text
-Source
-  ↓
-URL / API / Dataset
-  ↓
-Collection timestamp
-  ↓
-Raw record
-  ↓
-Parser
-  ↓
-Normalized record
-  ↓
-Feature
-  ↓
-ML / Analytics output
-```
-
-This is important because BhoomiSetu's predictions must be explainable and auditable.
-
-A future risk explanation should be able to answer:
-
-> "Why was this project classified as high risk?"
-
-and:
-
-> "Which underlying project information contributed to this assessment?"
-
----
-
-# 16. Responsible Government Data Collection
-
-BhoomiSetu follows a responsible integration approach.
-
-The collector should:
-
-- use publicly accessible or authorized information
-- respect authentication boundaries
-- respect CAPTCHA mechanisms
-- avoid bypassing access controls
-- avoid unauthorized API access
-- avoid aggressive request rates
-- preserve source provenance
-- validate extracted records
-- distinguish missing information from zero values
-
-The system should never attempt to circumvent restrictions imposed by a government system.
-
----
-
-# 17. Data Quality
-
-Data quality is treated as a first-class part of the pipeline.
-
-Validation includes:
-
-- schema validation
-- required-field checks
-- date validation
-- duplicate detection
-- project ID consistency
-- notification ID consistency
-- numeric parsing
-- missing-value analysis
-- cross-table consistency
-- survey/party relationship checks
-
-Example:
-
-```text
-Project
-   │
-   ├── Notification
-   │       │
-   │       └── 3D
-   │             │
-   │             ├── Survey
-   │             │
-   │             └── Party
-   │
-   └── Sanction
-```
-
-Relationships between these entities must remain consistent.
-
----
-
-# 18. Repository Structure
-
-```text
+``` text
 bhoomisetu-data-collector/
 │
-├── connectors/
-│   ├── __init__.py
-│   └── test_bhoomirashi.py
+├── backend/
+│   └── app/
+│       ├── main.py
+│       ├── schemas.py
+│       │
+│       ├── repositories/
+│       │   └── project_repository.py
+│       │
+│       ├── routers/
+│       │   ├── projects.py
+│       │   └── dashboard.py
+│       │
+│       └── services/
+│           ├── predictor.py
+│           ├── risk_engine.py
+│           ├── evidence_engine.py
+│           ├── action_engine.py
+│           ├── dashboard_service.py
+│           └── simulator.py
 │
-├── extractors/
-│   ├── bhoomirashi_project.py
-│   ├── bhoomirashi_3a.py
-│   ├── bhoomirashi_3D.py
-│   ├── bhoomirashi_html.py
-│   ├── project_features.py
-│   ├── stage_timeline.py
-│   └── validation / inspection utilities
-│
-├── normalize/
-│
-├── provenance/
-│
-├── validate/
-│
-├── scripts/
-│   ├── build_project_features.py
-│   ├── build_project_timeline.py
-│   └── build_project_master.py
-│
-├── tests/
+├── frontend/
+│   ├── src/
+│   ├── package.json
+│   └── vite.config.*
 │
 ├── output/
-│   └── normalized/
-│       └── bhoomirashi/
+│   └── synthetic/
+│       └── ml/
+│           ├── baseline/
+│           │   └── models/
+│           └── calibration/
+│               └── models/
 │
-├── ingest.py
+├── scripts/
+├── validate/
+├── tests/
 ├── requirements.txt
-├── validate_bhoomirashi.py
-├── .gitignore
+├── ingest.py
 └── README.md
 ```
 
----
+------------------------------------------------------------------------
 
-# 19. Reproducing the Current Pipeline
+# 7. ML Model Artifacts
 
-## 1. Clone the repository
+The backend expects the trained prototype artifacts at:
 
-```bash
-git clone <repository-url>
+``` text
+output/synthetic/ml/baseline/models/
+```
+
+with:
+
+``` text
+delay_next_30d_xgboost.joblib
+delay_next_60d_xgboost.joblib
+delay_next_90d_xgboost.joblib
+```
+
+and the calibration artifacts at:
+
+``` text
+output/synthetic/ml/calibration/models/
+```
+
+with:
+
+``` text
+delay_next_30d_sigmoid.joblib
+delay_next_60d_sigmoid.joblib
+delay_next_90d_sigmoid.joblib
+```
+
+The predictor service loads these artifacts without retraining the
+models.
+
+------------------------------------------------------------------------
+
+# 8. Local Setup
+
+## Prerequisites
+
+Recommended environment:
+
+-   Python 3.11+ / compatible Python environment
+-   Node.js 18+
+-   npm
+-   Git
+
+The backend dependencies are defined in:
+
+``` text
+requirements.txt
+```
+
+------------------------------------------------------------------------
+
+## Clone the repository
+
+``` bash
+git clone https://github.com/jenishborah/bhoomisetu-data-collector.git
 cd bhoomisetu-data-collector
 ```
 
-## 2. Create a virtual environment
+------------------------------------------------------------------------
 
-Windows:
+# 9. Run the Backend
 
-```powershell
+Create a virtual environment.
+
+### Windows PowerShell
+
+``` powershell
 python -m venv .venv
+.\.venv\Scripts\Activate.ps1
 ```
 
-Activate it:
+### macOS / Linux
 
-```powershell
-.venv\Scripts\Activate.ps1
+``` bash
+python3 -m venv .venv
+source .venv/bin/activate
 ```
 
-## 3. Install dependencies
+Install dependencies:
 
-```powershell
+``` bash
 pip install -r requirements.txt
 ```
 
-## 4. Run the collection / extraction pipeline
+Start FastAPI:
 
-The project-specific extractors are located under:
-
-```text
-extractors/
+``` bash
+uvicorn backend.app.main:app --reload --port 8000
 ```
 
-and the reusable dataset-building scripts are under:
+Backend:
 
-```text
-scripts/
+``` text
+http://127.0.0.1:8000
 ```
 
-## 5. Build project features
+Swagger:
 
-```powershell
-python scripts\build_project_features.py
+``` text
+http://127.0.0.1:8000/docs
 ```
 
-Output:
+If port `8000` is already in use:
 
-```text
-output\normalized\bhoomirashi\project_features.csv
+``` bash
+uvicorn backend.app.main:app --reload --port 8001
 ```
 
-## 6. Build the project timeline
+Then use:
 
-```powershell
-python scripts\build_project_timeline.py
+``` text
+http://127.0.0.1:8001/docs
 ```
 
-Outputs:
+------------------------------------------------------------------------
 
-```text
-output\normalized\bhoomirashi\project_timeline.csv
-output\normalized\bhoomirashi\notification_timeline.csv
+# 10. Run the Frontend
+
+Open another terminal:
+
+``` bash
+cd frontend
+npm install
+npm run dev
 ```
 
-## 7. Build the project master dataset
+Vite normally starts the frontend at:
 
-```powershell
-python scripts\build_project_master.py
+``` text
+http://localhost:5173
 ```
 
-Output:
+The deployed frontend is configured to communicate with:
 
-```text
-output\normalized\bhoomirashi\project_master.csv
+``` text
+https://bhoomisetu-api-dmcx.onrender.com/api
 ```
 
----
+For local development, the frontend API configuration can be adjusted to
+point to:
 
-# 20. Current Data Products
-
-The most important generated datasets are:
-
-```text
-project_features.csv
+``` text
+http://127.0.0.1:8000/api
 ```
 
-Project-level engineered features.
+or, if using the alternate local port:
 
-```text
-project_timeline.csv
+``` text
+http://127.0.0.1:8001/api
 ```
 
-Project-level temporal features.
+------------------------------------------------------------------------
 
-```text
-notification_timeline.csv
+# 11. Build the Frontend
+
+For a production build:
+
+``` bash
+cd frontend
+npm run build
 ```
 
-Individual notification events and temporal gaps.
+The generated production files are placed in:
 
-```text
-project_master.csv
+``` text
+frontend/dist/
 ```
 
-Combined project-level analytical dataset.
+------------------------------------------------------------------------
 
----
+# 12. API Reference
 
-# 21. Evolution Toward the Full BhoomiSetu Platform
+Base URL:
 
-This repository represents the **data engineering layer** of the larger BhoomiSetu system.
+``` text
+https://bhoomisetu-api-dmcx.onrender.com
+```
 
-The planned evolution is:
+API prefix:
 
-```text
-PHASE 1
-Government Data Collection
-        │
-        ▼
+``` text
+/api
+```
+
+Interactive documentation:
+
+``` text
+https://bhoomisetu-api-dmcx.onrender.com/docs
+```
+
+------------------------------------------------------------------------
+
+## System
+
+### Health check
+
+``` http
+GET /health
+```
+
+Example:
+
+``` bash
+curl https://bhoomisetu-api-dmcx.onrender.com/health
+```
+
+Expected structure:
+
+``` json
+{
+  "status": "healthy",
+  "service": "bhoomisetu-api"
+}
+```
+
+------------------------------------------------------------------------
+
+## Dashboard
+
+### National overview
+
+``` http
+GET /api/dashboard/overview
+```
+
+Provides:
+
+-   total projects
+-   ongoing projects
+-   national risk summary
+-   state-wise project distribution
+-   stage distribution
+-   agency distribution
+-   recently flagged projects
+-   last update information
+
+Example:
+
+``` bash
+curl https://bhoomisetu-api-dmcx.onrender.com/api/dashboard/overview
+```
+
+------------------------------------------------------------------------
+
+### National risk overview
+
+``` http
+GET /api/dashboard/risk-overview
+```
+
+Provides:
+
+-   projects scored
+-   risk distribution
+-   state-level risk distribution
+-   project-level risk records
+-   high-priority projects
+-   model explanation context
+-   model version
+-   risk basis
+
+Example:
+
+``` bash
+curl https://bhoomisetu-api-dmcx.onrender.com/api/dashboard/risk-overview
+```
+
+------------------------------------------------------------------------
+
+# 13. Project APIs
+
+## List projects
+
+``` http
+GET /api/projects
+```
+
+Optional query parameters:
+
+``` text
+limit
+offset
+search
+state
+stage
+```
+
+Example:
+
+``` bash
+curl "https://bhoomisetu-api-dmcx.onrender.com/api/projects?limit=20"
+```
+
+Search example:
+
+``` bash
+curl "https://bhoomisetu-api-dmcx.onrender.com/api/projects?state=Assam"
+```
+
+------------------------------------------------------------------------
+
+## Get a project
+
+``` http
+GET /api/projects/{project_id}
+```
+
+Example:
+
+``` bash
+curl https://bhoomisetu-api-dmcx.onrender.com/api/projects/54635
+```
+
+------------------------------------------------------------------------
+
+## Get project snapshots
+
+``` http
+GET /api/projects/{project_id}/snapshots
+```
+
+Returns the temporal snapshot history available for the project.
+
+Example:
+
+``` bash
+curl https://bhoomisetu-api-dmcx.onrender.com/api/projects/54635/snapshots
+```
+
+------------------------------------------------------------------------
+
+## Predict project delay risk
+
+``` http
+POST /api/projects/{project_id}/predict
+```
+
+Returns calibrated:
+
+-   30-day probability
+-   60-day probability
+-   90-day probability
+-   model version
+-   current project stage
+-   snapshot identifier
+
+Example:
+
+``` bash
+curl -X POST \
+  https://bhoomisetu-api-dmcx.onrender.com/api/projects/54635/predict
+```
+
+------------------------------------------------------------------------
+
+## Get project risk
+
+``` http
+GET /api/projects/{project_id}/risk
+```
+
+Returns:
+
+-   risk band
+-   headline risk percentage
+-   30/60/90-day risk
+-   trend
+-   current stage
+-   snapshot identifier
+
+Example:
+
+``` bash
+curl https://bhoomisetu-api-dmcx.onrender.com/api/projects/54635/risk
+```
+
+------------------------------------------------------------------------
+
+## Get project evidence
+
+``` http
+GET /api/projects/{project_id}/evidence
+```
+
+Returns the saved local SHAP explanation for the project when the
+explanation artifact is available.
+
+Example:
+
+``` bash
+curl https://bhoomisetu-api-dmcx.onrender.com/api/projects/54635/evidence
+```
+
+------------------------------------------------------------------------
+
+## Get recommended actions
+
+``` http
+GET /api/projects/{project_id}/actions
+```
+
+Returns deterministic prototype workflow recommendations based on the
+current project state.
+
+Example:
+
+``` bash
+curl https://bhoomisetu-api-dmcx.onrender.com/api/projects/54635/actions
+```
+
+------------------------------------------------------------------------
+
+## Run what-if simulation
+
+``` http
+POST /api/projects/{project_id}/simulate
+```
+
+The endpoint accepts editable scenario fields defined by the backend
+`SimulationRequest` schema and returns the simulated model result.
+
+Use Swagger for the exact request schema:
+
+``` text
+https://bhoomisetu-api-dmcx.onrender.com/docs
+```
+
+Navigate to:
+
+``` text
+Projects
+→ POST /api/projects/{project_id}/simulate
+```
+
+------------------------------------------------------------------------
+
+# 14. Example API Workflow
+
+A typical project investigation can follow:
+
+``` text
+1. List projects
+       ↓
+2. Select project
+       ↓
+3. GET /projects/{id}
+       ↓
+4. GET /projects/{id}/snapshots
+       ↓
+5. GET /projects/{id}/risk
+       ↓
+6. POST /projects/{id}/predict
+       ↓
+7. GET /projects/{id}/evidence
+       ↓
+8. GET /projects/{id}/actions
+       ↓
+9. POST /projects/{id}/simulate
+```
+
+This mirrors the BhoomiSetu decision-support workflow:
+
+``` text
+Locate
+  ↓
+Understand
+  ↓
+Predict
+  ↓
+Explain
+  ↓
+Simulate
+  ↓
+Act
+```
+
+------------------------------------------------------------------------
+
+# 15. Dashboard Performance
+
+The national dashboard uses **batch ML inference**.
+
+Instead of performing three model predictions independently for every
+project:
+
+``` text
+1000 projects
+×
+3 horizons
+×
+individual inference
+```
+
+the dashboard performs batch inference:
+
+``` text
+1000 projects
+      ↓
+30-day model → one batch
+60-day model → one batch
+90-day model → one batch
+      ↓
+calibration
+      ↓
+risk aggregation
+```
+
+This is important for deployment on a low-resource environment such as
+the Render free instance.
+
+The resulting dashboard risk data is cached in the running backend
+process so subsequent dashboard requests do not repeat the full national
+scoring operation.
+
+------------------------------------------------------------------------
+
+# 16. Data and Prototype Scope
+
+The repository contains both the data-engineering foundation and the
+synthetic ML prototype.
+
+The data-engineering pipeline is designed around government
+land-acquisition information and temporal project records.
+
+The current prototype ML system uses synthetic temporal data for
+demonstration.
+
+Therefore:
+
+-   prototype probabilities are not production forecasts
+-   synthetic data should not be treated as official government data
+-   the prototype is not connected to live government decision systems
+-   model outputs are decision-support signals, not automatic decisions
+-   the system should not be used to make consequential land-acquisition
+    decisions without proper validation, governance and authorized data
+
+------------------------------------------------------------------------
+
+# 17. Responsible AI / Governance
+
+BhoomiSetu is intended to support administrators and project teams
+rather than replace their judgment.
+
+The system should:
+
+-   provide evidence with risk signals
+-   preserve uncertainty
+-   make model limitations visible
+-   distinguish prediction from recommendation
+-   maintain human review for consequential decisions
+-   avoid labeling communities as inherently risky
+-   use measurable acquisition and administrative indicators instead of
+    demographic stereotypes
+
+The prototype is therefore designed as a **decision-support system**,
+not an automated decision-maker.
+
+------------------------------------------------------------------------
+
+# 18. Current Prototype Technology Stack
+
+## Frontend
+
+-   React
+-   Vite
+-   JavaScript
+-   Responsive dashboard UI
+
+## Backend
+
+-   Python
+-   FastAPI
+-   Uvicorn
+-   Pydantic
+
+## Machine Learning
+
+-   XGBoost
+-   scikit-learn
+-   NumPy
+-   pandas
+-   joblib
+-   sigmoid calibration
+-   SHAP explanation artifacts
+
+## Data
+
+-   CSV-based prototype datasets
+-   temporal project snapshots
+-   engineered project features
+
+## Deployment
+
+-   Vercel --- frontend
+-   Render --- FastAPI backend
+
+------------------------------------------------------------------------
+
+# 19. Government Data Foundation
+
+The data-engineering foundation is designed around the BhoomiRashi
+land-acquisition ecosystem.
+
+The repository's data pipeline is intended to support:
+
+``` text
+Project discovery
+       ↓
+Project metadata
+       ↓
+Notifications
+       ↓
+Sanction information
+       ↓
+3a / 3A / 3D information
+       ↓
+Survey / parcel information
+       ↓
+Party / stakeholder records
+       ↓
 Normalization
-        │
-        ▼
-Feature Engineering
-        │
-        ▼
-Temporal Dataset
+       ↓
+Feature engineering
+       ↓
+Temporal project intelligence
 ```
 
-↓
+The pipeline is designed to use publicly accessible or authorized
+information and does not bypass authentication, CAPTCHA or access
+controls.
 
-```text
-PHASE 2
-Synthetic Temporal Dataset
-        │
-        ▼
-ML Training
-        │
-        ├── 30-day delay probability
-        ├── 60-day delay probability
-        └── 90-day delay probability
+------------------------------------------------------------------------
+
+# 20. Development Workflow
+
+Recommended development sequence:
+
+``` text
+1. Update / validate data
+        ↓
+2. Run feature engineering
+        ↓
+3. Validate generated data
+        ↓
+4. Train / update prototype models
+        ↓
+5. Validate model outputs
+        ↓
+6. Update backend services
+        ↓
+7. Test FastAPI endpoints locally
+        ↓
+8. Build frontend
+        ↓
+9. Test frontend + backend together
+        ↓
+10. Push to GitHub
+        ↓
+11. Render deploys backend
+        ↓
+12. Vercel deploys frontend
 ```
 
-↓
+------------------------------------------------------------------------
 
-```text
-PHASE 3
-Stage Sentinel
-        │
-        ▼
-Risk Detection
-        │
-        ▼
-SHAP / Evidence
+# 21. Troubleshooting
+
+## Backend will not start
+
+If you see:
+
+``` text
+WinError 10013
 ```
 
-↓
+the requested port may already be in use.
 
-```text
-PHASE 4
-BhoomiLens
-        │
-        ├── GIS
-        ├── environmental context
-        ├── social / livelihood context
-        └── regulatory context
+Try:
+
+``` bash
+uvicorn backend.app.main:app --reload --port 8001
 ```
 
-↓
+Or find the process using port 8000 on Windows:
 
-```text
-PHASE 5
-Dependency Graph
-        │
-        ▼
-Delay Cascade
-        │
-        ▼
-Intervention Engine
+``` powershell
+netstat -ano | findstr :8000
 ```
 
-↓
+------------------------------------------------------------------------
 
-```text
-PHASE 6
-Decision Intelligence
-        │
-        ▼
-Next Best Action
-        │
-        ▼
-Closed-loop Outcome Learning
+## Dashboard takes a long time
+
+The first national dashboard request performs batch model inference and
+may be slower after a cold start.
+
+Render's free instance can also spin down after inactivity.
+
+After the initial request, the dashboard scoring result is cached in the
+backend process.
+
+------------------------------------------------------------------------
+
+## Model files are missing
+
+Check:
+
+``` text
+output/synthetic/ml/baseline/models/
+output/synthetic/ml/calibration/models/
 ```
 
----
+The predictor requires all six prototype artifacts.
 
-# 22. Planned Machine Learning Layer
+------------------------------------------------------------------------
 
-The data collector is designed to support future predictive models such as:
+## Frontend cannot reach the API
 
-### Delay Classification
+Check:
 
-Calibrated gradient-boosting models such as:
-
-```text
-XGBoost
-LightGBM
+``` text
+https://bhoomisetu-api-dmcx.onrender.com/health
 ```
 
-for short-horizon delay probabilities.
+Then check:
 
-### Time-to-Event Modelling
-
-Survival / time-to-event methods will be used to estimate:
-
-- stage completion risk
-- expected time to completion
-- ongoing/censored projects
-
-### Explainability
-
-SHAP-based explanations will connect model predictions to measurable project features.
-
-The ML layer will distinguish:
-
-```text
-Prediction
+``` text
+https://bhoomisetu-api-dmcx.onrender.com/docs
 ```
 
-from:
+If the backend is healthy but the browser reports a CORS error, verify
+the frontend origin is allowed by the FastAPI CORS configuration.
 
-```text
-Evidence
-```
+------------------------------------------------------------------------
 
-and will avoid presenting statistical associations as guaranteed causal relationships.
+# 22. Useful Links
 
----
+  ----------------------------------------------------------------------------------------------
+  Resource                            Link
+  ----------------------------------- ----------------------------------------------------------
+  Live Prototype                      https://bhoomisetu-data-collector.vercel.app
 
-# 23. Synthetic Data Strategy
+  Backend API                         https://bhoomisetu-api-dmcx.onrender.com
 
-Because a small number of publicly accessible project records is not sufficient to train a reliable predictive model, the development pipeline will use synthetic temporal data during the prototype stage.
+  API Docs                            https://bhoomisetu-api-dmcx.onrender.com/docs
 
-Synthetic data will simulate:
+  API Health                          https://bhoomisetu-api-dmcx.onrender.com/health
 
-- multiple projects
-- multiple temporal snapshots
-- project stages
-- administrative bottlenecks
-- compensation delays
-- legal indicators
-- documentation completeness
-- rehabilitation and resettlement progress
-- stakeholder indicators
-- geographic/context variables
-- future delay outcomes
+  GitHub Repository                   https://github.com/jenishborah/bhoomisetu-data-collector
+  ----------------------------------------------------------------------------------------------
 
-The synthetic generator will preserve realistic relationships between variables while preventing future information from leaking into model inputs.
+------------------------------------------------------------------------
 
-Real government records will remain valuable for:
+# 23. Project Status
 
-- schema validation
-- feature calibration
-- pipeline testing
-- geographic validation
-- real-world demonstration
-- later model validation when sufficient historical data becomes available
+**Current status: Demonstration Prototype**
 
----
+Implemented prototype capabilities include:
 
-# 24. Scaling From Prototype to National Deployment
+-   National dashboard
+-   Project listing
+-   Project detail
+-   Temporal snapshots
+-   30/60/90-day delay-risk prediction
+-   Risk bands
+-   Risk overview
+-   SHAP evidence artifacts
+-   Deterministic recommended actions
+-   What-if simulation
+-   Batch national dashboard inference
+-   FastAPI backend
+-   React/Vite frontend
+-   Vercel deployment
+-   Render deployment
 
-The long-term system is intended to support:
+The prototype is intended for **Smart India Hackathon 2026 demonstration
+and workflow validation**.
 
-```text
-District
-   ↓
-State
-   ↓
-Multiple States
-   ↓
-National Land Acquisition Intelligence
-```
+------------------------------------------------------------------------
 
-Scaling will happen through modular connectors.
+# 24. Future Production Roadmap
 
-Instead of creating a separate application for every government system:
+A production implementation would require additional work in:
 
-```text
-                    BhoomiSetu
-                        │
-                 Canonical Model
-                        │
-          ┌─────────────┼─────────────┐
-          │             │             │
-     BhoomiRashi    Assam ILRMS    Other State
-          │             │             │
-       Connector      Connector      Connector
-```
+-   authorized live government-data integrations
+-   PostgreSQL/PostGIS
+-   authenticated role-based access
+-   immutable audit logging
+-   document/OCR ingestion with human verification
+-   GIS and remote-sensing integrations
+-   model retraining with sufficiently large real temporal datasets
+-   monitoring and model drift detection
+-   calibration monitoring
+-   security hardening
+-   data governance
+-   privacy and access controls
+-   government-system interoperability
+-   field/mobile workflows
+-   production observability
 
-All connectors feed the same canonical model.
+The current repository provides the prototype foundation for these
+extensions.
 
-This allows the analytics and ML layers to remain source-independent.
+------------------------------------------------------------------------
 
----
+# 25. License / Usage
 
-# 25. Production Data Architecture
+This repository is a Smart India Hackathon 2026 prototype.
 
-At production scale, the CSV-based prototype can evolve toward:
+Before using the system with real government or land-acquisition data,
+establish the required authorization, data-use permissions, security
+controls and governance processes.
 
-```text
-Government Sources
-       │
-       ▼
-Ingestion Services
-       │
-       ▼
-Raw Object Storage
-       │
-       ▼
-Validation
-       │
-       ▼
-Canonical Database
-       │
-       ├── PostgreSQL
-       └── PostGIS
-       │
-       ▼
-Feature Store / Analytical Layer
-       │
-       ▼
-ML Services
-       │
-       ▼
-FastAPI / REST APIs
-       │
-       ▼
-BhoomiSetu Web Platform
-```
+------------------------------------------------------------------------
 
-PostGIS will provide the foundation for spatial project, parcel and environmental analysis.
+## BhoomiSetu
 
----
+**Land Acquisition Intelligence & Decision Support**
 
-# 26. Security and Governance
+> From Land Data to Construction-Ready Decision.
 
-A production BhoomiSetu deployment should include:
-
-- role-based access control
-- API authentication
-- audit logging
-- encrypted data transport
-- secure secrets management
-- source-level permissions
-- data lineage
-- model versioning
-- prediction versioning
-- human review workflows
-
-Government data should not simply be exposed as an unrestricted public dataset.
-
-Access should depend on the sensitivity and authorization requirements of the source.
-
----
-
-# 27. Current Status
-
-### Completed
-
-- BhoomiRashi project collection
-- Project normalization
-- Notification normalization
-- Sanction normalization
-- 3a extraction
-- 3D survey extraction
-- 3D party extraction
-- Data validation
-- Project feature engineering
-- Project timeline generation
-- Notification timeline generation
-- Project master dataset generation
-
-### In Progress / Next
-
-- Temporal synthetic training dataset
-- ML feature/label design
-- Stage Sentinel
-- 30/60/90-day delay prediction
-- Model calibration
-- SHAP explanations
-- GIS enrichment
-- BhoomiLens
-- Dependency graph
-- Delay cascade simulation
-- Intervention engine
-- Decision dashboard
-
----
-
-# 28. Disclaimer
-
-This repository is part of a prototype / hackathon development effort for **Smart India Hackathon 2026**.
-
-The currently collected project records are intended for:
-
-- prototype development
-- data-pipeline validation
-- feature engineering
-- demonstration
-- research and experimentation
-
-They should not be interpreted as a complete national land-acquisition dataset.
-
-Predictive models developed using synthetic data are prototype models and should not be interpreted as production-validated government decision systems without sufficient real historical data, validation, governance and domain review.
-
----
-
-# 29. Vision
-
-BhoomiSetu aims to transform land acquisition from:
-
-```text
-Reactive
-    ↓
-Delay occurs
-    ↓
-Problem is discovered
-    ↓
-Action is taken
-```
-
-into:
-
-```text
-Continuous Data
-      ↓
-Project Understanding
-      ↓
-Early Risk Detection
-      ↓
-Evidence-backed Explanation
-      ↓
-What-if Analysis
-      ↓
-Recommended Intervention
-      ↓
-Outcome Tracking
-      ↓
-Continuous Learning
-```
-
-### From Land Data to Construction-Ready Decision
-
-**BhoomiSetu**
+Built as a Smart India Hackathon 2026 prototype.
