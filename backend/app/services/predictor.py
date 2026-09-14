@@ -412,6 +412,110 @@ class Predictor:
         }
 
 
+    def predict_many(
+        self,
+        records: list[dict[str, Any]],
+    ) -> list[dict[str, Any]]:
+        """
+        Batch-score multiple project snapshots.
+
+        The national dashboard uses this method so that each trained
+        XGBoost pipeline processes all project rows in one call instead
+        of calling predict_proba() once per project.
+        """
+        if not records:
+            return []
+
+        prepared_rows: list[dict[str, Any]] = []
+
+        for record in records:
+            r = self._derive_fields(record)
+
+            missing = [
+                column
+                for column in PREDICTOR_COLUMNS
+                if column not in r
+            ]
+
+            if missing:
+                raise PredictionError(
+                    "Missing predictor fields for "
+                    f"{record.get('project_id', '<unknown>')}:\n- "
+                    + "\n- ".join(missing)
+                )
+
+            prepared_rows.append(
+                {
+                    column: r[column]
+                    for column in PREDICTOR_COLUMNS
+                }
+            )
+
+        X = pd.DataFrame(prepared_rows)
+
+        batch_probabilities: dict[str, np.ndarray] = {}
+
+        for horizon, target in TARGETS.items():
+            model = self.models[horizon]
+
+            try:
+                probability_matrix = model.predict_proba(X)
+            except Exception as exc:
+                raise PredictionError(
+                    f"Batch prediction failed for {target}: {exc}"
+                ) from exc
+
+            if probability_matrix.ndim != 2:
+                raise PredictionError(
+                    f"Unexpected probability output for {target}."
+                )
+
+            if probability_matrix.shape[1] < 2:
+                raise PredictionError(
+                    f"Model for {target} is not a binary classifier."
+                )
+
+            if probability_matrix.shape[0] != len(records):
+                raise PredictionError(
+                    f"Model for {target} returned "
+                    f"{probability_matrix.shape[0]} rows for "
+                    f"{len(records)} records."
+                )
+
+            batch_probabilities[horizon] = probability_matrix[:, 1]
+
+        results: list[dict[str, Any]] = []
+
+        for index in range(len(records)):
+            predictions: dict[str, dict[str, float]] = {}
+
+            for horizon in TARGETS:
+                raw_probability = float(
+                    batch_probabilities[horizon][index]
+                )
+
+                calibrated_probability = self._apply_sigmoid(
+                    raw_probability,
+                    self.calibrators[horizon],
+                )
+
+                predictions[horizon] = {
+                    "raw_probability": raw_probability,
+                    "calibrated_probability": calibrated_probability,
+                }
+
+            results.append(
+                {
+                    "predictions": predictions,
+                    "model_version": (
+                        "synthetic-prototype-xgb-sigmoid-v1"
+                    ),
+                }
+            )
+
+        return results
+
+
 # Lazy singleton.
 # This prevents model loading during module import.
 _predictor: Predictor | None = None
@@ -430,3 +534,10 @@ def predict_project(
     record: dict[str, Any],
 ) -> dict[str, Any]:
     return get_predictor().predict(record)
+
+
+def predict_projects(
+    records: list[dict[str, Any]],
+) -> list[dict[str, Any]]:
+    """Batch-score multiple project snapshots for dashboard aggregation."""
+    return get_predictor().predict_many(records)
