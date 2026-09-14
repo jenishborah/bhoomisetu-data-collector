@@ -33,8 +33,7 @@ async function request(path, options = {}) {
     });
   } catch (error) {
     if (error.name === "AbortError") throw error;
-    throw new ApiError("The BhoomiSetu API is unavailable. Confirm that the local backend is running on port 8000.");
-  }
+    throw new ApiError("The BhoomiSetu API is unavailable. Please try again in a moment.");
   const isJson = response.headers.get("content-type")?.includes("application/json");
   const payload = isJson ? await response.json() : null;
   if (!response.ok) {
