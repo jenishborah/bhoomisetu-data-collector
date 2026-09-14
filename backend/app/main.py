@@ -33,9 +33,9 @@ app.add_middleware(
 
         "http://localhost:3000",
         "http://127.0.0.1:3000",
-        
-        "https://bhoomisetu-data-collector.vercel.app/",
 
+        "https://bhoomisetu-data-collector.vercel.app",
+        
     ],
 
     allow_credentials=True,
@@ -48,8 +48,6 @@ app.add_middleware(
         "*"
     ],
 )
-
-
 # ============================================================
 # Routers
 # ============================================================
